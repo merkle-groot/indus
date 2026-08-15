@@ -104,6 +104,48 @@ than sign 1. **327 of its 583 tokens (56%) sit immediately after 817, 820 or
 a fixed two-sign unit. Excluding them, values run 1:282, 2:519, 3:386 — still
 top-heavy, but no longer bizarre.
 
+### Re-run with Parpola's numbering (`src/merge817.py`)
+
+[10-more-data.md](10-more-data.md) turned up that Parpola gives **817 and 861 the
+same number, P385**, while 820 is a separate sign, **P378**. If that is right,
+the collocation has two sources, not three. Tested four ways, with 820 as a
+control that should *fail* whatever 817/861 pass:
+
+| test | 817 vs 861 | 817/861 vs 820 |
+|---|---|---|
+| numeral it takes (2 vs other) | 118:4 vs 128:1, **p = .20 same** | p = .0008 / p < .0001 **different** |
+| site distribution | chi2 **p = .40 same** | — |
+| do they share a text? | 1 observed vs 9.4 expected — **complementary** | 1 vs 8.4; 4 vs 9.8 |
+| position | 87% vs 69% text-initial, **p = .006 different** | 77% initial |
+
+The control behaves exactly as it should: 820 is the only one of the three that
+regularly takes **value 1** (15 times, against 1 for 817 and 0 for 861). The
+test can tell these signs apart, and it separates precisely the one Parpola
+separates. That is a real validation of the crosswalk.
+
+Three of four tests support merging 817 and 861. The dissent is position: 817 is
+text-initial 87% of the time against 861's 69%, and that gap survives control
+for text length (CMH z = 2.74, p = .006). Nothing systematic precedes 861 when
+it is not initial — the preceding signs are a scatter of 5, 3, 3, 2, 2 — so this
+looks like a difference in deployment rather than a different construction.
+
+Note that complementary distribution (test 3) does **not** by itself prove one
+sign. Two *different* signs competing for the same slot would look identical
+here, which is exactly what [09-music.md](09-music.md) found the whole corpus
+doing. It is consistent with the merge, not evidence for it.
+
+**Verdict: accept the merge, with a caveat.** The counts do not change — 327 of
+846 value-2 tokens still sit after the trio — but the explanation gets simpler:
+
+| | tokens forcing a following 2 |
+|---|---|
+| **P385** (817+861, 314 tokens) | **246** |
+| P378 (820, 157 tokens) | 81 |
+
+So 75% of the anomaly is **one sign**, not three coincidences. Excluding the
+collocation, values still run 1:282, 2:519, 3:386 — unchanged, since this was
+always a question of *why*, not *how many*.
+
 ## Bottom line
 
 - Base 8 is the best-supported radix; base 10 is merely unfalsified.
