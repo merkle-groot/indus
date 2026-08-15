@@ -47,3 +47,25 @@ sequence statistics keep dissolving under controls.
 Only a version where each sign is a whole named motif or piece rather than a
 pitch — which is no longer musical *notation*, and carries no prediction this
 corpus could test.
+
+## Follow-up: could the numerals be repeat counts?
+
+A good save — if `[3][X]` means "X three times", literal repetition would be
+compressed away and the low repetition rate would be an artefact of the
+encoding. But run-length encoding only removes **adjacent** repeats. A melody
+that returns to a pitch later still writes that sign twice.
+
+Splitting the two kinds (1500 simulations):
+
+| kind of repetition | observed | expected | z |
+|---|---|---|---|
+| adjacent (sign twice in a row) | 18 | 204.0 | −12.9 |
+| **non-adjacent (sign returns later)** | **74** | **271.4** | **−13.5** |
+
+Compression explains the first row. It cannot explain the second, and the second
+is just as depleted: 2.8% of texts versus 10.4% expected. Indus texts avoid
+returning to a sign, and returning to a pitch is what melody *is*.
+
+The note set would also be wrong. **244 distinct signs are preceded by a numeral
+at some point**, covering 90% of the corpus — that is a vocabulary being
+quantified, not a scale being counted out.
