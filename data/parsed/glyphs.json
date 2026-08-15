@@ -1,0 +1,2802 @@
+[
+ {
+  "glyph_id": 0,
+  "unicode": "<br>"
+ },
+ {
+  "glyph_id": 1,
+  "unicode": "&#xE2C9;"
+ },
+ {
+  "glyph_id": 2,
+  "unicode": "&#xE2D7;"
+ },
+ {
+  "glyph_id": 3,
+  "unicode": "&#xE2DE;"
+ },
+ {
+  "glyph_id": 4,
+  "unicode": "&#xE2E3;"
+ },
+ {
+  "glyph_id": 5,
+  "unicode": "&#xE2EC;"
+ },
+ {
+  "glyph_id": 6,
+  "unicode": "&#xE2EF;"
+ },
+ {
+  "glyph_id": 7,
+  "unicode": "&#xE2F2;"
+ },
+ {
+  "glyph_id": 13,
+  "unicode": "&#xE305;"
+ },
+ {
+  "glyph_id": 14,
+  "unicode": "&#xE2EA;"
+ },
+ {
+  "glyph_id": 15,
+  "unicode": "&#xE2EE;"
+ },
+ {
+  "glyph_id": 16,
+  "unicode": "&#xE2F0;"
+ },
+ {
+  "glyph_id": 17,
+  "unicode": "&#xE2F3;"
+ },
+ {
+  "glyph_id": 18,
+  "unicode": "&#xE2F6;"
+ },
+ {
+  "glyph_id": 19,
+  "unicode": "&#xE2F8;"
+ },
+ {
+  "glyph_id": 26,
+  "unicode": "&#xE310;"
+ },
+ {
+  "glyph_id": 27,
+  "unicode": "&#xE311;"
+ },
+ {
+  "glyph_id": 28,
+  "unicode": "&#xE30D;"
+ },
+ {
+  "glyph_id": 29,
+  "unicode": "&#xE30A;"
+ },
+ {
+  "glyph_id": 31,
+  "unicode": "&#xE31A;"
+ },
+ {
+  "glyph_id": 32,
+  "unicode": "&#xE31C;"
+ },
+ {
+  "glyph_id": 33,
+  "unicode": "&#xE321;"
+ },
+ {
+  "glyph_id": 34,
+  "unicode": "&#xE31C;&#xE31C;"
+ },
+ {
+  "glyph_id": 35,
+  "unicode": "&#xE329;"
+ },
+ {
+  "glyph_id": 36,
+  "unicode": "&#xE321;&#xE321;"
+ },
+ {
+  "glyph_id": 37,
+  "unicode": "&#xE329;&#xE31C;"
+ },
+ {
+  "glyph_id": 39,
+  "unicode": "&#xE321;&#xE321;&#xE321;"
+ },
+ {
+  "glyph_id": 41,
+  "unicode": "&#xE31A;&#xE31B;&#xE31A;"
+ },
+ {
+  "glyph_id": 42,
+  "unicode": "&#xE33E;"
+ },
+ {
+  "glyph_id": 44,
+  "unicode": "&#xE328;"
+ },
+ {
+  "glyph_id": 45,
+  "unicode": "&#xE325;"
+ },
+ {
+  "glyph_id": 46,
+  "unicode": "&#xE327;"
+ },
+ {
+  "glyph_id": 47,
+  "unicode": "&#xE34E;&#xE321;&#xE339;"
+ },
+ {
+  "glyph_id": 48,
+  "unicode": "&#xE2FF;"
+ },
+ {
+  "glyph_id": 49,
+  "unicode": "&#xE2FD;"
+ },
+ {
+  "glyph_id": 50,
+  "unicode": "&#xE2FE;"
+ },
+ {
+  "glyph_id": 51,
+  "unicode": "&#xE301;"
+ },
+ {
+  "glyph_id": 55,
+  "unicode": "&#xE315;"
+ },
+ {
+  "glyph_id": 56,
+  "unicode": "&#xE315;&#xE315;"
+ },
+ {
+  "glyph_id": 57,
+  "unicode": "&#xE319;"
+ },
+ {
+  "glyph_id": 58,
+  "unicode": "&#xE31A;&#xE429;&#xE31A;"
+ },
+ {
+  "glyph_id": 59,
+  "unicode": "&#xE313;"
+ },
+ {
+  "glyph_id": 60,
+  "unicode": "&#xE2CB;"
+ },
+ {
+  "glyph_id": 61,
+  "unicode": "&#xE440;"
+ },
+ {
+  "glyph_id": 62,
+  "unicode": "&#xE440;"
+ },
+ {
+  "glyph_id": 63,
+  "unicode": "&#xE440;"
+ },
+ {
+  "glyph_id": 64,
+  "unicode": "&#xE200;"
+ },
+ {
+  "glyph_id": 65,
+  "unicode": "&#xE41A;"
+ },
+ {
+  "glyph_id": 66,
+  "unicode": "&#xE3EA;"
+ },
+ {
+  "glyph_id": 67,
+  "unicode": "&#xE450;"
+ },
+ {
+  "glyph_id": 69,
+  "unicode": "&#xE2B5;&#xE2B5;"
+ },
+ {
+  "glyph_id": 70,
+  "unicode": "&#xE2B5;"
+ },
+ {
+  "glyph_id": 71,
+  "unicode": "&#xE2B3;"
+ },
+ {
+  "glyph_id": 72,
+  "unicode": "&#xE2AE;"
+ },
+ {
+  "glyph_id": 73,
+  "unicode": "&#xE2B6;"
+ },
+ {
+  "glyph_id": 75,
+  "unicode": "&#xE2B2;"
+ },
+ {
+  "glyph_id": 80,
+  "unicode": "&#xE4D8;"
+ },
+ {
+  "glyph_id": 81,
+  "unicode": "&#xE4DA;"
+ },
+ {
+  "glyph_id": 82,
+  "unicode": "&#xE4DD;"
+ },
+ {
+  "glyph_id": 83,
+  "unicode": "&#xE4E0;"
+ },
+ {
+  "glyph_id": 84,
+  "unicode": "&#xE4E0;"
+ },
+ {
+  "glyph_id": 85,
+  "unicode": "&#xE34E;&#xE4D8;&#xE34E;"
+ },
+ {
+  "glyph_id": 90,
+  "unicode": "&#xE06C;"
+ },
+ {
+  "glyph_id": 91,
+  "unicode": "&#xE073;"
+ },
+ {
+  "glyph_id": 92,
+  "unicode": "&#xE264;"
+ },
+ {
+  "glyph_id": 93,
+  "unicode": "&#xE06F;"
+ },
+ {
+  "glyph_id": 94,
+  "unicode": "&#xE041;"
+ },
+ {
+  "glyph_id": 95,
+  "unicode": "&#xE085;"
+ },
+ {
+  "glyph_id": 96,
+  "unicode": "&#xE062;"
+ },
+ {
+  "glyph_id": 97,
+  "unicode": "&#xE071;"
+ },
+ {
+  "glyph_id": 98,
+  "unicode": "&#xE063;"
+ },
+ {
+  "glyph_id": 99,
+  "unicode": "&#xE06A;"
+ },
+ {
+  "glyph_id": 100,
+  "unicode": "&#xE046;"
+ },
+ {
+  "glyph_id": 101,
+  "unicode": "&#xE339;&#xE046;&#xE339;"
+ },
+ {
+  "glyph_id": 102,
+  "unicode": "&#xE34E;&#xE046;&#xE34E;"
+ },
+ {
+  "glyph_id": 103,
+  "unicode": "&#xE36A;&#xE046;&#xE36A;"
+ },
+ {
+  "glyph_id": 104,
+  "unicode": "&#xE080;"
+ },
+ {
+  "glyph_id": 105,
+  "unicode": "&#xE062;"
+ },
+ {
+  "glyph_id": 107,
+  "unicode": "&#xE062;"
+ },
+ {
+  "glyph_id": 110,
+  "unicode": "&#xE5AB;&#xE06D;"
+ },
+ {
+  "glyph_id": 111,
+  "unicode": "&#xE0AD;"
+ },
+ {
+  "glyph_id": 112,
+  "unicode": "&#xE0B3;"
+ },
+ {
+  "glyph_id": 113,
+  "unicode": "&#xE0B4;"
+ },
+ {
+  "glyph_id": 115,
+  "unicode": "&#xE699;&#xE0AD;"
+ },
+ {
+  "glyph_id": 116,
+  "unicode": "&#xE0B1;"
+ },
+ {
+  "glyph_id": 117,
+  "unicode": "&#xE0B7;"
+ },
+ {
+  "glyph_id": 118,
+  "unicode": "&#xE083;"
+ },
+ {
+  "glyph_id": 119,
+  "unicode": "&#xE0B6;"
+ },
+ {
+  "glyph_id": 121,
+  "unicode": "&#xE088;"
+ },
+ {
+  "glyph_id": 122,
+  "unicode": "&#xE0AC;"
+ },
+ {
+  "glyph_id": 123,
+  "unicode": "&#xE010;&#xE3B3;&#xE010;"
+ },
+ {
+  "glyph_id": 125,
+  "unicode": "&#xE0A1;"
+ },
+ {
+  "glyph_id": 126,
+  "unicode": "&#xE38E;&#xE06D;"
+ },
+ {
+  "glyph_id": 127,
+  "unicode": "&#xE0AA;"
+ },
+ {
+  "glyph_id": 128,
+  "unicode": "&#xE0A8;"
+ },
+ {
+  "glyph_id": 129,
+  "unicode": "&#xE0AB;"
+ },
+ {
+  "glyph_id": 130,
+  "unicode": "&#xE08E;"
+ },
+ {
+  "glyph_id": 131,
+  "unicode": "&#xE092;"
+ },
+ {
+  "glyph_id": 132,
+  "unicode": "&#xE089;"
+ },
+ {
+  "glyph_id": 133,
+  "unicode": "&#xE093;"
+ },
+ {
+  "glyph_id": 134,
+  "unicode": "&#xE094;"
+ },
+ {
+  "glyph_id": 135,
+  "unicode": "&#xE094;"
+ },
+ {
+  "glyph_id": 136,
+  "unicode": "&#xE03A;"
+ },
+ {
+  "glyph_id": 137,
+  "unicode": "&#xE078;"
+ },
+ {
+  "glyph_id": 138,
+  "unicode": "&#xE07F;"
+ },
+ {
+  "glyph_id": 139,
+  "unicode": "&#xE07C;"
+ },
+ {
+  "glyph_id": 140,
+  "unicode": "&#xE055;"
+ },
+ {
+  "glyph_id": 141,
+  "unicode": "&#xE34E;&#xE055;&#xE339;"
+ },
+ {
+  "glyph_id": 142,
+  "unicode": "&#xE099;"
+ },
+ {
+  "glyph_id": 143,
+  "unicode": "&#xE09E;"
+ },
+ {
+  "glyph_id": 144,
+  "unicode": "&#xE09D;"
+ },
+ {
+  "glyph_id": 145,
+  "unicode": "&#xE095;"
+ },
+ {
+  "glyph_id": 146,
+  "unicode": "&#xE0A0;"
+ },
+ {
+  "glyph_id": 147,
+  "unicode": "&#xE09F;"
+ },
+ {
+  "glyph_id": 148,
+  "unicode": "&#xE053;"
+ },
+ {
+  "glyph_id": 150,
+  "unicode": "&#xE013;"
+ },
+ {
+  "glyph_id": 151,
+  "unicode": "&#xE008;"
+ },
+ {
+  "glyph_id": 152,
+  "unicode": "&#xE028;"
+ },
+ {
+  "glyph_id": 153,
+  "unicode": "&#xE028;"
+ },
+ {
+  "glyph_id": 154,
+  "unicode": "&#xE020;"
+ },
+ {
+  "glyph_id": 155,
+  "unicode": "&#xE026;"
+ },
+ {
+  "glyph_id": 156,
+  "unicode": "&#xE023;"
+ },
+ {
+  "glyph_id": 157,
+  "unicode": "&#xE020;"
+ },
+ {
+  "glyph_id": 158,
+  "unicode": "&#xE037;"
+ },
+ {
+  "glyph_id": 159,
+  "unicode": "&#xE016;"
+ },
+ {
+  "glyph_id": 160,
+  "unicode": "&#xE018;"
+ },
+ {
+  "glyph_id": 161,
+  "unicode": "&#xE018;"
+ },
+ {
+  "glyph_id": 165,
+  "unicode": "&#xE66B;"
+ },
+ {
+  "glyph_id": 166,
+  "unicode": "&#xE676;"
+ },
+ {
+  "glyph_id": 167,
+  "unicode": "&#xE678;"
+ },
+ {
+  "glyph_id": 168,
+  "unicode": "&#xE67B;"
+ },
+ {
+  "glyph_id": 169,
+  "unicode": "&#xE680;"
+ },
+ {
+  "glyph_id": 170,
+  "unicode": "&#xE681;"
+ },
+ {
+  "glyph_id": 171,
+  "unicode": "&#xE67E;"
+ },
+ {
+  "glyph_id": 172,
+  "unicode": "&#xE67D;"
+ },
+ {
+  "glyph_id": 173,
+  "unicode": "&#xE697;&#xE31A;&#xE697;"
+ },
+ {
+  "glyph_id": 175,
+  "unicode": "&#xE190;"
+ },
+ {
+  "glyph_id": 176,
+  "unicode": "&#xE19B;"
+ },
+ {
+  "glyph_id": 177,
+  "unicode": "&#xE1B1;"
+ },
+ {
+  "glyph_id": 178,
+  "unicode": "&#xE1AD;"
+ },
+ {
+  "glyph_id": 179,
+  "unicode": "&#xE1B1;"
+ },
+ {
+  "glyph_id": 180,
+  "unicode": "&#xE1A6;"
+ },
+ {
+  "glyph_id": 190,
+  "unicode": "&#xE1D1;"
+ },
+ {
+  "glyph_id": 191,
+  "unicode": "&#xE1D1;&#xE1D1;"
+ },
+ {
+  "glyph_id": 192,
+  "unicode": "&#xE1CB;"
+ },
+ {
+  "glyph_id": 193,
+  "unicode": "&#xE1BA;"
+ },
+ {
+  "glyph_id": 194,
+  "unicode": "&#xE1CC;"
+ },
+ {
+  "glyph_id": 195,
+  "unicode": "&#xE1C8;"
+ },
+ {
+  "glyph_id": 200,
+  "unicode": "&#xE69C;"
+ },
+ {
+  "glyph_id": 201,
+  "unicode": "&#xE389;"
+ },
+ {
+  "glyph_id": 202,
+  "unicode": "&#xE70C;"
+ },
+ {
+  "glyph_id": 203,
+  "unicode": "&#xE69D;"
+ },
+ {
+  "glyph_id": 204,
+  "unicode": "&#xE384;"
+ },
+ {
+  "glyph_id": 205,
+  "unicode": "&#xE1D6;"
+ },
+ {
+  "glyph_id": 206,
+  "unicode": "&#xE1D7;"
+ },
+ {
+  "glyph_id": 207,
+  "unicode": "&#xE1D7;"
+ },
+ {
+  "glyph_id": 208,
+  "unicode": "&#xE1D5;"
+ },
+ {
+  "glyph_id": 209,
+  "unicode": "&#xE1D3;"
+ },
+ {
+  "glyph_id": 215,
+  "unicode": "&#xE69E;"
+ },
+ {
+  "glyph_id": 216,
+  "unicode": "&#xE6A2;"
+ },
+ {
+  "glyph_id": 217,
+  "unicode": "&#xE6A1;"
+ },
+ {
+  "glyph_id": 219,
+  "unicode": "&#xE10A;&#xE10A;"
+ },
+ {
+  "glyph_id": 220,
+  "unicode": "&#xE10A;"
+ },
+ {
+  "glyph_id": 221,
+  "unicode": "&#xE34E;&#xE10A;"
+ },
+ {
+  "glyph_id": 222,
+  "unicode": "&#xE10E;"
+ },
+ {
+  "glyph_id": 223,
+  "unicode": "&#xE31A;&#xE10E;&#xE31A;"
+ },
+ {
+  "glyph_id": 224,
+  "unicode": "&#xE10F;"
+ },
+ {
+  "glyph_id": 225,
+  "unicode": "&#xE31C;&#xE10A;&#xE31C;"
+ },
+ {
+  "glyph_id": 226,
+  "unicode": "&#xE11C;"
+ },
+ {
+  "glyph_id": 227,
+  "unicode": "&#xE12D;"
+ },
+ {
+  "glyph_id": 228,
+  "unicode": "&#xE137;"
+ },
+ {
+  "glyph_id": 229,
+  "unicode": "&#xE133;"
+ },
+ {
+  "glyph_id": 230,
+  "unicode": "&#xE12B;"
+ },
+ {
+  "glyph_id": 231,
+  "unicode": "&#xE115;"
+ },
+ {
+  "glyph_id": 232,
+  "unicode": "&#xE116;"
+ },
+ {
+  "glyph_id": 233,
+  "unicode": "&#xE118;"
+ },
+ {
+  "glyph_id": 234,
+  "unicode": "&#xE11C;"
+ },
+ {
+  "glyph_id": 235,
+  "unicode": "&#xE122;"
+ },
+ {
+  "glyph_id": 236,
+  "unicode": "&#xE126;"
+ },
+ {
+  "glyph_id": 237,
+  "unicode": "&#xE134;"
+ },
+ {
+  "glyph_id": 240,
+  "unicode": "&#xE12F;"
+ },
+ {
+  "glyph_id": 241,
+  "unicode": "&#xE134;"
+ },
+ {
+  "glyph_id": 242,
+  "unicode": "&#xE133;"
+ },
+ {
+  "glyph_id": 243,
+  "unicode": "&#xE102;"
+ },
+ {
+  "glyph_id": 244,
+  "unicode": "&#xE138;"
+ },
+ {
+  "glyph_id": 250,
+  "unicode": "&#xE356;"
+ },
+ {
+  "glyph_id": 251,
+  "unicode": "&#xE359;"
+ },
+ {
+  "glyph_id": 252,
+  "unicode": "&#xE35D;"
+ },
+ {
+  "glyph_id": 253,
+  "unicode": "&#xE354;"
+ },
+ {
+  "glyph_id": 255,
+  "unicode": "&#xE165;"
+ },
+ {
+  "glyph_id": 256,
+  "unicode": "&#xE189;"
+ },
+ {
+  "glyph_id": 257,
+  "unicode": "&#xE0E2;"
+ },
+ {
+  "glyph_id": 260,
+  "unicode": "&#xE159;"
+ },
+ {
+  "glyph_id": 261,
+  "unicode": "&#xE159;&#xE159;"
+ },
+ {
+  "glyph_id": 262,
+  "unicode": "&#xE150;"
+ },
+ {
+  "glyph_id": 263,
+  "unicode": "&#xE15E;"
+ },
+ {
+  "glyph_id": 264,
+  "unicode": "&#xE140;"
+ },
+ {
+  "glyph_id": 265,
+  "unicode": "&#xE149;"
+ },
+ {
+  "glyph_id": 266,
+  "unicode": "&#xE140;"
+ },
+ {
+  "glyph_id": 267,
+  "unicode": "&#xE149;"
+ },
+ {
+  "glyph_id": 268,
+  "unicode": "&#xE140;"
+ },
+ {
+  "glyph_id": 269,
+  "unicode": "&#xE149;"
+ },
+ {
+  "glyph_id": 270,
+  "unicode": "&#xE144;"
+ },
+ {
+  "glyph_id": 271,
+  "unicode": "&#xE147;"
+ },
+ {
+  "glyph_id": 272,
+  "unicode": "&#xE152;"
+ },
+ {
+  "glyph_id": 275,
+  "unicode": "&#xE0F6;"
+ },
+ {
+  "glyph_id": 276,
+  "unicode": "&#xE0F6;"
+ },
+ {
+  "glyph_id": 277,
+  "unicode": "&#xE0F8;"
+ },
+ {
+  "glyph_id": 278,
+  "unicode": "&#xE0F6;"
+ },
+ {
+  "glyph_id": 279,
+  "unicode": "&#xE0F2;"
+ },
+ {
+  "glyph_id": 280,
+  "unicode": "&#xE0F3;"
+ },
+ {
+  "glyph_id": 281,
+  "unicode": "&#xE0FB;"
+ },
+ {
+  "glyph_id": 285,
+  "unicode": "&#xE209;"
+ },
+ {
+  "glyph_id": 286,
+  "unicode": "&#xE20B;"
+ },
+ {
+  "glyph_id": 287,
+  "unicode": "&#xE20D;"
+ },
+ {
+  "glyph_id": 290,
+  "unicode": "&#xE461;"
+ },
+ {
+  "glyph_id": 291,
+  "unicode": "&#xE461;"
+ },
+ {
+  "glyph_id": 292,
+  "unicode": "&#xE461;"
+ },
+ {
+  "glyph_id": 293,
+  "unicode": "&#xE461;"
+ },
+ {
+  "glyph_id": 294,
+  "unicode": "&#xE461;"
+ },
+ {
+  "glyph_id": 295,
+  "unicode": "&#xE461;"
+ },
+ {
+  "glyph_id": 296,
+  "unicode": "&#xE461;"
+ },
+ {
+  "glyph_id": 297,
+  "unicode": "&#xE461;"
+ },
+ {
+  "glyph_id": 298,
+  "unicode": "&#xE461;"
+ },
+ {
+  "glyph_id": 299,
+  "unicode": "&#xE461;"
+ },
+ {
+  "glyph_id": 300,
+  "unicode": "&#xE461;"
+ },
+ {
+  "glyph_id": 301,
+  "unicode": "&#xE461;"
+ },
+ {
+  "glyph_id": 302,
+  "unicode": "&#xE461;"
+ },
+ {
+  "glyph_id": 303,
+  "unicode": "&#xE461;"
+ },
+ {
+  "glyph_id": 304,
+  "unicode": "&#xE461;"
+ },
+ {
+  "glyph_id": 305,
+  "unicode": "&#xE461;"
+ },
+ {
+  "glyph_id": 306,
+  "unicode": "&#xE461;"
+ },
+ {
+  "glyph_id": 307,
+  "unicode": "&#xE451;"
+ },
+ {
+  "glyph_id": 308,
+  "unicode": "&#xE451;"
+ },
+ {
+  "glyph_id": 309,
+  "unicode": "&#xE46C;"
+ },
+ {
+  "glyph_id": 310,
+  "unicode": "&#xE456;"
+ },
+ {
+  "glyph_id": 311,
+  "unicode": "&#xE45A;"
+ },
+ {
+  "glyph_id": 315,
+  "unicode": "&#xE58E;"
+ },
+ {
+  "glyph_id": 317,
+  "unicode": "&#xE598;"
+ },
+ {
+  "glyph_id": 318,
+  "unicode": "&#xE0CC;"
+ },
+ {
+  "glyph_id": 319,
+  "unicode": "&#xE0DC;"
+ },
+ {
+  "glyph_id": 320,
+  "unicode": "&#xE0D5;"
+ },
+ {
+  "glyph_id": 321,
+  "unicode": "&#xE0D7;"
+ },
+ {
+  "glyph_id": 322,
+  "unicode": "&#xE0CF;"
+ },
+ {
+  "glyph_id": 323,
+  "unicode": "&#xE0CD;"
+ },
+ {
+  "glyph_id": 324,
+  "unicode": "&#xE0D2;"
+ },
+ {
+  "glyph_id": 325,
+  "unicode": "&#xE0CE;"
+ },
+ {
+  "glyph_id": 326,
+  "unicode": "&#xE0D8;"
+ },
+ {
+  "glyph_id": 327,
+  "unicode": "&#xE0CB;"
+ },
+ {
+  "glyph_id": 328,
+  "unicode": "&#xE5EC;"
+ },
+ {
+  "glyph_id": 329,
+  "unicode": "&#xE607;"
+ },
+ {
+  "glyph_id": 330,
+  "unicode": "&#xE0D8;"
+ },
+ {
+  "glyph_id": 335,
+  "unicode": "&#xE3CA;"
+ },
+ {
+  "glyph_id": 336,
+  "unicode": "&#xE3D6;"
+ },
+ {
+  "glyph_id": 337,
+  "unicode": "&#xE3D2;"
+ },
+ {
+  "glyph_id": 338,
+  "unicode": "&#xE3D4;"
+ },
+ {
+  "glyph_id": 340,
+  "unicode": "&#xE0C8;"
+ },
+ {
+  "glyph_id": 341,
+  "unicode": "&#xE0C0;"
+ },
+ {
+  "glyph_id": 342,
+  "unicode": "&#xE0C0;"
+ },
+ {
+  "glyph_id": 343,
+  "unicode": "&#xE0C0;"
+ },
+ {
+  "glyph_id": 344,
+  "unicode": "&#xE0BA;"
+ },
+ {
+  "glyph_id": 345,
+  "unicode": "&#xE0BA;"
+ },
+ {
+  "glyph_id": 346,
+  "unicode": "&#xE0C4;"
+ },
+ {
+  "glyph_id": 347,
+  "unicode": "&#xE0BB;"
+ },
+ {
+  "glyph_id": 348,
+  "unicode": "&#xE0C2;"
+ },
+ {
+  "glyph_id": 350,
+  "unicode": "&#xE210;"
+ },
+ {
+  "glyph_id": 351,
+  "unicode": "&#xE210;"
+ },
+ {
+  "glyph_id": 352,
+  "unicode": "&#xE219;"
+ },
+ {
+  "glyph_id": 353,
+  "unicode": "&#xE21C;"
+ },
+ {
+  "glyph_id": 354,
+  "unicode": "&#xE21D;"
+ },
+ {
+  "glyph_id": 360,
+  "unicode": "&#xE593;"
+ },
+ {
+  "glyph_id": 361,
+  "unicode": "&#xE59B;"
+ },
+ {
+  "glyph_id": 362,
+  "unicode": "&#xE507;"
+ },
+ {
+  "glyph_id": 363,
+  "unicode": "&#xE0F1;"
+ },
+ {
+  "glyph_id": 365,
+  "unicode": "&#xE429;"
+ },
+ {
+  "glyph_id": 367,
+  "unicode": "&#xE437;"
+ },
+ {
+  "glyph_id": 368,
+  "unicode": "&#xE425;"
+ },
+ {
+  "glyph_id": 370,
+  "unicode": "&#xE275;"
+ },
+ {
+  "glyph_id": 371,
+  "unicode": "&#xE273;"
+ },
+ {
+  "glyph_id": 372,
+  "unicode": "&#xE272;"
+ },
+ {
+  "glyph_id": 373,
+  "unicode": "&#xE221;"
+ },
+ {
+  "glyph_id": 374,
+  "unicode": "&#xE269;"
+ },
+ {
+  "glyph_id": 375,
+  "unicode": "&#xE26E;"
+ },
+ {
+  "glyph_id": 380,
+  "unicode": "&#xE40C;"
+ },
+ {
+  "glyph_id": 381,
+  "unicode": "&#xE40C;&#xE40C;"
+ },
+ {
+  "glyph_id": 382,
+  "unicode": "&#xE294;"
+ },
+ {
+  "glyph_id": 383,
+  "unicode": "&#xE412;"
+ },
+ {
+  "glyph_id": 384,
+  "unicode": "&#xE29F;"
+ },
+ {
+  "glyph_id": 385,
+  "unicode": "&#xE2A2;"
+ },
+ {
+  "glyph_id": 386,
+  "unicode": "&#xE2A6;"
+ },
+ {
+  "glyph_id": 387,
+  "unicode": "&#xE29A;"
+ },
+ {
+  "glyph_id": 388,
+  "unicode": "&#xE27D;"
+ },
+ {
+  "glyph_id": 389,
+  "unicode": "&#xE1E4;&#xE1E4;&#xE1E4;&#xE1E4;"
+ },
+ {
+  "glyph_id": 390,
+  "unicode": "&#xE1E4;"
+ },
+ {
+  "glyph_id": 391,
+  "unicode": "&#xE202;"
+ },
+ {
+  "glyph_id": 392,
+  "unicode": "&#xE1FF;"
+ },
+ {
+  "glyph_id": 393,
+  "unicode": "&#xE201;"
+ },
+ {
+  "glyph_id": 394,
+  "unicode": "&#xE206;"
+ },
+ {
+  "glyph_id": 400,
+  "unicode": "&#xE24A;"
+ },
+ {
+  "glyph_id": 401,
+  "unicode": "&#xE24A;&#xE24A;"
+ },
+ {
+  "glyph_id": 402,
+  "unicode": "&#xE256;"
+ },
+ {
+  "glyph_id": 404,
+  "unicode": "&#xE207;"
+ },
+ {
+  "glyph_id": 405,
+  "unicode": "&#xE1F0;"
+ },
+ {
+  "glyph_id": 406,
+  "unicode": "&#xE1FB;"
+ },
+ {
+  "glyph_id": 407,
+  "unicode": "&#xE1F0;"
+ },
+ {
+  "glyph_id": 408,
+  "unicode": "&#xE1FB;"
+ },
+ {
+  "glyph_id": 409,
+  "unicode": "&#xE1EB;"
+ },
+ {
+  "glyph_id": 410,
+  "unicode": "&#xE1EA;"
+ },
+ {
+  "glyph_id": 411,
+  "unicode": "&#xE1D9;"
+ },
+ {
+  "glyph_id": 412,
+  "unicode": "&#xE724;"
+ },
+ {
+  "glyph_id": 413,
+  "unicode": "&#xE1D9;"
+ },
+ {
+  "glyph_id": 415,
+  "unicode": "&#xE22A;"
+ },
+ {
+  "glyph_id": 416,
+  "unicode": "&#xE234;"
+ },
+ {
+  "glyph_id": 417,
+  "unicode": "&#xE22E;"
+ },
+ {
+  "glyph_id": 418,
+  "unicode": "&#xE31A;&#xE234;&#xE31A;"
+ },
+ {
+  "glyph_id": 420,
+  "unicode": "&#xE59C;"
+ },
+ {
+  "glyph_id": 421,
+  "unicode": "&#xE5A7;"
+ },
+ {
+  "glyph_id": 422,
+  "unicode": "&#xE5A8;"
+ },
+ {
+  "glyph_id": 423,
+  "unicode": "&#xE5A5;"
+ },
+ {
+  "glyph_id": 424,
+  "unicode": "&#xE5A9;"
+ },
+ {
+  "glyph_id": 425,
+  "unicode": "&#xE5A4;"
+ },
+ {
+  "glyph_id": 426,
+  "unicode": "&#xE5A4;"
+ },
+ {
+  "glyph_id": 427,
+  "unicode": "&#xE5A6;"
+ },
+ {
+  "glyph_id": 428,
+  "unicode": "&#xE5A0;"
+ },
+ {
+  "glyph_id": 429,
+  "unicode": "&#xE59F;"
+ },
+ {
+  "glyph_id": 430,
+  "unicode": "&#xE59E;"
+ },
+ {
+  "glyph_id": 435,
+  "unicode": "&#xE3FE;"
+ },
+ {
+  "glyph_id": 436,
+  "unicode": "&#xE402;"
+ },
+ {
+  "glyph_id": 440,
+  "unicode": "&#xE565;"
+ },
+ {
+  "glyph_id": 441,
+  "unicode": "&#xE565;&#xE565;"
+ },
+ {
+  "glyph_id": 442,
+  "unicode": "&#xE56A;"
+ },
+ {
+  "glyph_id": 443,
+  "unicode": "&#xE56C;"
+ },
+ {
+  "glyph_id": 444,
+  "unicode": "&#xE56D;"
+ },
+ {
+  "glyph_id": 450,
+  "unicode": "&#xE406;"
+ },
+ {
+  "glyph_id": 451,
+  "unicode": "&#xE408;"
+ },
+ {
+  "glyph_id": 452,
+  "unicode": "&#xE405;"
+ },
+ {
+  "glyph_id": 454,
+  "unicode": "&#xE404;"
+ },
+ {
+  "glyph_id": 455,
+  "unicode": "&#xE4BB;"
+ },
+ {
+  "glyph_id": 456,
+  "unicode": "&#xE4C2;"
+ },
+ {
+  "glyph_id": 457,
+  "unicode": "&#xE4C5;"
+ },
+ {
+  "glyph_id": 458,
+  "unicode": "&#xE4C3;"
+ },
+ {
+  "glyph_id": 460,
+  "unicode": "&#xE3DB;"
+ },
+ {
+  "glyph_id": 461,
+  "unicode": "&#xE3E7;"
+ },
+ {
+  "glyph_id": 462,
+  "unicode": "&#xE2AD;"
+ },
+ {
+  "glyph_id": 465,
+  "unicode": "&#xE3FB;"
+ },
+ {
+  "glyph_id": 466,
+  "unicode": "&#xE3FC;"
+ },
+ {
+  "glyph_id": 467,
+  "unicode": "&#xE3FA;"
+ },
+ {
+  "glyph_id": 468,
+  "unicode": "&#xE3F5;"
+ },
+ {
+  "glyph_id": 469,
+  "unicode": "&#xE3F6;"
+ },
+ {
+  "glyph_id": 470,
+  "unicode": "&#xE3F0;"
+ },
+ {
+  "glyph_id": 471,
+  "unicode": "&#xE3EF;"
+ },
+ {
+  "glyph_id": 472,
+  "unicode": "&#xE3F7;"
+ },
+ {
+  "glyph_id": 473,
+  "unicode": "&#xE3F1;"
+ },
+ {
+  "glyph_id": 474,
+  "unicode": "&#xE3F7;"
+ },
+ {
+  "glyph_id": 475,
+  "unicode": "&#xE3F8;"
+ },
+ {
+  "glyph_id": 479,
+  "unicode": "&#xE3E8;&#xE3E8;"
+ },
+ {
+  "glyph_id": 480,
+  "unicode": "&#xE3E8;"
+ },
+ {
+  "glyph_id": 481,
+  "unicode": "&#xE669;"
+ },
+ {
+  "glyph_id": 482,
+  "unicode": "&#xE414;"
+ },
+ {
+  "glyph_id": 483,
+  "unicode": "&#xE417;"
+ },
+ {
+  "glyph_id": 484,
+  "unicode": "&#xE40E;"
+ },
+ {
+  "glyph_id": 490,
+  "unicode": "&#xE3C2;"
+ },
+ {
+  "glyph_id": 491,
+  "unicode": "&#xE3C2;"
+ },
+ {
+  "glyph_id": 492,
+  "unicode": "&#xE3C2;"
+ },
+ {
+  "glyph_id": 493,
+  "unicode": "&#xE3BB;"
+ },
+ {
+  "glyph_id": 494,
+  "unicode": "&#xE3BC;"
+ },
+ {
+  "glyph_id": 495,
+  "unicode": "&#xE3B4;"
+ },
+ {
+  "glyph_id": 500,
+  "unicode": "&#xE3A2;"
+ },
+ {
+  "glyph_id": 501,
+  "unicode": "&#xE3A8;"
+ },
+ {
+  "glyph_id": 502,
+  "unicode": "&#xE3A7;"
+ },
+ {
+  "glyph_id": 503,
+  "unicode": "&#xE3AD;"
+ },
+ {
+  "glyph_id": 504,
+  "unicode": "&#xE3C4;"
+ },
+ {
+  "glyph_id": 505,
+  "unicode": "&#xE3C9;"
+ },
+ {
+  "glyph_id": 506,
+  "unicode": "&#xE3C8;"
+ },
+ {
+  "glyph_id": 510,
+  "unicode": "&#xE542;"
+ },
+ {
+  "glyph_id": 511,
+  "unicode": "&#xE53F;"
+ },
+ {
+  "glyph_id": 512,
+  "unicode": "&#xE541;"
+ },
+ {
+  "glyph_id": 513,
+  "unicode": "&#xE53B;"
+ },
+ {
+  "glyph_id": 514,
+  "unicode": "&#xE53F;"
+ },
+ {
+  "glyph_id": 517,
+  "unicode": "&#xE100;"
+ },
+ {
+  "glyph_id": 518,
+  "unicode": "&#xE0FF;"
+ },
+ {
+  "glyph_id": 519,
+  "unicode": "&#xE302;&#xE302;"
+ },
+ {
+  "glyph_id": 520,
+  "unicode": "&#xE396;"
+ },
+ {
+  "glyph_id": 521,
+  "unicode": "&#xE22F;"
+ },
+ {
+  "glyph_id": 525,
+  "unicode": "&#xE0ED;"
+ },
+ {
+  "glyph_id": 526,
+  "unicode": "&#xE0EA;"
+ },
+ {
+  "glyph_id": 527,
+  "unicode": "&#xE0EA;"
+ },
+ {
+  "glyph_id": 528,
+  "unicode": "&#xE500;"
+ },
+ {
+  "glyph_id": 530,
+  "unicode": "&#xE46E;"
+ },
+ {
+  "glyph_id": 531,
+  "unicode": "&#xE476;"
+ },
+ {
+  "glyph_id": 532,
+  "unicode": "&#xE472;"
+ },
+ {
+  "glyph_id": 533,
+  "unicode": "&#xE478;"
+ },
+ {
+  "glyph_id": 534,
+  "unicode": "&#xE4B6;"
+ },
+ {
+  "glyph_id": 535,
+  "unicode": "&#xE4B6;"
+ },
+ {
+  "glyph_id": 540,
+  "unicode": "&#xE4A3;"
+ },
+ {
+  "glyph_id": 541,
+  "unicode": "&#xE489;"
+ },
+ {
+  "glyph_id": 542,
+  "unicode": "&#xE4A7;"
+ },
+ {
+  "glyph_id": 543,
+  "unicode": "&#xE4A9;"
+ },
+ {
+  "glyph_id": 544,
+  "unicode": "&#xE4AD;"
+ },
+ {
+  "glyph_id": 545,
+  "unicode": "&#xE4B3;"
+ },
+ {
+  "glyph_id": 550,
+  "unicode": "&#xE47D;"
+ },
+ {
+  "glyph_id": 551,
+  "unicode": "&#xE49F;"
+ },
+ {
+  "glyph_id": 552,
+  "unicode": "&#xE47D;&#xE49F;"
+ },
+ {
+  "glyph_id": 554,
+  "unicode": "&#xE479;"
+ },
+ {
+  "glyph_id": 555,
+  "unicode": "&#xE481;"
+ },
+ {
+  "glyph_id": 556,
+  "unicode": "&#xE487;"
+ },
+ {
+  "glyph_id": 560,
+  "unicode": "&#xE48B;"
+ },
+ {
+  "glyph_id": 561,
+  "unicode": "&#xE489;"
+ },
+ {
+  "glyph_id": 562,
+  "unicode": "&#xE490;"
+ },
+ {
+  "glyph_id": 563,
+  "unicode": "&#xE4AD;"
+ },
+ {
+  "glyph_id": 564,
+  "unicode": "&#xE491;"
+ },
+ {
+  "glyph_id": 565,
+  "unicode": "&#xE497;"
+ },
+ {
+  "glyph_id": 570,
+  "unicode": "&#xE561;"
+ },
+ {
+  "glyph_id": 571,
+  "unicode": "&#xE560;"
+ },
+ {
+  "glyph_id": 572,
+  "unicode": "&#xE56F;"
+ },
+ {
+  "glyph_id": 573,
+  "unicode": "&#xE573;"
+ },
+ {
+  "glyph_id": 575,
+  "unicode": "&#xE585;"
+ },
+ {
+  "glyph_id": 576,
+  "unicode": "&#xE570;"
+ },
+ {
+  "glyph_id": 577,
+  "unicode": "&#xE31C;&#x20;&#xE584;&#x20;&#xE31C;"
+ },
+ {
+  "glyph_id": 578,
+  "unicode": "&#xE58A;"
+ },
+ {
+  "glyph_id": 579,
+  "unicode": "&#xE58A;"
+ },
+ {
+  "glyph_id": 585,
+  "unicode": "&#xE579;"
+ },
+ {
+  "glyph_id": 586,
+  "unicode": "&#xE577;&#x20;&#xE577;"
+ },
+ {
+  "glyph_id": 590,
+  "unicode": "&#xE555;"
+ },
+ {
+  "glyph_id": 591,
+  "unicode": "&#xE31A;&#x20;&#xE555;&#x20;&#xE31A;"
+ },
+ {
+  "glyph_id": 592,
+  "unicode": "&#xE55D;"
+ },
+ {
+  "glyph_id": 593,
+  "unicode": "&#xE55E;"
+ },
+ {
+  "glyph_id": 595,
+  "unicode": "&#xE54B;"
+ },
+ {
+  "glyph_id": 596,
+  "unicode": "&#xE54B;&#x20;&#xE54B;"
+ },
+ {
+  "glyph_id": 597,
+  "unicode": "&#xE54B;"
+ },
+ {
+  "glyph_id": 599,
+  "unicode": "&#xE321;"
+ },
+ {
+  "glyph_id": 600,
+  "unicode": "&#xE31A;"
+ },
+ {
+  "glyph_id": 601,
+  "unicode": "&#xE50B;"
+ },
+ {
+  "glyph_id": 602,
+  "unicode": "&#xE506;"
+ },
+ {
+  "glyph_id": 603,
+  "unicode": "&#xE597;"
+ },
+ {
+  "glyph_id": 604,
+  "unicode": "&#xE504;"
+ },
+ {
+  "glyph_id": 605,
+  "unicode": "&#xE41B;"
+ },
+ {
+  "glyph_id": 610,
+  "unicode": "&#xE53A;"
+ },
+ {
+  "glyph_id": 611,
+  "unicode": "&#xE223;"
+ },
+ {
+  "glyph_id": 615,
+  "unicode": "&#xE518;"
+ },
+ {
+  "glyph_id": 617,
+  "unicode": "&#xE518;&#xE518;"
+ },
+ {
+  "glyph_id": 620,
+  "unicode": "&#xE504;&#xE504;"
+ },
+ {
+  "glyph_id": 621,
+  "unicode": "&#xE50B;"
+ },
+ {
+  "glyph_id": 622,
+  "unicode": "&#xE50E;"
+ },
+ {
+  "glyph_id": 623,
+  "unicode": "&#xE510;"
+ },
+ {
+  "glyph_id": 625,
+  "unicode": "&#xE503;"
+ },
+ {
+  "glyph_id": 626,
+  "unicode": "&#xE6EE;"
+ },
+ {
+  "glyph_id": 627,
+  "unicode": "&#xE6F2;"
+ },
+ {
+  "glyph_id": 628,
+  "unicode": "&#xE722;"
+ },
+ {
+  "glyph_id": 629,
+  "unicode": "&#xE532;&#xE532;"
+ },
+ {
+  "glyph_id": 630,
+  "unicode": "&#xE532;"
+ },
+ {
+  "glyph_id": 631,
+  "unicode": "&#xE535;"
+ },
+ {
+  "glyph_id": 632,
+  "unicode": "&#xE532;"
+ },
+ {
+  "glyph_id": 633,
+  "unicode": "&#xE531;"
+ },
+ {
+  "glyph_id": 634,
+  "unicode": "&#xE530;"
+ },
+ {
+  "glyph_id": 635,
+  "unicode": "&#xE52F;"
+ },
+ {
+  "glyph_id": 636,
+  "unicode": "&#xE52C;"
+ },
+ {
+  "glyph_id": 637,
+  "unicode": "&#xE52D;"
+ },
+ {
+  "glyph_id": 638,
+  "unicode": "&#xE52B;"
+ },
+ {
+  "glyph_id": 639,
+  "unicode": "&#xE524;"
+ },
+ {
+  "glyph_id": 640,
+  "unicode": "&#xE537;"
+ },
+ {
+  "glyph_id": 642,
+  "unicode": "&#xE52A;"
+ },
+ {
+  "glyph_id": 645,
+  "unicode": "&#xE4C7;"
+ },
+ {
+  "glyph_id": 646,
+  "unicode": "&#xE4DF;"
+ },
+ {
+  "glyph_id": 647,
+  "unicode": "&#xE4DF;"
+ },
+ {
+  "glyph_id": 678,
+  "unicode": "&#xE4CE;"
+ },
+ {
+  "glyph_id": 679,
+  "unicode": "&#xE4CC;"
+ },
+ {
+  "glyph_id": 680,
+  "unicode": "&#xE4C9;"
+ },
+ {
+  "glyph_id": 681,
+  "unicode": "&#xE4E0;"
+ },
+ {
+  "glyph_id": 682,
+  "unicode": "&#xE4E0;"
+ },
+ {
+  "glyph_id": 683,
+  "unicode": "&#xE4E4;"
+ },
+ {
+  "glyph_id": 684,
+  "unicode": "&#xE4E2;"
+ },
+ {
+  "glyph_id": 685,
+  "unicode": "&#xE4CF;"
+ },
+ {
+  "glyph_id": 686,
+  "unicode": "&#xE4D7;"
+ },
+ {
+  "glyph_id": 687,
+  "unicode": "&#xE4D6;"
+ },
+ {
+  "glyph_id": 688,
+  "unicode": "&#xE4D3;"
+ },
+ {
+  "glyph_id": 689,
+  "unicode": "&#xE4D1;"
+ },
+ {
+  "glyph_id": 690,
+  "unicode": "&#xE4EB;"
+ },
+ {
+  "glyph_id": 692,
+  "unicode": "&#xE4F8;"
+ },
+ {
+  "glyph_id": 693,
+  "unicode": "&#xE4FF;"
+ },
+ {
+  "glyph_id": 694,
+  "unicode": "&#xE4FE;"
+ },
+ {
+  "glyph_id": 697,
+  "unicode": "&#xE5AC;&#xE5AC;&#xE5AC;"
+ },
+ {
+  "glyph_id": 698,
+  "unicode": "&#xE5AC;&#xE5AC;"
+ },
+ {
+  "glyph_id": 699,
+  "unicode": "&#xE5DC;&#xE5DC;"
+ },
+ {
+  "glyph_id": 700,
+  "unicode": "&#xE5AC;"
+ },
+ {
+  "glyph_id": 702,
+  "unicode": "&#xE5B1;"
+ },
+ {
+  "glyph_id": 703,
+  "unicode": "&#xE5B4;"
+ },
+ {
+  "glyph_id": 704,
+  "unicode": "&#xE5DA;"
+ },
+ {
+  "glyph_id": 705,
+  "unicode": "&#xE5DC;"
+ },
+ {
+  "glyph_id": 706,
+  "unicode": "&#xE5DA;"
+ },
+ {
+  "glyph_id": 707,
+  "unicode": "&#xE5CF;"
+ },
+ {
+  "glyph_id": 708,
+  "unicode": "&#xE5C1;"
+ },
+ {
+  "glyph_id": 709,
+  "unicode": "&#xE5BE;"
+ },
+ {
+  "glyph_id": 710,
+  "unicode": "&#xE5C2;"
+ },
+ {
+  "glyph_id": 711,
+  "unicode": "&#xE5E7;"
+ },
+ {
+  "glyph_id": 712,
+  "unicode": "&#xE5E9;"
+ },
+ {
+  "glyph_id": 713,
+  "unicode": "&#xE5C5;"
+ },
+ {
+  "glyph_id": 714,
+  "unicode": "&#xE5CE;"
+ },
+ {
+  "glyph_id": 715,
+  "unicode": "&#xE243;"
+ },
+ {
+  "glyph_id": 716,
+  "unicode": "&#xE5F4;"
+ },
+ {
+  "glyph_id": 717,
+  "unicode": "&#xE5F2;"
+ },
+ {
+  "glyph_id": 718,
+  "unicode": "&#xE5F8;"
+ },
+ {
+  "glyph_id": 719,
+  "unicode": "&#xE60C;"
+ },
+ {
+  "glyph_id": 720,
+  "unicode": "&#xE5EB;"
+ },
+ {
+  "glyph_id": 721,
+  "unicode": "&#xE608;"
+ },
+ {
+  "glyph_id": 723,
+  "unicode": "&#xE5E8;"
+ },
+ {
+  "glyph_id": 725,
+  "unicode": "&#xE5BB;"
+ },
+ {
+  "glyph_id": 727,
+  "unicode": "&#xE5BB;"
+ },
+ {
+  "glyph_id": 728,
+  "unicode": "&#xE5E5;"
+ },
+ {
+  "glyph_id": 729,
+  "unicode": "&#xE5BD;"
+ },
+ {
+  "glyph_id": 731,
+  "unicode": "&#xE5BC;"
+ },
+ {
+  "glyph_id": 732,
+  "unicode": "&#xE5B9;"
+ },
+ {
+  "glyph_id": 733,
+  "unicode": "&#xE5E4;"
+ },
+ {
+  "glyph_id": 734,
+  "unicode": "&#xE5B8;"
+ },
+ {
+  "glyph_id": 735,
+  "unicode": "&#xE5E3;"
+ },
+ {
+  "glyph_id": 736,
+  "unicode": "&#xE5E1;"
+ },
+ {
+  "glyph_id": 740,
+  "unicode": "&#xE61B;"
+ },
+ {
+  "glyph_id": 741,
+  "unicode": "&#xE627;"
+ },
+ {
+  "glyph_id": 742,
+  "unicode": "&#xE62E;"
+ },
+ {
+  "glyph_id": 743,
+  "unicode": "&#xE62C;"
+ },
+ {
+  "glyph_id": 744,
+  "unicode": "&#xE62D;"
+ },
+ {
+  "glyph_id": 745,
+  "unicode": "&#xE63E;"
+ },
+ {
+  "glyph_id": 746,
+  "unicode": "&#xE63A;"
+ },
+ {
+  "glyph_id": 747,
+  "unicode": "&#xE634;"
+ },
+ {
+  "glyph_id": 748,
+  "unicode": "&#xE641;"
+ },
+ {
+  "glyph_id": 749,
+  "unicode": "&#xE643;"
+ },
+ {
+  "glyph_id": 750,
+  "unicode": "&#xE646;"
+ },
+ {
+  "glyph_id": 751,
+  "unicode": "&#xE645;"
+ },
+ {
+  "glyph_id": 752,
+  "unicode": "&#xE647;"
+ },
+ {
+  "glyph_id": 753,
+  "unicode": "&#xE662;"
+ },
+ {
+  "glyph_id": 760,
+  "unicode": "&#xE65D;"
+ },
+ {
+  "glyph_id": 761,
+  "unicode": "&#xE660;"
+ },
+ {
+  "glyph_id": 762,
+  "unicode": "&#xE663;"
+ },
+ {
+  "glyph_id": 763,
+  "unicode": "&#xE5D8;"
+ },
+ {
+  "glyph_id": 764,
+  "unicode": "&#xE65F;"
+ },
+ {
+  "glyph_id": 765,
+  "unicode": "&#xE65E;"
+ },
+ {
+  "glyph_id": 766,
+  "unicode": "&#xE664;"
+ },
+ {
+  "glyph_id": 767,
+  "unicode": "&#xE270;"
+ },
+ {
+  "glyph_id": 768,
+  "unicode": "&#xE271;"
+ },
+ {
+  "glyph_id": 770,
+  "unicode": "&#xE238;"
+ },
+ {
+  "glyph_id": 772,
+  "unicode": "&#xE23D;"
+ },
+ {
+  "glyph_id": 773,
+  "unicode": "&#xE242;"
+ },
+ {
+  "glyph_id": 775,
+  "unicode": "&#xE2BA;"
+ },
+ {
+  "glyph_id": 776,
+  "unicode": "&#xE2BA;"
+ },
+ {
+  "glyph_id": 777,
+  "unicode": "&#xE2C3;"
+ },
+ {
+  "glyph_id": 778,
+  "unicode": "&#xE2C2;"
+ },
+ {
+  "glyph_id": 780,
+  "unicode": "&#xE657;"
+ },
+ {
+  "glyph_id": 781,
+  "unicode": "&#xE657;"
+ },
+ {
+  "glyph_id": 782,
+  "unicode": "&#xE2C4;"
+ },
+ {
+  "glyph_id": 783,
+  "unicode": "&#xE2BC;"
+ },
+ {
+  "glyph_id": 784,
+  "unicode": "&#xE2BD;"
+ },
+ {
+  "glyph_id": 785,
+  "unicode": "&#xE2BB;"
+ },
+ {
+  "glyph_id": 786,
+  "unicode": "&#xE2BF;"
+ },
+ {
+  "glyph_id": 790,
+  "unicode": "&#xE696;"
+ },
+ {
+  "glyph_id": 791,
+  "unicode": "&#xE696;&#xE696;"
+ },
+ {
+  "glyph_id": 792,
+  "unicode": "&#xE6D4;&#xE6D4;"
+ },
+ {
+  "glyph_id": 793,
+  "unicode": "&#xE339;&#xE697;&#xE339;"
+ },
+ {
+  "glyph_id": 794,
+  "unicode": "&#xE6A8;"
+ },
+ {
+  "glyph_id": 795,
+  "unicode": "&#xE381;"
+ },
+ {
+  "glyph_id": 796,
+  "unicode": "&#xE382;"
+ },
+ {
+  "glyph_id": 797,
+  "unicode": "&#xE4A1;"
+ },
+ {
+  "glyph_id": 798,
+  "unicode": "&#xE1C3;"
+ },
+ {
+  "glyph_id": 799,
+  "unicode": "&#xE1C3;&#xE4A1;"
+ },
+ {
+  "glyph_id": 801,
+  "unicode": "&#xE1C6;"
+ },
+ {
+  "glyph_id": 803,
+  "unicode": "&#xE6B2;"
+ },
+ {
+  "glyph_id": 804,
+  "unicode": "&#xE6BE;"
+ },
+ {
+  "glyph_id": 805,
+  "unicode": "&#xE6B6;"
+ },
+ {
+  "glyph_id": 806,
+  "unicode": "&#xE6B6;"
+ },
+ {
+  "glyph_id": 807,
+  "unicode": "&#xE6BF;"
+ },
+ {
+  "glyph_id": 808,
+  "unicode": "&#xE6C9;"
+ },
+ {
+  "glyph_id": 809,
+  "unicode": "&#xE6D4;"
+ },
+ {
+  "glyph_id": 810,
+  "unicode": "&#xE6CB;"
+ },
+ {
+  "glyph_id": 811,
+  "unicode": "&#xE6C5;"
+ },
+ {
+  "glyph_id": 812,
+  "unicode": "&#xE6D3;"
+ },
+ {
+  "glyph_id": 813,
+  "unicode": "&#xE6CC;"
+ },
+ {
+  "glyph_id": 814,
+  "unicode": "&#xE6CF;"
+ },
+ {
+  "glyph_id": 815,
+  "unicode": "&#xE6CD;"
+ },
+ {
+  "glyph_id": 816,
+  "unicode": "&#xE6D3;"
+ },
+ {
+  "glyph_id": 817,
+  "unicode": "&#xE708;"
+ },
+ {
+  "glyph_id": 818,
+  "unicode": "&#xE6E3;"
+ },
+ {
+  "glyph_id": 820,
+  "unicode": "&#xE6E8;"
+ },
+ {
+  "glyph_id": 821,
+  "unicode": "&#xE6E8;&#xE6E8;"
+ },
+ {
+  "glyph_id": 822,
+  "unicode": "&#xE31C;&#xE6E8;&#xE31C;"
+ },
+ {
+  "glyph_id": 823,
+  "unicode": "&#xE6E0;"
+ },
+ {
+  "glyph_id": 824,
+  "unicode": "&#xE6F8;"
+ },
+ {
+  "glyph_id": 825,
+  "unicode": "&#xE6E2;"
+ },
+ {
+  "glyph_id": 826,
+  "unicode": "&#xE710;"
+ },
+ {
+  "glyph_id": 827,
+  "unicode": "&#xE710;"
+ },
+ {
+  "glyph_id": 828,
+  "unicode": "&#xE6C4;"
+ },
+ {
+  "glyph_id": 829,
+  "unicode": "&#xE6DD;"
+ },
+ {
+  "glyph_id": 830,
+  "unicode": "&#xE6DF;"
+ },
+ {
+  "glyph_id": 831,
+  "unicode": "&#xE6DD;"
+ },
+ {
+  "glyph_id": 832,
+  "unicode": "&#xE6C4;"
+ },
+ {
+  "glyph_id": 833,
+  "unicode": "&#xE6D8;"
+ },
+ {
+  "glyph_id": 834,
+  "unicode": "&#xE6C8;"
+ },
+ {
+  "glyph_id": 835,
+  "unicode": "&#xE6C4;"
+ },
+ {
+  "glyph_id": 836,
+  "unicode": "&#xE6C4;"
+ },
+ {
+  "glyph_id": 837,
+  "unicode": "&#xE6C4;"
+ },
+ {
+  "glyph_id": 838,
+  "unicode": "&#xE6BD;"
+ },
+ {
+  "glyph_id": 839,
+  "unicode": "&#xE6E3;"
+ },
+ {
+  "glyph_id": 840,
+  "unicode": "&#xE684;"
+ },
+ {
+  "glyph_id": 841,
+  "unicode": "&#xE689;"
+ },
+ {
+  "glyph_id": 842,
+  "unicode": "&#xE688;"
+ },
+ {
+  "glyph_id": 843,
+  "unicode": "&#xE31C;&#xE684;&#xE31C;"
+ },
+ {
+  "glyph_id": 844,
+  "unicode": "&#xE68F;"
+ },
+ {
+  "glyph_id": 845,
+  "unicode": "&#xE68B;"
+ },
+ {
+  "glyph_id": 849,
+  "unicode": "&#xE6A4;"
+ },
+ {
+  "glyph_id": 850,
+  "unicode": "&#xE695;"
+ },
+ {
+  "glyph_id": 851,
+  "unicode": "&#xE6A4;"
+ },
+ {
+  "glyph_id": 852,
+  "unicode": "&#xE70D;"
+ },
+ {
+  "glyph_id": 853,
+  "unicode": "&#xE6AD;"
+ },
+ {
+  "glyph_id": 854,
+  "unicode": "&#xE71C;"
+ },
+ {
+  "glyph_id": 855,
+  "unicode": "&#xE31C;&#xE695;&#xE31C;"
+ },
+ {
+  "glyph_id": 856,
+  "unicode": "&#xE695;"
+ },
+ {
+  "glyph_id": 858,
+  "unicode": "&#xE6B0;"
+ },
+ {
+  "glyph_id": 859,
+  "unicode": "&#xE6B1;"
+ },
+ {
+  "glyph_id": 860,
+  "unicode": "&#xE6A5;"
+ },
+ {
+  "glyph_id": 861,
+  "unicode": "&#xE709;"
+ },
+ {
+  "glyph_id": 862,
+  "unicode": "&#xE720;"
+ },
+ {
+  "glyph_id": 863,
+  "unicode": "&#xE71E;"
+ },
+ {
+  "glyph_id": 864,
+  "unicode": "&#xE71F;"
+ },
+ {
+  "glyph_id": 865,
+  "unicode": "&#xE712;"
+ },
+ {
+  "glyph_id": 866,
+  "unicode": "&#xE721;"
+ },
+ {
+  "glyph_id": 868,
+  "unicode": "&#xE70E;"
+ },
+ {
+  "glyph_id": 869,
+  "unicode": "&#xE71B;"
+ },
+ {
+  "glyph_id": 870,
+  "unicode": "&#xE6FD;"
+ },
+ {
+  "glyph_id": 871,
+  "unicode": "&#xE717;"
+ },
+ {
+  "glyph_id": 872,
+  "unicode": "&#xE714;"
+ },
+ {
+  "glyph_id": 873,
+  "unicode": "&#xE719;"
+ },
+ {
+  "glyph_id": 874,
+  "unicode": "&#xE719;"
+ },
+ {
+  "glyph_id": 875,
+  "unicode": "&#xE715;"
+ },
+ {
+  "glyph_id": 876,
+  "unicode": "&#xE717;"
+ },
+ {
+  "glyph_id": 877,
+  "unicode": "&#xE6F4;"
+ },
+ {
+  "glyph_id": 878,
+  "unicode": "&#xE6FD;"
+ },
+ {
+  "glyph_id": 879,
+  "unicode": "&#xE6EC;"
+ },
+ {
+  "glyph_id": 880,
+  "unicode": "&#xE6FF;"
+ },
+ {
+  "glyph_id": 890,
+  "unicode": "&#xE37D;"
+ },
+ {
+  "glyph_id": 891,
+  "unicode": "&#xE37F;"
+ },
+ {
+  "glyph_id": 892,
+  "unicode": "&#xE38F;"
+ },
+ {
+  "glyph_id": 893,
+  "unicode": "&#xE38F;&#xE38F;"
+ },
+ {
+  "glyph_id": 894,
+  "unicode": "&#xE38D;"
+ },
+ {
+  "glyph_id": 895,
+  "unicode": "&#xE395;"
+ },
+ {
+  "glyph_id": 896,
+  "unicode": "&#xE37B;"
+ },
+ {
+  "glyph_id": 897,
+  "unicode": "&#xE37C;"
+ },
+ {
+  "glyph_id": 898,
+  "unicode": "&#xE38E;"
+ },
+ {
+  "glyph_id": 899,
+  "unicode": "&#xE34F;"
+ },
+ {
+  "glyph_id": 900,
+  "unicode": "&#xE33A;"
+ },
+ {
+  "glyph_id": 901,
+  "unicode": "&#xE33F;"
+ },
+ {
+  "glyph_id": 902,
+  "unicode": "&#xE350;"
+ },
+ {
+  "glyph_id": 903,
+  "unicode": "&#xE34C;"
+ },
+ {
+  "glyph_id": 904,
+  "unicode": "&#xE367;"
+ },
+ {
+  "glyph_id": 905,
+  "unicode": "&#xE36B;"
+ },
+ {
+  "glyph_id": 906,
+  "unicode": "&#xE365;"
+ },
+ {
+  "glyph_id": 907,
+  "unicode": "&#xE366;"
+ },
+ {
+  "glyph_id": 908,
+  "unicode": "&#xE37A;"
+ },
+ {
+  "glyph_id": 909,
+  "unicode": "&#xE2FB;"
+ },
+ {
+  "glyph_id": 910,
+  "unicode": "&#xE361;"
+ },
+ {
+  "glyph_id": 911,
+  "unicode": "&#xE2FC;"
+ },
+ {
+  "glyph_id": 912,
+  "unicode": "&#xE364;"
+ },
+ {
+  "glyph_id": 914,
+  "unicode": "&#xE339;&#xE339;&#xE339;&#xE339;"
+ },
+ {
+  "glyph_id": 918,
+  "unicode": "&#xE347;&#xE347;&#xE347;"
+ },
+ {
+  "glyph_id": 919,
+  "unicode": "&#xE347;&#xE347;"
+ },
+ {
+  "glyph_id": 920,
+  "unicode": "&#xE346;"
+ },
+ {
+  "glyph_id": 921,
+  "unicode": "&#xE353;"
+ },
+ {
+  "glyph_id": 922,
+  "unicode": "&#xE34B;"
+ },
+ {
+  "glyph_id": 923,
+  "unicode": "&#xE36F;"
+ },
+ {
+  "glyph_id": 924,
+  "unicode": "&#xE378;"
+ },
+ {
+  "glyph_id": 925,
+  "unicode": "&#xE373;"
+ },
+ {
+  "glyph_id": 926,
+  "unicode": "&#xE33D;"
+ },
+ {
+  "glyph_id": 927,
+  "unicode": "&#xE36A;"
+ },
+ {
+  "glyph_id": 928,
+  "unicode": "&#xE36E;"
+ },
+ {
+  "glyph_id": 930,
+  "unicode": "&#xE666;"
+ },
+ {
+  "glyph_id": 931,
+  "unicode": "&#xE665;"
+ },
+ {
+  "glyph_id": 932,
+  "unicode": "&#xE66A;"
+ },
+ {
+  "glyph_id": 933,
+  "unicode": "&#xE20B;"
+ },
+ {
+  "glyph_id": 940,
+  "unicode": "&#xE110;"
+ },
+ {
+  "glyph_id": 942,
+  "unicode": "&#xE112;"
+ },
+ {
+  "glyph_id": 943,
+  "unicode": "&#xE113;"
+ },
+ {
+  "glyph_id": 944,
+  "unicode": "&#xE10D;"
+ },
+ {
+  "glyph_id": 945,
+  "unicode": "&#xE6EB;"
+ },
+ {
+  "glyph_id": 946,
+  "unicode": "&#xE276;"
+ },
+ {
+  "glyph_id": 947,
+  "unicode": "&#xE403;&#xE6C2;&#xE6C1;&#xE403;"
+ },
+ {
+  "glyph_id": 950,
+  "unicode": "&#xE222;"
+ },
+ {
+  "glyph_id": 951,
+  "unicode": "&#xE052;"
+ },
+ {
+  "glyph_id": 952,
+  "unicode": "&#xE14F;"
+ },
+ {
+  "glyph_id": 953,
+  "unicode": "&#xE343;"
+ },
+ {
+  "glyph_id": 956,
+  "unicode": "&#xE1E5;"
+ },
+ {
+  "glyph_id": 958,
+  "unicode": "&#xE4D9;"
+ },
+ {
+  "glyph_id": 12,
+  "unicode": "&#x2047;"
+ },
+ {
+  "glyph_id": 25,
+  "unicode": "&#x2047;"
+ },
+ {
+  "glyph_id": 106,
+  "unicode": "&#x2047;"
+ },
+ {
+  "glyph_id": 316,
+  "unicode": "&#x2047;"
+ },
+ {
+  "glyph_id": 376,
+  "unicode": "&#x2047;"
+ },
+ {
+  "glyph_id": 445,
+  "unicode": "&#x2047;"
+ },
+ {
+  "glyph_id": 515,
+  "unicode": "&#x2047;"
+ },
+ {
+  "glyph_id": 516,
+  "unicode": "&#x2047;"
+ },
+ {
+  "glyph_id": 546,
+  "unicode": "&#x2047;"
+ },
+ {
+  "glyph_id": 547,
+  "unicode": "&#x2047;"
+ },
+ {
+  "glyph_id": 606,
+  "unicode": "&#x2047;"
+ },
+ {
+  "glyph_id": 999,
+  "unicode": "   "
+ }
+]
