@@ -1,0 +1,2745 @@
+{
+  "method": {
+    "seed": 40,
+    "permutation_runs": 1000,
+    "shape_bootstrap_runs": 5000
+  },
+  "provenance": {
+    "access_date": "2026-08-17",
+    "api_base": "https://api.tamilknowledgecampus.in/graffiti/",
+    "site": "https://tngraffiti.in",
+    "raw_cache": "data/graffiti/ (gitignored)",
+    "core_sha256": {
+      "sites.json": "d66a0628072ca452b7c75e4ca7e41ab82c1292a88cbc0736cc0ce4056794dc69",
+      "filter-sign.json": "7465f55609edc31c3752b88c9ed75cd4f2767033af5584f5bb3013b1df22fdcc",
+      "base-sign.json": "15dcdfab3d12965dec43fc72249780e477bd97ac2d147b2788583b785d71e926",
+      "options.json": "b1c98ebc68af168ca5e9f50d457e9267f07c7c0b69665b9dce39b7dd700e1bca",
+      "indus.json": "95fd4e0eefcbbc0bed7d6a3035d83066324c58b0aadef2aab5bbc4dbb78c0c55"
+    },
+    "control": {
+      "doi": "10.5281/zenodo.7965768",
+      "title": "Early Medieval Pottery Marks from Moravia (Czechia)",
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "file": "Pottery_Marks_PDF.zip",
+      "repository_checksum": "md5:22860377b08bb7535750de036831a286"
+    }
+  },
+  "sequence_audit": {
+    "unsupported_groupby_files": 10,
+    "unsupported_groupby_all_byte_identical": true,
+    "returned_groupby": [
+      "sign"
+    ],
+    "record_identifier_key_search": [],
+    "spa_api_endpoints": [
+      "base-sign",
+      "sites",
+      "fields-symbols",
+      "sign/<base>",
+      "concordance",
+      "options",
+      "filter",
+      "indus"
+    ],
+    "concordance_component_example": {
+      "catalogue_sign": "1.1C",
+      "rmrl_slots": [
+        87,
+        1
+      ],
+      "slots_mapped_back_to_tnsda_signs": [
+        "39",
+        "1"
+      ],
+      "position": 2,
+      "interpretation": "position of queried sign 1 inside composite 39 + 1"
+    },
+    "conclusion": "no per-sherd sign sequence or accession identifier is exposed",
+    "infeasible_tests": [
+      "terminal-slot",
+      "co-occurrence exclusion",
+      "no-repeat",
+      "numeral-side",
+      "segmentation"
+    ]
+  },
+  "description": {
+    "corpus_table": {
+      "graffiti": {
+        "types": 2110,
+        "tokens": 9345,
+        "hapax": 1370,
+        "hapax_rate": 0.6492890995260664,
+        "frequency_spectrum": {
+          "1": 1370,
+          "2": 275,
+          "3": 118,
+          "4": 79,
+          "5": 35,
+          "6": 34,
+          "7": 17,
+          "8": 15,
+          "9": 20,
+          "10": 20,
+          ">10": 127
+        },
+        "top_signs": [
+          {
+            "sign": "30",
+            "tokens": 451
+          },
+          {
+            "sign": "2",
+            "tokens": 387
+          },
+          {
+            "sign": "3",
+            "tokens": 380
+          },
+          {
+            "sign": "11",
+            "tokens": 206
+          },
+          {
+            "sign": "2.1",
+            "tokens": 186
+          },
+          {
+            "sign": "39.2",
+            "tokens": 161
+          },
+          {
+            "sign": "23",
+            "tokens": 135
+          },
+          {
+            "sign": "4",
+            "tokens": 134
+          },
+          {
+            "sign": "36",
+            "tokens": 122
+          },
+          {
+            "sign": "16",
+            "tokens": 121
+          },
+          {
+            "sign": "2.3",
+            "tokens": 104
+          },
+          {
+            "sign": "1",
+            "tokens": 102
+          },
+          {
+            "sign": "36.1",
+            "tokens": 92
+          },
+          {
+            "sign": "2.2",
+            "tokens": 91
+          },
+          {
+            "sign": "39",
+            "tokens": 87
+          }
+        ],
+        "sites": 53,
+        "records": 9345,
+        "unit": "aggregated graffiti-sign occurrence (normally one sherd-mark)"
+      },
+      "indus": {
+        "types": 515,
+        "tokens": 9141,
+        "hapax": 168,
+        "hapax_rate": 0.3262135922330097,
+        "frequency_spectrum": {
+          "1": 168,
+          "2": 69,
+          "3": 41,
+          "4": 29,
+          "5": 27,
+          "6": 15,
+          "7": 15,
+          "8": 21,
+          "9": 7,
+          "10": 12,
+          ">10": 111
+        },
+        "top_signs": [
+          {
+            "sign": 740,
+            "tokens": 1010
+          },
+          {
+            "sign": 2,
+            "tokens": 517
+          },
+          {
+            "sign": 220,
+            "tokens": 238
+          },
+          {
+            "sign": 32,
+            "tokens": 224
+          },
+          {
+            "sign": 400,
+            "tokens": 216
+          },
+          {
+            "sign": 240,
+            "tokens": 191
+          },
+          {
+            "sign": 390,
+            "tokens": 184
+          },
+          {
+            "sign": 520,
+            "tokens": 179
+          },
+          {
+            "sign": 60,
+            "tokens": 166
+          },
+          {
+            "sign": 33,
+            "tokens": 159
+          },
+          {
+            "sign": 861,
+            "tokens": 156
+          },
+          {
+            "sign": 820,
+            "tokens": 154
+          },
+          {
+            "sign": 235,
+            "tokens": 149
+          },
+          {
+            "sign": 741,
+            "tokens": 140
+          },
+          {
+            "sign": 1,
+            "tokens": 140
+          }
+        ],
+        "sites": 52,
+        "records": 2085,
+        "mean_text_length": 4.384172661870504,
+        "unit": "deduplicated ordered text"
+      }
+    },
+    "site": {
+      "totals": {
+        "Thulukkarpatti": 2887,
+        "Keeladi": 1525,
+        "Kodumanal": 1291,
+        "Perumbalai": 940,
+        "Pattaraiperumbudur": 359,
+        "Adichanallur": 352,
+        "Alagankulam": 280,
+        "Korkai": 263,
+        "Vallanadu-Agaram": 256,
+        "Kongalnagaram": 215,
+        "Teriruveli": 185,
+        "Karur": 135,
+        "Mangudi": 133,
+        "Kilnamandi": 97,
+        "Sivagalai (Valappan Pillai Theradu)": 85,
+        "Nedungur": 73,
+        "Parikkal Natham": 33,
+        "Mangulam": 32,
+        "Poompuhar": 30,
+        "Kothamangalam": 27,
+        "Sivagalai (Parakkirama Pandi Theradu)": 19,
+        "Alagarai": 18,
+        "Ariya Natham": 16,
+        "Kanchipuram": 14,
+        "Valasai": 14,
+        "Thirukkampuliyur": 8,
+        "Salamedu": 6,
+        "Sendamangalam": 6,
+        "Tirukovilur": 5,
+        "Mathakam": 4,
+        "Chettimedu": 3,
+        "Appukallu": 3,
+        "Arikamedu": 3,
+        "PSG Museum": 3,
+        "North Arcot": 3,
+        "Melsithamur": 2,
+        "Thirunathamkonram": 2,
+        "Sanur": 2,
+        "Vellalur": 2,
+        "Mallapadi": 1,
+        "Andipatti": 1,
+        "Enambakkam": 1,
+        "Thiruverkadu": 1,
+        "Palur": 1,
+        "Vidoor": 1,
+        "Puhalur": 1,
+        "Tamaraikulam": 1,
+        "Senthamangalam": 1,
+        "Coimbatore": 1,
+        "Sembiyankandiyur": 1,
+        "Akaraorattur": 1,
+        "Sulur": 1,
+        "Elavamalai": 1
+      },
+      "endpoint_discrepancies": [
+        {
+          "site": "Nedungur",
+          "filter_total": 73,
+          "sites_endpoint_total": 74,
+          "difference": 1
+        },
+        {
+          "site": "Pattaraiperumbudur",
+          "filter_total": 359,
+          "sites_endpoint_total": 360,
+          "difference": 1
+        },
+        {
+          "site": "Thulukkarpatti",
+          "filter_total": 2887,
+          "sites_endpoint_total": 2889,
+          "difference": 2
+        }
+      ]
+    },
+    "habitation": {
+      "Habitation": 9251,
+      "Burial": 91,
+      "Habitation/ Burial": 3
+    },
+    "ware": {
+      "Black-and-Red Ware": 5954,
+      "Red Ware": 1355,
+      "Red Slipped Ware": 1204,
+      "Black Ware": 228,
+      "Russet Coated Black-and-Red Ware": 119,
+      "Black Slipped Ware": 114,
+      "Russet Coated Ware": 106,
+      "NA": 54,
+      "Rouletted Ware": 47,
+      "Coarse Red Ware": 44,
+      "Coarse Black Slipped Ware": 40,
+      "Russet Coated Red Ware": 15,
+      "Brown Ware": 14,
+      "Grey Ware": 13,
+      "Black and Red Slipped Ware": 12,
+      "Black Polished Ware": 11,
+      "Red Polished Ware": 6,
+      "White Painted Ware": 5,
+      "Brown Slipped Ware": 4
+    },
+    "depth": {
+      "returned_total": 9328,
+      "unique_returned_labels": 570,
+      "top_labels": {
+        "Surface": 413,
+        "NA": 395,
+        "85": 97,
+        "95": 97,
+        "50": 96,
+        "105": 96,
+        "98": 93,
+        "110": 84,
+        "90": 82,
+        "65": 78,
+        "75": 78,
+        "80": 76,
+        "35": 75,
+        "120": 75,
+        "40": 73,
+        "45": 68,
+        "89": 66,
+        "125": 66,
+        "70": 64,
+        "135": 62,
+        "74": 61,
+        "30": 60,
+        "60": 60,
+        "100": 60,
+        "55": 58,
+        "130": 58,
+        "145": 56,
+        "190": 56,
+        "160": 55,
+        "220": 55
+      },
+      "options_band_count": 38,
+      "note": "filter results return raw numeric depths plus Surface/NA, not merely the 38 selection bands"
+    },
+    "catalogue_categories_current_api": {
+      "base": 42,
+      "variant": 546,
+      "composite": 1522
+    }
+  },
+  "inventory_saturation": {
+    "matched_tokens": 9141,
+    "full": {
+      "graffiti": {
+        "observed": 2110,
+        "tokens": 9345,
+        "f1": 1370,
+        "f2": 275,
+        "sample_coverage": 0.8533975387907973,
+        "good_turing_coverage_total": 2472.4702194357365,
+        "chao1": 5507.699275362319,
+        "ace": 5935.42421264377,
+        "ace_gamma2": 1.1734331192466132,
+        "frequency_spectrum": {
+          "1": 1370,
+          "2": 275,
+          "3": 118,
+          "4": 79,
+          "5": 35,
+          "6": 34,
+          "7": 17,
+          "8": 15,
+          "9": 20,
+          "10": 20,
+          ">10": 127
+        }
+      },
+      "indus": {
+        "observed": 515,
+        "tokens": 9141,
+        "f1": 168,
+        "f2": 69,
+        "sample_coverage": 0.9816212668198228,
+        "good_turing_coverage_total": 524.6422601136744,
+        "chao1": 715.4,
+        "ace": 694.6907261725663,
+        "ace_gamma2": 0.5934940781605647,
+        "frequency_spectrum": {
+          "1": 168,
+          "2": 69,
+          "3": 41,
+          "4": 29,
+          "5": 27,
+          "6": 15,
+          "7": 15,
+          "8": 21,
+          "9": 7,
+          "10": 12,
+          ">10": 111
+        }
+      }
+    },
+    "matched": {
+      "graffiti": {
+        "observed": {
+          "median": 2080.0,
+          "interval": [
+            2071.0,
+            2089.0
+          ]
+        },
+        "f1": {
+          "median": 1352.0,
+          "interval": [
+            1341.0,
+            1364.0
+          ]
+        },
+        "f2": {
+          "median": 271.0,
+          "interval": [
+            262.0,
+            279.0
+          ]
+        },
+        "sample_coverage": {
+          "median": 0.8520949567880975,
+          "interval": [
+            0.8507821901323707,
+            0.853298326222514
+          ]
+        },
+        "good_turing_coverage_total": {
+          "median": 2440.769078052935,
+          "interval": [
+            2427.0526923076923,
+            2454.016685220399
+          ]
+        },
+        "chao1": {
+          "median": 5437.511111111111,
+          "interval": [
+            5309.308809039725,
+            5606.2257468766975
+          ]
+        },
+        "ace": {
+          "median": 5846.758129119803,
+          "interval": [
+            5754.446095571078,
+            5952.0765009250445
+          ]
+        }
+      },
+      "indus": {
+        "observed": {
+          "median": 515.0,
+          "interval": null
+        },
+        "f1": {
+          "median": 168.0,
+          "interval": null
+        },
+        "f2": {
+          "median": 69.0,
+          "interval": null
+        },
+        "sample_coverage": {
+          "median": 0.9816212668198228,
+          "interval": null
+        },
+        "good_turing_coverage_total": {
+          "median": 524.6422601136744,
+          "interval": null
+        },
+        "chao1": {
+          "median": 715.4,
+          "interval": null
+        },
+        "ace": {
+          "median": 694.6907261725663,
+          "interval": null
+        }
+      }
+    },
+    "heaps_matched": {
+      "graffiti": {
+        "method": "sample without replacement to the matched token count, then random token order reconstructed from the frequency spectrum",
+        "runs": 500,
+        "curve": [
+          {
+            "tokens": 457,
+            "types_median": 255.0,
+            "lo": 238.0,
+            "hi": 275.0
+          },
+          {
+            "tokens": 914,
+            "types_median": 428.0,
+            "lo": 402.475,
+            "hi": 454.525
+          },
+          {
+            "tokens": 1828,
+            "types_median": 701.0,
+            "lo": 670.0,
+            "hi": 730.525
+          },
+          {
+            "tokens": 3199,
+            "types_median": 1033.0,
+            "lo": 997.0,
+            "hi": 1065.525
+          },
+          {
+            "tokens": 4570,
+            "types_median": 1315.0,
+            "lo": 1279.0,
+            "hi": 1350.525
+          },
+          {
+            "tokens": 6856,
+            "types_median": 1724.0,
+            "lo": 1690.0,
+            "hi": 1754.525
+          },
+          {
+            "tokens": 9141,
+            "types_median": 2079.0,
+            "lo": 2070.0,
+            "hi": 2089.0
+          }
+        ],
+        "beta": 0.6992716608182181,
+        "beta_order_interval": [
+          0.674444801351856,
+          0.7220537030836409
+        ],
+        "at_2x_tokens": 3443.828032735329,
+        "at_2x_order_interval": [
+          3332.4053773894548,
+          3542.5486608823558
+        ],
+        "at_10x_tokens": 10612.345305580282
+      },
+      "indus": {
+        "method": "sample without replacement to the matched token count, then random token order reconstructed from the frequency spectrum",
+        "runs": 500,
+        "curve": [
+          {
+            "tokens": 457,
+            "types_median": 144.0,
+            "lo": 131.0,
+            "hi": 156.0
+          },
+          {
+            "tokens": 914,
+            "types_median": 203.0,
+            "lo": 188.475,
+            "hi": 217.52499999999998
+          },
+          {
+            "tokens": 1828,
+            "types_median": 280.0,
+            "lo": 264.0,
+            "hi": 296.0
+          },
+          {
+            "tokens": 3199,
+            "types_median": 354.0,
+            "lo": 339.0,
+            "hi": 369.0
+          },
+          {
+            "tokens": 4570,
+            "types_median": 406.0,
+            "lo": 390.0,
+            "hi": 419.525
+          },
+          {
+            "tokens": 6856,
+            "types_median": 468.0,
+            "lo": 456.0,
+            "hi": 480.0
+          },
+          {
+            "tokens": 9141,
+            "types_median": 515.0,
+            "lo": 515.0,
+            "hi": 515.0
+          }
+        ],
+        "beta": 0.42553622152406395,
+        "beta_order_interval": [
+          0.3979784351823023,
+          0.4588732871715451
+        ],
+        "at_2x_tokens": 719.9880013241103,
+        "at_2x_order_interval": [
+          692.3913290336989,
+          751.8777942131911
+        ],
+        "at_10x_tokens": 1428.1121483549978
+      }
+    },
+    "indus_records": 2085
+  },
+  "branching": {
+    "counts": {
+      "graffiti": {
+        "bases": 42,
+        "variants": 546,
+        "composites": 1522
+      },
+      "indus": {
+        "bases": 71,
+        "variants": 490,
+        "composites": null,
+        "why_no_composites": "the Indus catalogue has 44 multi-codepoint renderings, but they are not a base-indexed class commensurate with TNSDA graphical composites"
+      }
+    },
+    "per_base": {
+      "graffiti_variants": {
+        "1": 39,
+        "2": 37,
+        "3": 28,
+        "4": 3,
+        "5": 16,
+        "6": 8,
+        "7": 4,
+        "8": 5,
+        "9": 6,
+        "10": 4,
+        "11": 12,
+        "12": 3,
+        "13": 35,
+        "14": 15,
+        "15": 9,
+        "16": 7,
+        "17": 16,
+        "18": 10,
+        "19": 6,
+        "20": 6,
+        "21": 11,
+        "22": 16,
+        "23": 4,
+        "24": 10,
+        "25": 8,
+        "26": 5,
+        "27": 6,
+        "28": 12,
+        "29": 24,
+        "30": 20,
+        "31": 14,
+        "32": 10,
+        "33": 17,
+        "34": 6,
+        "35": 18,
+        "36": 23,
+        "37": 27,
+        "38": 15,
+        "39": 18,
+        "40": 1,
+        "41": 7,
+        "42": 5
+      },
+      "graffiti_composites": {
+        "1": 124,
+        "2": 179,
+        "3": 105,
+        "4": 19,
+        "5": 34,
+        "6": 40,
+        "7": 32,
+        "8": 7,
+        "9": 41,
+        "10": 5,
+        "11": 58,
+        "12": 3,
+        "13": 66,
+        "14": 16,
+        "15": 83,
+        "16": 58,
+        "17": 41,
+        "18": 5,
+        "19": 28,
+        "20": 0,
+        "21": 38,
+        "22": 35,
+        "23": 39,
+        "24": 20,
+        "25": 21,
+        "26": 10,
+        "27": 2,
+        "28": 26,
+        "29": 22,
+        "30": 70,
+        "31": 15,
+        "32": 20,
+        "33": 15,
+        "34": 60,
+        "35": 18,
+        "36": 51,
+        "37": 40,
+        "38": 21,
+        "39": 22,
+        "40": 5,
+        "41": 20,
+        "42": 8
+      },
+      "indus_variants": {
+        "41": 1,
+        "48": 5,
+        "60": 17,
+        "81": 3,
+        "90": 16,
+        "111": 2,
+        "125": 13,
+        "140": 9,
+        "156": 11,
+        "176": 13,
+        "190": 5,
+        "201": 8,
+        "215": 1,
+        "220": 19,
+        "255": 5,
+        "260": 9,
+        "278": 6,
+        "285": 2,
+        "297": 18,
+        "320": 14,
+        "335": 11,
+        "350": 4,
+        "368": 13,
+        "390": 12,
+        "400": 1,
+        "415": 11,
+        "422": 9,
+        "435": 1,
+        "440": 5,
+        "450": 1,
+        "455": 2,
+        "468": 9,
+        "482": 5,
+        "491": 1,
+        "495": 1,
+        "503": 6,
+        "520": 9,
+        "527": 8,
+        "545": 7,
+        "550": 4,
+        "565": 4,
+        "575": 8,
+        "585": 1,
+        "590": 1,
+        "595": 2,
+        "605": 3,
+        "611": 1,
+        "617": 1,
+        "621": 1,
+        "630": 12,
+        "645": 1,
+        "690": 14,
+        "705": 8,
+        "711": 3,
+        "717": 1,
+        "720": 2,
+        "736": 6,
+        "740": 11,
+        "760": 13,
+        "783": 3,
+        "798": 9,
+        "803": 11,
+        "820": 13,
+        "840": 6,
+        "861": 24,
+        "900": 20,
+        "920": 6,
+        "930": 3,
+        "940": 2,
+        "950": 2,
+        "956": 1
+      }
+    },
+    "summaries": {
+      "graffiti_variants": {
+        "mean": 13.0,
+        "median": 10.0,
+        "sd": 9.530439039870247,
+        "gini": 0.39524702939337086,
+        "max": 39
+      },
+      "graffiti_composites": {
+        "mean": 36.23809523809524,
+        "median": 24.0,
+        "sd": 35.43995920537316,
+        "gini": 0.4809140732668824,
+        "max": 179
+      },
+      "indus_variants": {
+        "mean": 6.901408450704225,
+        "median": 6.0,
+        "sd": 5.588649030662739,
+        "gini": 0.4482215743440233,
+        "max": 24
+      }
+    },
+    "formal_tests": {
+      "variant_rate_ratio_graffiti_over_indus": 1.8836734693877553,
+      "poisson_rate_z": 10.175874521854187,
+      "poisson_rate_two_sided_p": 2.5410706307899575e-24,
+      "normalized_count_ks_d": 0.23843058350100607,
+      "normalized_count_ks_p": 0.08123643925909038,
+      "gini_difference": -0.05297454495065246,
+      "gini_bootstrap_interval": [
+        -0.14419324260869945,
+        0.02942784544797262
+      ],
+      "gini_centered_two_sided_p": 0.22767723227677233
+    }
+  },
+  "stratigraphy": {
+    "method": "numeric depths converted to weighted within-stratum terciles; depths are permuted only within site x ware x habitation; strata require >=20 numeric-depth tokens",
+    "eligible_sites": 15,
+    "eligible_strata": 46,
+    "eligible_site_names": [
+      "Adichanallur",
+      "Alagankulam",
+      "Karur",
+      "Keeladi",
+      "Kilnamandi",
+      "Kodumanal",
+      "Kongalnagaram",
+      "Korkai",
+      "Mangudi",
+      "Mangulam",
+      "Pattaraiperumbudur",
+      "Perumbalai",
+      "Teriruveli",
+      "Thulukkarpatti",
+      "Vallanadu-Agaram"
+    ],
+    "eligible_stratum_names": [
+      "Adichanallur | Red Slipped Ware | Habitation",
+      "Adichanallur | Red Ware | Habitation",
+      "Adichanallur | Black-and-Red Ware | Habitation",
+      "Alagankulam | Red Slipped Ware | Habitation",
+      "Alagankulam | Black-and-Red Ware | Habitation",
+      "Alagankulam | Rouletted Ware | Habitation",
+      "Karur | Red Ware | Habitation",
+      "Karur | Red Slipped Ware | Habitation",
+      "Karur | Black-and-Red Ware | Habitation",
+      "Keeladi | Black Ware | Habitation",
+      "Keeladi | Black-and-Red Ware | Habitation",
+      "Keeladi | Red Ware | Habitation",
+      "Keeladi | Red Slipped Ware | Habitation",
+      "Kilnamandi | Black-and-Red Ware | Habitation",
+      "Kodumanal | Red Slipped Ware | Habitation",
+      "Kodumanal | Coarse Red Ware | Habitation",
+      "Kodumanal | Red Ware | Habitation",
+      "Kodumanal | Black-and-Red Ware | Habitation",
+      "Kodumanal | Russet Coated Ware | Habitation",
+      "Kodumanal | Russet Coated Black-and-Red Ware | Habitation",
+      "Kodumanal | Black Ware | Habitation",
+      "Kongalnagaram | Black-and-Red Ware | Habitation",
+      "Korkai | Black-and-Red Ware | Habitation",
+      "Korkai | Red Ware | Habitation",
+      "Mangudi | Red Slipped Ware | Habitation",
+      "Mangudi | Black-and-Red Ware | Habitation",
+      "Mangulam | Red Slipped Ware | Habitation",
+      "Pattaraiperumbudur | Black Ware | Habitation",
+      "Pattaraiperumbudur | Red Ware | Habitation",
+      "Pattaraiperumbudur | Black Slipped Ware | Habitation",
+      "Pattaraiperumbudur | Black-and-Red Ware | Habitation",
+      "Pattaraiperumbudur | Red Slipped Ware | Habitation",
+      "Perumbalai | Black Slipped Ware | Habitation",
+      "Perumbalai | Red Slipped Ware | Habitation",
+      "Perumbalai | Black-and-Red Ware | Habitation",
+      "Perumbalai | Coarse Black Slipped Ware | Habitation",
+      "Teriruveli | Red Ware | Habitation",
+      "Teriruveli | Red Slipped Ware | Habitation",
+      "Teriruveli | Black-and-Red Ware | Habitation",
+      "Thulukkarpatti | Red Ware | Habitation",
+      "Thulukkarpatti | Black-and-Red Ware | Habitation",
+      "Thulukkarpatti | Black Ware | Habitation",
+      "Vallanadu-Agaram | Black-and-Red Ware | Habitation",
+      "Vallanadu-Agaram | Red Ware | Habitation",
+      "Vallanadu-Agaram | Black Ware | Habitation",
+      "Vallanadu-Agaram | Red Slipped Ware | Habitation"
+    ],
+    "numeric_depth_tokens": 8414,
+    "corpus_tokens": 9345,
+    "observed": {
+      "site_stratified_g2": 8850.566783473256,
+      "weighted_shallow_deep_jaccard": 0.17219680699218315,
+      "deep_minus_shallow_richness_sum": 49
+    },
+    "null": {
+      "runs": 1000,
+      "g2_mean": 8796.34048083795,
+      "g2_95pct": [
+        8688.273898409003,
+        8906.464693427903
+      ],
+      "g2_upper_p": 0.16983016983016982,
+      "g2_bh_q_across_three_omnibus_readouts": 0.16983016983016982,
+      "jaccard_mean": 0.180570796070934,
+      "jaccard_95pct": [
+        0.1707996939907846,
+        0.19048584928882162
+      ],
+      "jaccard_lower_p": 0.04995004995004995,
+      "jaccard_bh_q_across_three_omnibus_readouts": 0.14985014985014986,
+      "richness_delta_95pct": [
+        -53.0,
+        67.02499999999998
+      ],
+      "richness_delta_two_sided_p": 0.14785214785214784,
+      "richness_delta_bh_q_across_three_omnibus_readouts": 0.16983016983016982
+    },
+    "sign_tests": {
+      "tested": 46,
+      "bh_q_lt_05": 0,
+      "selected": []
+    },
+    "site_failures": [
+      {
+        "stratum": "Akaraorattur | Red Slipped Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 1,
+        "invalid_depth": {}
+      },
+      {
+        "stratum": "Alagarai | Black Slipped Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 2,
+        "invalid_depth": {
+          "NA": 2
+        }
+      },
+      {
+        "stratum": "Alagarai | NA | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 1,
+        "invalid_depth": {
+          "NA": 1
+        }
+      },
+      {
+        "stratum": "Alagarai | Black-and-Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 14,
+        "invalid_depth": {
+          "NA": 14
+        }
+      },
+      {
+        "stratum": "Alagarai | Red Polished Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 1,
+        "invalid_depth": {
+          "NA": 1
+        }
+      },
+      {
+        "stratum": "Andipatti | NA | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 1,
+        "invalid_depth": {
+          "NA": 1
+        }
+      },
+      {
+        "stratum": "Appukallu | Black-and-Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 3,
+        "invalid_depth": {
+          "Surface": 3
+        }
+      },
+      {
+        "stratum": "Arikamedu | NA | Habitation/ Burial",
+        "reason": "no numeric depth",
+        "occurrences": 3,
+        "invalid_depth": {
+          "NA": 3
+        }
+      },
+      {
+        "stratum": "Ariya Natham | Black-and-Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 14,
+        "invalid_depth": {
+          "Surface": 14
+        }
+      },
+      {
+        "stratum": "Ariya Natham | Red Slipped Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 1,
+        "invalid_depth": {
+          "Surface": 1
+        }
+      },
+      {
+        "stratum": "Ariya Natham | Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 1,
+        "invalid_depth": {
+          "Surface": 1
+        }
+      },
+      {
+        "stratum": "Chettimedu | Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 1,
+        "invalid_depth": {
+          "Surface": 1
+        }
+      },
+      {
+        "stratum": "Chettimedu | Black-and-Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 2,
+        "invalid_depth": {
+          "Surface": 2
+        }
+      },
+      {
+        "stratum": "Coimbatore | Black Ware | Burial",
+        "reason": "no numeric depth",
+        "occurrences": 1,
+        "invalid_depth": {}
+      },
+      {
+        "stratum": "Elavamalai | Black-and-Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 1,
+        "invalid_depth": {}
+      },
+      {
+        "stratum": "Enambakkam | Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 1,
+        "invalid_depth": {
+          "Surface": 1
+        }
+      },
+      {
+        "stratum": "Kanchipuram | Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 4,
+        "invalid_depth": {
+          "NA": 4
+        }
+      },
+      {
+        "stratum": "Kanchipuram | Russet Coated Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 1,
+        "invalid_depth": {
+          "NA": 1
+        }
+      },
+      {
+        "stratum": "Kanchipuram | Red Slipped Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 1,
+        "invalid_depth": {
+          "NA": 1
+        }
+      },
+      {
+        "stratum": "Kanchipuram | Black-and-Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 8,
+        "invalid_depth": {
+          "NA": 8
+        }
+      },
+      {
+        "stratum": "Kilnamandi | Black Slipped Ware | Burial",
+        "reason": "no numeric depth",
+        "occurrences": 7,
+        "invalid_depth": {
+          "NA": 7
+        }
+      },
+      {
+        "stratum": "Kilnamandi | Red Slipped Ware | Burial",
+        "reason": "no numeric depth",
+        "occurrences": 13,
+        "invalid_depth": {
+          "NA": 13
+        }
+      },
+      {
+        "stratum": "Kilnamandi | Black Ware | Burial",
+        "reason": "filter returned zero rows"
+      },
+      {
+        "stratum": "Kongalnagaram | Brown Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 1,
+        "invalid_depth": {
+          "Surface": 1
+        }
+      },
+      {
+        "stratum": "Kongalnagaram | Black Polished Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 8,
+        "invalid_depth": {
+          "Surface": 8
+        }
+      },
+      {
+        "stratum": "Kongalnagaram | Russet Coated Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 60,
+        "invalid_depth": {
+          "Surface": 60
+        }
+      },
+      {
+        "stratum": "Kongalnagaram | Brown Slipped Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 2,
+        "invalid_depth": {
+          "Surface": 2
+        }
+      },
+      {
+        "stratum": "Kongalnagaram | Black Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 6,
+        "invalid_depth": {
+          "Surface": 6
+        }
+      },
+      {
+        "stratum": "Kongalnagaram | Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 7,
+        "invalid_depth": {
+          "Surface": 7
+        }
+      },
+      {
+        "stratum": "Kothamangalam | Red Slipped Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 4,
+        "invalid_depth": {
+          "Surface": 4
+        }
+      },
+      {
+        "stratum": "Kothamangalam | Black-and-Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 17,
+        "invalid_depth": {
+          "Surface": 17
+        }
+      },
+      {
+        "stratum": "Kothamangalam | Black Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 2,
+        "invalid_depth": {
+          "Surface": 2
+        }
+      },
+      {
+        "stratum": "Kothamangalam | Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 4,
+        "invalid_depth": {
+          "Surface": 4
+        }
+      },
+      {
+        "stratum": "Mallapadi | Black-and-Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 1,
+        "invalid_depth": {
+          "Surface": 1
+        }
+      },
+      {
+        "stratum": "Mathakam | Black-and-Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 3,
+        "invalid_depth": {
+          "Surface": 3
+        }
+      },
+      {
+        "stratum": "Mathakam | Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 1,
+        "invalid_depth": {
+          "Surface": 1
+        }
+      },
+      {
+        "stratum": "Nedungur | White Painted Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 1,
+        "invalid_depth": {
+          "NA": 1
+        }
+      },
+      {
+        "stratum": "Nedungur | Red Ware | Burial",
+        "reason": "no numeric depth",
+        "occurrences": 2,
+        "invalid_depth": {
+          "NA": 2
+        }
+      },
+      {
+        "stratum": "Nedungur | White Painted Ware | Burial",
+        "reason": "filter returned zero rows"
+      },
+      {
+        "stratum": "Nedungur | Russet Coated Ware | Burial",
+        "reason": "filter returned zero rows"
+      },
+      {
+        "stratum": "Nedungur | Grey Ware | Burial",
+        "reason": "filter returned zero rows"
+      },
+      {
+        "stratum": "Nedungur | Russet Coated Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 4,
+        "invalid_depth": {
+          "NA": 4
+        }
+      },
+      {
+        "stratum": "Nedungur | Russet Coated Red Ware | Burial",
+        "reason": "filter returned zero rows"
+      },
+      {
+        "stratum": "North Arcot | Black Ware | Burial",
+        "reason": "no numeric depth",
+        "occurrences": 3,
+        "invalid_depth": {}
+      },
+      {
+        "stratum": "PSG Museum | Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 3,
+        "invalid_depth": {}
+      },
+      {
+        "stratum": "Palur | Black-and-Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 1,
+        "invalid_depth": {
+          "Surface": 1
+        }
+      },
+      {
+        "stratum": "Parikkal Natham | Black-and-Red Ware | Burial",
+        "reason": "filter returned zero rows"
+      },
+      {
+        "stratum": "Parikkal Natham | Red Slipped Ware | Burial",
+        "reason": "filter returned zero rows"
+      },
+      {
+        "stratum": "Parikkal Natham | Red Ware | Burial",
+        "reason": "no numeric depth",
+        "occurrences": 1,
+        "invalid_depth": {
+          "Surface": 1
+        }
+      },
+      {
+        "stratum": "Parikkal Natham | Red Slipped Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 11,
+        "invalid_depth": {
+          "Surface": 11
+        }
+      },
+      {
+        "stratum": "Parikkal Natham | Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 5,
+        "invalid_depth": {
+          "Surface": 5
+        }
+      },
+      {
+        "stratum": "Parikkal Natham | Black-and-Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 16,
+        "invalid_depth": {
+          "Surface": 16
+        }
+      },
+      {
+        "stratum": "Puhalur | Red Slipped Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 1,
+        "invalid_depth": {}
+      },
+      {
+        "stratum": "Salamedu | Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 3,
+        "invalid_depth": {
+          "Surface": 3
+        }
+      },
+      {
+        "stratum": "Salamedu | Black-and-Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 3,
+        "invalid_depth": {
+          "Surface": 3
+        }
+      },
+      {
+        "stratum": "Sanur | Black Ware | Burial",
+        "reason": "no numeric depth",
+        "occurrences": 2,
+        "invalid_depth": {}
+      },
+      {
+        "stratum": "Sembiyankandiyur | Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 1,
+        "invalid_depth": {}
+      },
+      {
+        "stratum": "Sivagalai (Parakkirama Pandi Theradu) | Red Ware | Habitation",
+        "reason": "filter returned zero rows"
+      },
+      {
+        "stratum": "Sivagalai (Parakkirama Pandi Theradu) | Black-and-Red Ware | Habitation",
+        "reason": "filter returned zero rows"
+      },
+      {
+        "stratum": "Sivagalai (Valappan Pillai Theradu) | Red Ware | Habitation",
+        "reason": "filter returned zero rows"
+      },
+      {
+        "stratum": "Sivagalai (Valappan Pillai Theradu) | Black-and-Red Ware | Habitation",
+        "reason": "filter returned zero rows"
+      },
+      {
+        "stratum": "Sulur | Black Ware | Burial",
+        "reason": "no numeric depth",
+        "occurrences": 1,
+        "invalid_depth": {}
+      },
+      {
+        "stratum": "Tamaraikulam | Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 1,
+        "invalid_depth": {}
+      },
+      {
+        "stratum": "Thirukkampuliyur | Russet Coated Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 1,
+        "invalid_depth": {
+          "NA": 1
+        }
+      },
+      {
+        "stratum": "Thirukkampuliyur | Black-and-Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 4,
+        "invalid_depth": {
+          "NA": 4
+        }
+      },
+      {
+        "stratum": "Thirukkampuliyur | Black Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 3,
+        "invalid_depth": {
+          "NA": 3
+        }
+      },
+      {
+        "stratum": "Thirunathamkonram | Black-and-Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 2,
+        "invalid_depth": {
+          "Surface": 2
+        }
+      },
+      {
+        "stratum": "Thiruverkadu | Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 1,
+        "invalid_depth": {
+          "Surface": 1
+        }
+      },
+      {
+        "stratum": "Tirukovilur | Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 1,
+        "invalid_depth": {
+          "NA": 1
+        }
+      },
+      {
+        "stratum": "Valasai | Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 1,
+        "invalid_depth": {
+          "NA": 1
+        }
+      },
+      {
+        "stratum": "Vellalur | Black Ware | Burial",
+        "reason": "no numeric depth",
+        "occurrences": 2,
+        "invalid_depth": {}
+      },
+      {
+        "stratum": "Vidoor | Red Ware | Habitation",
+        "reason": "no numeric depth",
+        "occurrences": 1,
+        "invalid_depth": {
+          "Surface": 1
+        }
+      }
+    ]
+  },
+  "shape_control": {
+    "inventories": {
+      "graffiti_rendered": 2110,
+      "graffiti_missing": [],
+      "graffiti_raw_noncomposite": 588,
+      "graffiti_raw_composite": 1522,
+      "graffiti_noncomposite": 588,
+      "graffiti_composite": 1519,
+      "deduplication": "exact normalized 64x64 pixel identity within category",
+      "indus_merged_rendered": 515,
+      "indus_exact_pixel_ids_removed": 0,
+      "control": 625,
+      "control_raw": 625,
+      "control_metadata": {
+        "pdf_files": 633,
+        "rendered": 625,
+        "rejected": [
+          {
+            "file": "Pottery Marks_PDF/Embossed/Cannot be specified/Oval-shaped motive(s)/P228127.pdf",
+            "reason": "blank after normalization"
+          },
+          {
+            "file": "Pottery Marks_PDF/Embossed/Cross motive(s)/No demarcation/10852-60.pdf",
+            "reason": "blank after normalization"
+          },
+          {
+            "file": "Pottery Marks_PDF/Embossed/Cross motive(s)/No demarcation/5601-66.pdf",
+            "reason": "blank after normalization"
+          },
+          {
+            "file": "Pottery Marks_PDF/Embossed/Cross motive(s)/No demarcation/P38574.pdf",
+            "reason": "blank after normalization"
+          },
+          {
+            "file": "Pottery Marks_PDF/Embossed/Cross motive(s)/Oval-shaped motive(s)/10220-63.pdf",
+            "reason": "blank after normalization"
+          },
+          {
+            "file": "Pottery Marks_PDF/Embossed/Diagonal motive(s)/Tetragonal motive(s)/P133719.pdf",
+            "reason": "blank after normalization"
+          },
+          {
+            "file": "Pottery Marks_PDF/Embossed/Oval-shaped motive(s)/No demarcation/Variant 01/P15120.pdf",
+            "reason": "blank after normalization"
+          },
+          {
+            "file": "Pottery Marks_PDF/Embossed/Radial, star-shaped motive(s)/No demarcation/P146816.pdf",
+            "reason": "blank after normalization"
+          }
+        ],
+        "extraction": "dark strokes inside closed-and-eroded grey sherd v2"
+      }
+    },
+    "metric": "64x64 aspect-preserving masks; symmetric centered chamfer exactly as src/shapes.py; aligned Dice with the same 0.90/1.00/1.10 scales and \u00b12-pixel shifts, screened to the 16 nearest chamfer candidates",
+    "continuous_comparisons": {
+      "graffiti_base_variant_vs_control_all": {
+        "n_a": 588,
+        "n_control": 625,
+        "median_a": 0.0175813976675272,
+        "median_control": 0.022816702723503113,
+        "median_control_minus_a": 0.005235305055975914,
+        "bootstrap_95pct": [
+          0.004383677616715431,
+          0.006194602046161888
+        ],
+        "probability_a_closer_auc": 0.738865315914154,
+        "mann_whitney_less_p": 0.0
+      },
+      "graffiti_composite_vs_control_all": {
+        "n_a": 1519,
+        "n_control": 625,
+        "median_a": 0.017810922116041183,
+        "median_control": 0.022816702723503113,
+        "median_control_minus_a": 0.005005780607461929,
+        "bootstrap_95pct": [
+          0.0043463657144457105,
+          0.005717193707823753
+        ],
+        "probability_a_closer_auc": 0.753666341304779,
+        "mann_whitney_less_p": 0.0
+      },
+      "graffiti_all_vs_control_all": {
+        "n_a": 2107,
+        "n_control": 625,
+        "median_a": 0.01776917092502117,
+        "median_control": 0.022816702723503113,
+        "median_control_minus_a": 0.005047531798481941,
+        "bootstrap_95pct": [
+          0.00440510637126863,
+          0.005776850879192352
+        ],
+        "probability_a_closer_auc": 0.7495357990264893,
+        "mann_whitney_less_p": 0.0
+      },
+      "skeletonized_base_variant_vs_control": {
+        "n_a": 588,
+        "n_control": 625,
+        "median_a": 0.021538451313972473,
+        "median_control": 0.02644338086247444,
+        "median_control_minus_a": 0.004904929548501968,
+        "bootstrap_95pct": [
+          0.0039372423896566035,
+          0.0058004359714686855
+        ],
+        "probability_a_closer_auc": 0.7195047619047619,
+        "mann_whitney_less_p": 2.95469533602063e-40
+      },
+      "rotation_invariant_base_variant_vs_control": {
+        "n_a": 588,
+        "n_control": 625,
+        "median_a": 0.01446435833349824,
+        "median_control": 0.020170925185084343,
+        "median_control_minus_a": 0.0057065668515861034,
+        "bootstrap_95pct": [
+          0.00484582306817174,
+          0.006569944322109222
+        ],
+        "probability_a_closer_auc": 0.7806122448979592,
+        "mann_whitney_less_p": 1.811693250186879e-64
+      },
+      "rotation_invariant_skeletonized_base_variant_vs_control": {
+        "n_a": 588,
+        "n_control": 625,
+        "median_a": 0.018664690665900707,
+        "median_control": 0.023930443450808525,
+        "median_control_minus_a": 0.005265752784907818,
+        "bootstrap_95pct": [
+          0.0044066875474527475,
+          0.006014704704284668
+        ],
+        "probability_a_closer_auc": 0.7648326530612245,
+        "mann_whitney_less_p": 1.1809689586083445e-57
+      },
+      "complexity_matched_base_variant_vs_control": {
+        "pairs": 588,
+        "median_graffiti": 0.0175813976675272,
+        "median_control": 0.023080654442310333,
+        "median_control_minus_graffiti": 0.00600534537807107,
+        "wilcoxon_less_p": 0.0,
+        "descriptor_standardized_mean_difference_after_match": [
+          -0.2968975296889894,
+          0.9941034222497795,
+          -0.9458954403965718,
+          0.3229034793891893
+        ],
+        "balance_warning": "poor common support; at least one absolute standardized mean difference exceeds 0.25"
+      }
+    },
+    "preexisting_allograph_cut": {
+      "dice_distance_cut": 0.0043,
+      "graffiti_base_variant_matches": 0,
+      "graffiti_base_variant_total": 588,
+      "control_matches": 0,
+      "control_total": 625,
+      "graffiti_rate": 0.0,
+      "control_rate": 0.0
+    },
+    "crosswalk": {
+      "endpoint_rows": 999,
+      "substantive_rows": 103,
+      "usable_rows": 90,
+      "explicit_tnsda_rows": 72,
+      "method": "infer the nearest sign in this project's Parpola-derived font from TNSDA's paired Indus seal/pottery image, then rank that own-font target against every own-font sign for the paired graffiti glyph",
+      "target_rank": {
+        "top_1": 4,
+        "top_5": 7,
+        "top_10": 14,
+        "median": 86.0
+      },
+      "pair_distance": {
+        "mean": 0.03730135542444057,
+        "median": 0.03408246114850044,
+        "random_pair_mean": 0.04288948055356741,
+        "random_pair_95pct": [
+          0.040284004714339974,
+          0.04548375066369772
+        ],
+        "lower_p": 0.0001999600079984003
+      },
+      "glyph_source_check": {
+        "sample_images_exact_under_note17_dice_cut": 0,
+        "of": 90,
+        "median_best_aligned_dice": 0.5744663744858225,
+        "reading": "pixel agreement under the pre-existing note-17 allograph cut; zero/low agreement argues against identical modern glyph art, but does not prove independent archaeological exemplars"
+      },
+      "rows": [
+        {
+          "sign": "1",
+          "rmrl": 1,
+          "imnobase": 225,
+          "sample_field": "potimg",
+          "sample_image": "indus/1-Pottery.png",
+          "own_indus_id_inferred_from_sample": 858,
+          "sample_to_own_indus_chamfer": 0.009626279585063457,
+          "graffiti_to_asserted_own_shape_chamfer": 0.060445450246334076,
+          "nearest_possible_chamfer": 0.02348308451473713,
+          "asserted_target_rank": 369
+        },
+        {
+          "sign": "2",
+          "rmrl": 112,
+          "imnobase": 134,
+          "sample_field": "potimg",
+          "sample_image": "indus/2-Pottery.png",
+          "own_indus_id_inferred_from_sample": 127,
+          "sample_to_own_indus_chamfer": 0.009482893161475658,
+          "graffiti_to_asserted_own_shape_chamfer": 0.049652375280857086,
+          "nearest_possible_chamfer": 0.012070307508111,
+          "asserted_target_rank": 260
+        },
+        {
+          "sign": "3",
+          "rmrl": 96,
+          "imnobase": null,
+          "sample_field": "potimg",
+          "sample_image": "indus/3-Pottery.png",
+          "own_indus_id_inferred_from_sample": 244,
+          "sample_to_own_indus_chamfer": 0.013052934780716896,
+          "graffiti_to_asserted_own_shape_chamfer": 0.042212847620248795,
+          "nearest_possible_chamfer": 0.006942193955183029,
+          "asserted_target_rank": 285
+        },
+        {
+          "sign": "4",
+          "rmrl": 118,
+          "imnobase": 365,
+          "sample_field": "potimg",
+          "sample_image": "indus/4-Pottery.png",
+          "own_indus_id_inferred_from_sample": 50,
+          "sample_to_own_indus_chamfer": 0.009812942706048489,
+          "graffiti_to_asserted_own_shape_chamfer": 0.034904588013887405,
+          "nearest_possible_chamfer": 0.01972229965031147,
+          "asserted_target_rank": 86
+        },
+        {
+          "sign": "6",
+          "rmrl": 108,
+          "imnobase": 204,
+          "sample_field": "sealimg",
+          "sample_image": "indus/6-Seal.png",
+          "own_indus_id_inferred_from_sample": 706,
+          "sample_to_own_indus_chamfer": 0.012907027266919613,
+          "graffiti_to_asserted_own_shape_chamfer": 0.04753321781754494,
+          "nearest_possible_chamfer": 0.014190791174769402,
+          "asserted_target_rank": 189
+        },
+        {
+          "sign": "7",
+          "rmrl": 362,
+          "imnobase": 204,
+          "sample_field": "sealimg",
+          "sample_image": "indus/7-Seal.png",
+          "own_indus_id_inferred_from_sample": 825,
+          "sample_to_own_indus_chamfer": 0.009977146983146667,
+          "graffiti_to_asserted_own_shape_chamfer": 0.024266280233860016,
+          "nearest_possible_chamfer": 0.009891989640891552,
+          "asserted_target_rank": 53
+        },
+        {
+          "sign": "8",
+          "rmrl": 1402,
+          "imnobase": 209,
+          "sample_field": "sealimg",
+          "sample_image": "indus/8-Seal.png",
+          "own_indus_id_inferred_from_sample": 34,
+          "sample_to_own_indus_chamfer": 0.0069980621337890625,
+          "graffiti_to_asserted_own_shape_chamfer": 0.03621560335159302,
+          "nearest_possible_chamfer": 0.013166441582143307,
+          "asserted_target_rank": 94
+        },
+        {
+          "sign": "9",
+          "rmrl": 98,
+          "imnobase": 162,
+          "sample_field": "potimg",
+          "sample_image": "indus/9-Pottery.png",
+          "own_indus_id_inferred_from_sample": 50,
+          "sample_to_own_indus_chamfer": 0.010790552012622356,
+          "graffiti_to_asserted_own_shape_chamfer": 0.07872795313596725,
+          "nearest_possible_chamfer": 0.006030641961842775,
+          "asserted_target_rank": 432
+        },
+        {
+          "sign": "11",
+          "rmrl": 99,
+          "imnobase": 155,
+          "sample_field": "potimg",
+          "sample_image": "indus/11-Pottery.png",
+          "own_indus_id_inferred_from_sample": 338,
+          "sample_to_own_indus_chamfer": 0.010599836707115173,
+          "graffiti_to_asserted_own_shape_chamfer": 0.04337668791413307,
+          "nearest_possible_chamfer": 0.01525881141424179,
+          "asserted_target_rank": 108
+        },
+        {
+          "sign": "13",
+          "rmrl": 343,
+          "imnobase": 153,
+          "sample_field": "potimg",
+          "sample_image": "indus/13-Pottery.png",
+          "own_indus_id_inferred_from_sample": 903,
+          "sample_to_own_indus_chamfer": 0.012140732258558273,
+          "graffiti_to_asserted_own_shape_chamfer": 0.014919252134859562,
+          "nearest_possible_chamfer": 0.008492318913340569,
+          "asserted_target_rank": 6
+        },
+        {
+          "sign": "14",
+          "rmrl": 676,
+          "imnobase": 59,
+          "sample_field": "potimg",
+          "sample_image": "indus/14-Pottery.png",
+          "own_indus_id_inferred_from_sample": 34,
+          "sample_to_own_indus_chamfer": 0.00953067559748888,
+          "graffiti_to_asserted_own_shape_chamfer": 0.020467720925807953,
+          "nearest_possible_chamfer": 0.015545899979770184,
+          "asserted_target_rank": 15
+        },
+        {
+          "sign": "15",
+          "rmrl": 127,
+          "imnobase": 328,
+          "sample_field": "sealimg",
+          "sample_image": "indus/15-Seal.png",
+          "own_indus_id_inferred_from_sample": 337,
+          "sample_to_own_indus_chamfer": 0.009037262760102749,
+          "graffiti_to_asserted_own_shape_chamfer": 0.03232979774475098,
+          "nearest_possible_chamfer": 0.022007344290614128,
+          "asserted_target_rank": 11
+        },
+        {
+          "sign": "17",
+          "rmrl": 117,
+          "imnobase": 312,
+          "sample_field": "sealimg",
+          "sample_image": "indus/17-Seal.png",
+          "own_indus_id_inferred_from_sample": 577,
+          "sample_to_own_indus_chamfer": 0.010865201242268085,
+          "graffiti_to_asserted_own_shape_chamfer": 0.043396756052970886,
+          "nearest_possible_chamfer": 0.03549529239535332,
+          "asserted_target_rank": 10
+        },
+        {
+          "sign": "18",
+          "rmrl": 1403,
+          "imnobase": 307,
+          "sample_field": "sealimg",
+          "sample_image": "indus/18-Seal.png",
+          "own_indus_id_inferred_from_sample": 338,
+          "sample_to_own_indus_chamfer": 0.012472386471927166,
+          "graffiti_to_asserted_own_shape_chamfer": 0.0361209511756897,
+          "nearest_possible_chamfer": 0.020714836195111275,
+          "asserted_target_rank": 100
+        },
+        {
+          "sign": "19",
+          "rmrl": 202,
+          "imnobase": 373,
+          "sample_field": "sealimg",
+          "sample_image": "indus/19-Seal.png",
+          "own_indus_id_inferred_from_sample": 947,
+          "sample_to_own_indus_chamfer": 0.013292907737195492,
+          "graffiti_to_asserted_own_shape_chamfer": 0.11055467277765274,
+          "nearest_possible_chamfer": 0.008537529967725277,
+          "asserted_target_rank": 465
+        },
+        {
+          "sign": "20",
+          "rmrl": 890,
+          "imnobase": 378,
+          "sample_field": "sealimg",
+          "sample_image": "indus/20-Seal.png",
+          "own_indus_id_inferred_from_sample": 818,
+          "sample_to_own_indus_chamfer": 0.01168790366500616,
+          "graffiti_to_asserted_own_shape_chamfer": 0.011210471391677856,
+          "nearest_possible_chamfer": 0.011210471391677856,
+          "asserted_target_rank": 1
+        },
+        {
+          "sign": "21",
+          "rmrl": 131,
+          "imnobase": 127,
+          "sample_field": "sealimg",
+          "sample_image": "indus/21-Seal.png",
+          "own_indus_id_inferred_from_sample": 34,
+          "sample_to_own_indus_chamfer": 0.008130214177072048,
+          "graffiti_to_asserted_own_shape_chamfer": 0.020749181509017944,
+          "nearest_possible_chamfer": 0.00684175081551075,
+          "asserted_target_rank": 16
+        },
+        {
+          "sign": "22",
+          "rmrl": 1404,
+          "imnobase": 240,
+          "sample_field": "sealimg",
+          "sample_image": "indus/22-Seal.png",
+          "own_indus_id_inferred_from_sample": 706,
+          "sample_to_own_indus_chamfer": 0.008307618089020252,
+          "graffiti_to_asserted_own_shape_chamfer": 0.025440728291869164,
+          "nearest_possible_chamfer": 0.015867646783590317,
+          "asserted_target_rank": 20
+        },
+        {
+          "sign": "23",
+          "rmrl": 221,
+          "imnobase": 186,
+          "sample_field": "sealimg",
+          "sample_image": "indus/23-Seal.png",
+          "own_indus_id_inferred_from_sample": 216,
+          "sample_to_own_indus_chamfer": 0.007339393254369497,
+          "graffiti_to_asserted_own_shape_chamfer": 0.011914059519767761,
+          "nearest_possible_chamfer": 0.011441540904343128,
+          "asserted_target_rank": 2
+        },
+        {
+          "sign": "27",
+          "rmrl": 1021,
+          "imnobase": 176,
+          "sample_field": "sealimg",
+          "sample_image": "indus/27-Seal.png",
+          "own_indus_id_inferred_from_sample": 216,
+          "sample_to_own_indus_chamfer": 0.013019048608839512,
+          "graffiti_to_asserted_own_shape_chamfer": 0.03738410398364067,
+          "nearest_possible_chamfer": 0.015013257041573524,
+          "asserted_target_rank": 209
+        },
+        {
+          "sign": "28",
+          "rmrl": 1063,
+          "imnobase": 171,
+          "sample_field": "sealimg",
+          "sample_image": "indus/28-Seal.png",
+          "own_indus_id_inferred_from_sample": 338,
+          "sample_to_own_indus_chamfer": 0.015066231600940228,
+          "graffiti_to_asserted_own_shape_chamfer": 0.031684719026088715,
+          "nearest_possible_chamfer": 0.012538569048047066,
+          "asserted_target_rank": 18
+        },
+        {
+          "sign": "29",
+          "rmrl": 409,
+          "imnobase": 177,
+          "sample_field": "sealimg",
+          "sample_image": "indus/29-Seal.png",
+          "own_indus_id_inferred_from_sample": 385,
+          "sample_to_own_indus_chamfer": 0.0065261307172477245,
+          "graffiti_to_asserted_own_shape_chamfer": 0.02282729744911194,
+          "nearest_possible_chamfer": 0.012502873316407204,
+          "asserted_target_rank": 5
+        },
+        {
+          "sign": "30",
+          "rmrl": 177,
+          "imnobase": 137,
+          "sample_field": "potimg",
+          "sample_image": "indus/30-Pottery.png",
+          "own_indus_id_inferred_from_sample": 123,
+          "sample_to_own_indus_chamfer": 0.011170195415616035,
+          "graffiti_to_asserted_own_shape_chamfer": 0.07597871869802475,
+          "nearest_possible_chamfer": 0.01847652532160282,
+          "asserted_target_rank": 503
+        },
+        {
+          "sign": "31",
+          "rmrl": 1166,
+          "imnobase": 141,
+          "sample_field": "sealimg",
+          "sample_image": "indus/31-Seal.png",
+          "own_indus_id_inferred_from_sample": 338,
+          "sample_to_own_indus_chamfer": 0.007975561544299126,
+          "graffiti_to_asserted_own_shape_chamfer": 0.024891192093491554,
+          "nearest_possible_chamfer": 0.010607657954096794,
+          "asserted_target_rank": 43
+        },
+        {
+          "sign": "32",
+          "rmrl": 62,
+          "imnobase": 214,
+          "sample_field": "sealimg",
+          "sample_image": "indus/32-Seal.png",
+          "own_indus_id_inferred_from_sample": 256,
+          "sample_to_own_indus_chamfer": 0.011313705705106258,
+          "graffiti_to_asserted_own_shape_chamfer": 0.03310546651482582,
+          "nearest_possible_chamfer": 0.017719388008117676,
+          "asserted_target_rank": 79
+        },
+        {
+          "sign": "33",
+          "rmrl": 1186,
+          "imnobase": 148,
+          "sample_field": "sealimg",
+          "sample_image": "indus/33-Seal.png",
+          "own_indus_id_inferred_from_sample": 627,
+          "sample_to_own_indus_chamfer": 0.009905711747705936,
+          "graffiti_to_asserted_own_shape_chamfer": 0.03326033428311348,
+          "nearest_possible_chamfer": 0.020755836740136147,
+          "asserted_target_rank": 11
+        },
+        {
+          "sign": "34",
+          "rmrl": 1406,
+          "imnobase": 132,
+          "sample_field": "potimg",
+          "sample_image": "indus/34-Pottery.png",
+          "own_indus_id_inferred_from_sample": 34,
+          "sample_to_own_indus_chamfer": 0.0073527004569768906,
+          "graffiti_to_asserted_own_shape_chamfer": 0.06665077060461044,
+          "nearest_possible_chamfer": 0.014394160360097885,
+          "asserted_target_rank": 333
+        },
+        {
+          "sign": "35",
+          "rmrl": 1223,
+          "imnobase": 168,
+          "sample_field": "potimg",
+          "sample_image": "indus/35-Pottery.png",
+          "own_indus_id_inferred_from_sample": 751,
+          "sample_to_own_indus_chamfer": 0.007181246764957905,
+          "graffiti_to_asserted_own_shape_chamfer": 0.02220318652689457,
+          "nearest_possible_chamfer": 0.010664114728569984,
+          "asserted_target_rank": 114
+        },
+        {
+          "sign": "36",
+          "rmrl": 355,
+          "imnobase": 125,
+          "sample_field": "sealimg",
+          "sample_image": "indus/36-Seal.png",
+          "own_indus_id_inferred_from_sample": 34,
+          "sample_to_own_indus_chamfer": 0.008112947456538677,
+          "graffiti_to_asserted_own_shape_chamfer": 0.030506577342748642,
+          "nearest_possible_chamfer": 0.003828199580311775,
+          "asserted_target_rank": 39
+        },
+        {
+          "sign": "37",
+          "rmrl": 214,
+          "imnobase": 129,
+          "sample_field": "sealimg",
+          "sample_image": "indus/37-Seal.png",
+          "own_indus_id_inferred_from_sample": 311,
+          "sample_to_own_indus_chamfer": 0.009365267120301723,
+          "graffiti_to_asserted_own_shape_chamfer": 0.05054730549454689,
+          "nearest_possible_chamfer": 0.01742195151746273,
+          "asserted_target_rank": 175
+        },
+        {
+          "sign": "39",
+          "rmrl": 87,
+          "imnobase": 86,
+          "sample_field": "sealimg",
+          "sample_image": "indus/39-Seal.png",
+          "own_indus_id_inferred_from_sample": 31,
+          "sample_to_own_indus_chamfer": 0.00483452994376421,
+          "graffiti_to_asserted_own_shape_chamfer": 0.0018414240330457687,
+          "nearest_possible_chamfer": 0.0018414240330457687,
+          "asserted_target_rank": 1
+        },
+        {
+          "sign": "41",
+          "rmrl": 111,
+          "imnobase": 179,
+          "sample_field": "sealimg",
+          "sample_image": "indus/41-Seal.png",
+          "own_indus_id_inferred_from_sample": 34,
+          "sample_to_own_indus_chamfer": 0.011825516819953918,
+          "graffiti_to_asserted_own_shape_chamfer": 0.02967684715986252,
+          "nearest_possible_chamfer": 0.00881031434983015,
+          "asserted_target_rank": 25
+        },
+        {
+          "sign": "1.26",
+          "rmrl": 1424,
+          "imnobase": 223,
+          "sample_field": "sealimg",
+          "sample_image": "indus/1.26-Seal.png",
+          "own_indus_id_inferred_from_sample": 879,
+          "sample_to_own_indus_chamfer": 0.01940717175602913,
+          "graffiti_to_asserted_own_shape_chamfer": 0.03955482691526413,
+          "nearest_possible_chamfer": 0.016976773738861084,
+          "asserted_target_rank": 263
+        },
+        {
+          "sign": "1.3",
+          "rmrl": 3,
+          "imnobase": 225,
+          "sample_field": "potimg",
+          "sample_image": "indus/1.3-Pottery.png",
+          "own_indus_id_inferred_from_sample": 858,
+          "sample_to_own_indus_chamfer": 0.009626279585063457,
+          "graffiti_to_asserted_own_shape_chamfer": 0.06555818766355515,
+          "nearest_possible_chamfer": 0.012452343478798866,
+          "asserted_target_rank": 346
+        },
+        {
+          "sign": "2.11",
+          "rmrl": 1440,
+          "imnobase": 131,
+          "sample_field": "sealimg",
+          "sample_image": "indus/2.11-Seal.png",
+          "own_indus_id_inferred_from_sample": 634,
+          "sample_to_own_indus_chamfer": 0.022715555503964424,
+          "graffiti_to_asserted_own_shape_chamfer": 0.039200905710458755,
+          "nearest_possible_chamfer": 0.030175600200891495,
+          "asserted_target_rank": 94
+        },
+        {
+          "sign": "9.6",
+          "rmrl": 1528,
+          "imnobase": 167,
+          "sample_field": "sealimg",
+          "sample_image": "indus/9.6-Seal.png",
+          "own_indus_id_inferred_from_sample": 34,
+          "sample_to_own_indus_chamfer": 0.008843186311423779,
+          "graffiti_to_asserted_own_shape_chamfer": 0.03054632432758808,
+          "nearest_possible_chamfer": 0.015458987094461918,
+          "asserted_target_rank": 31
+        },
+        {
+          "sign": "13.6",
+          "rmrl": 598,
+          "imnobase": 211,
+          "sample_field": "sealimg",
+          "sample_image": "indus/13.6-Seal.png",
+          "own_indus_id_inferred_from_sample": 280,
+          "sample_to_own_indus_chamfer": 0.006630447693169117,
+          "graffiti_to_asserted_own_shape_chamfer": 0.027522971853613853,
+          "nearest_possible_chamfer": 0.007840180769562721,
+          "asserted_target_rank": 45
+        },
+        {
+          "sign": "15.7",
+          "rmrl": 1589,
+          "imnobase": 342,
+          "sample_field": "potimg",
+          "sample_image": "indus/15.7-Pottery.png",
+          "own_indus_id_inferred_from_sample": 228,
+          "sample_to_own_indus_chamfer": 0.010201395489275455,
+          "graffiti_to_asserted_own_shape_chamfer": 0.050728939473629,
+          "nearest_possible_chamfer": 0.018695471808314323,
+          "asserted_target_rank": 240
+        },
+        {
+          "sign": "17.14",
+          "rmrl": 1604,
+          "imnobase": 298,
+          "sample_field": "sealimg",
+          "sample_image": "indus/17.14-Seal.png",
+          "own_indus_id_inferred_from_sample": 208,
+          "sample_to_own_indus_chamfer": 0.010422411374747753,
+          "graffiti_to_asserted_own_shape_chamfer": 0.01487631257623434,
+          "nearest_possible_chamfer": 0.01106798741966486,
+          "asserted_target_rank": 21
+        },
+        {
+          "sign": "17.2",
+          "rmrl": 853,
+          "imnobase": 287,
+          "sample_field": "sealimg",
+          "sample_image": "indus/17.2-Seal.png",
+          "own_indus_id_inferred_from_sample": 195,
+          "sample_to_own_indus_chamfer": 0.01178092323243618,
+          "graffiti_to_asserted_own_shape_chamfer": 0.0485352985560894,
+          "nearest_possible_chamfer": 0.01687067560851574,
+          "asserted_target_rank": 67
+        },
+        {
+          "sign": "17.3",
+          "rmrl": 1598,
+          "imnobase": 299,
+          "sample_field": "sealimg",
+          "sample_image": "indus/17.3-Seal.png",
+          "own_indus_id_inferred_from_sample": 311,
+          "sample_to_own_indus_chamfer": 0.011234483681619167,
+          "graffiti_to_asserted_own_shape_chamfer": 0.04497988149523735,
+          "nearest_possible_chamfer": 0.031689584255218506,
+          "asserted_target_rank": 36
+        },
+        {
+          "sign": "17.7",
+          "rmrl": 834,
+          "imnobase": 304,
+          "sample_field": "sealimg",
+          "sample_image": "indus/17.7-Seal.png",
+          "own_indus_id_inferred_from_sample": 923,
+          "sample_to_own_indus_chamfer": 0.008805207908153534,
+          "graffiti_to_asserted_own_shape_chamfer": 0.028801431879401207,
+          "nearest_possible_chamfer": 0.010547161102294922,
+          "asserted_target_rank": 57
+        },
+        {
+          "sign": "21.11",
+          "rmrl": 1629,
+          "imnobase": 190,
+          "sample_field": "sealimg",
+          "sample_image": "indus/21.11-Seal.png",
+          "own_indus_id_inferred_from_sample": 429,
+          "sample_to_own_indus_chamfer": 0.008834803476929665,
+          "graffiti_to_asserted_own_shape_chamfer": 0.01716025546193123,
+          "nearest_possible_chamfer": 0.011241772212088108,
+          "asserted_target_rank": 12
+        },
+        {
+          "sign": "22.12",
+          "rmrl": 1637,
+          "imnobase": 245,
+          "sample_field": "sealimg",
+          "sample_image": "indus/22.12-Seal.png",
+          "own_indus_id_inferred_from_sample": 337,
+          "sample_to_own_indus_chamfer": 0.00782305933535099,
+          "graffiti_to_asserted_own_shape_chamfer": 0.02893928252160549,
+          "nearest_possible_chamfer": 0.01369598601013422,
+          "asserted_target_rank": 69
+        },
+        {
+          "sign": "22.2",
+          "rmrl": 962,
+          "imnobase": 242,
+          "sample_field": "sealimg",
+          "sample_image": "indus/22.2-Seal.png",
+          "own_indus_id_inferred_from_sample": 353,
+          "sample_to_own_indus_chamfer": 0.009247674606740475,
+          "graffiti_to_asserted_own_shape_chamfer": 0.026082532480359077,
+          "nearest_possible_chamfer": 0.007230586837977171,
+          "asserted_target_rank": 88
+        },
+        {
+          "sign": "22.3",
+          "rmrl": 1630,
+          "imnobase": 238,
+          "sample_field": "sealimg",
+          "sample_image": "indus/22.3-Seal.png",
+          "own_indus_id_inferred_from_sample": 833,
+          "sample_to_own_indus_chamfer": 0.010288607329130173,
+          "graffiti_to_asserted_own_shape_chamfer": 0.06000687554478645,
+          "nearest_possible_chamfer": 0.014856572262942791,
+          "asserted_target_rank": 405
+        },
+        {
+          "sign": "22.8",
+          "rmrl": 1634,
+          "imnobase": 261,
+          "sample_field": "potimg",
+          "sample_image": "indus/22.8-Pottery.png",
+          "own_indus_id_inferred_from_sample": 426,
+          "sample_to_own_indus_chamfer": 0.012745083309710026,
+          "graffiti_to_asserted_own_shape_chamfer": 0.035375598818063736,
+          "nearest_possible_chamfer": 0.009921450167894363,
+          "asserted_target_rank": 195
+        },
+        {
+          "sign": "22.9",
+          "rmrl": 970,
+          "imnobase": 241,
+          "sample_field": "sealimg",
+          "sample_image": "indus/22.9-Seal.png",
+          "own_indus_id_inferred_from_sample": 338,
+          "sample_to_own_indus_chamfer": 0.009116011671721935,
+          "graffiti_to_asserted_own_shape_chamfer": 0.021939894184470177,
+          "nearest_possible_chamfer": 0.007421772927045822,
+          "asserted_target_rank": 9
+        },
+        {
+          "sign": "24.5",
+          "rmrl": 1646,
+          "imnobase": 189,
+          "sample_field": "sealimg",
+          "sample_image": "indus/24.5-Seal.png",
+          "own_indus_id_inferred_from_sample": 34,
+          "sample_to_own_indus_chamfer": 0.006071725860238075,
+          "graffiti_to_asserted_own_shape_chamfer": 0.03958267346024513,
+          "nearest_possible_chamfer": 0.019866613671183586,
+          "asserted_target_rank": 116
+        },
+        {
+          "sign": "29.5",
+          "rmrl": 1682,
+          "imnobase": 177,
+          "sample_field": "sealimg",
+          "sample_image": "indus/29.5-Seal.png",
+          "own_indus_id_inferred_from_sample": 385,
+          "sample_to_own_indus_chamfer": 0.007997493259608746,
+          "graffiti_to_asserted_own_shape_chamfer": 0.019356699660420418,
+          "nearest_possible_chamfer": 0.014842547476291656,
+          "asserted_target_rank": 13
+        },
+        {
+          "sign": "32.1",
+          "rmrl": 61,
+          "imnobase": 214,
+          "sample_field": "sealimg",
+          "sample_image": "indus/32.1-Seal.png",
+          "own_indus_id_inferred_from_sample": 337,
+          "sample_to_own_indus_chamfer": 0.010358008556067944,
+          "graffiti_to_asserted_own_shape_chamfer": 0.03993505984544754,
+          "nearest_possible_chamfer": 0.0052812728099524975,
+          "asserted_target_rank": 136
+        },
+        {
+          "sign": "34.3",
+          "rmrl": 1750,
+          "imnobase": 230,
+          "sample_field": "sealimg",
+          "sample_image": "indus/34.3-Seal.png",
+          "own_indus_id_inferred_from_sample": 460,
+          "sample_to_own_indus_chamfer": 0.007436986546963453,
+          "graffiti_to_asserted_own_shape_chamfer": 0.04920356348156929,
+          "nearest_possible_chamfer": 0.015299716964364052,
+          "asserted_target_rank": 160
+        },
+        {
+          "sign": "36.17",
+          "rmrl": 1768,
+          "imnobase": 126,
+          "sample_field": "sealimg",
+          "sample_image": "indus/36.17-Seal.png",
+          "own_indus_id_inferred_from_sample": 100,
+          "sample_to_own_indus_chamfer": 0.011289047077298164,
+          "graffiti_to_asserted_own_shape_chamfer": 0.022349923849105835,
+          "nearest_possible_chamfer": 0.013080100528895855,
+          "asserted_target_rank": 8
+        },
+        {
+          "sign": "37.6",
+          "rmrl": 950,
+          "imnobase": 130,
+          "sample_field": "sealimg",
+          "sample_image": "indus/37.6-Seal.png",
+          "own_indus_id_inferred_from_sample": 177,
+          "sample_to_own_indus_chamfer": 0.014567547477781773,
+          "graffiti_to_asserted_own_shape_chamfer": 0.035426393151283264,
+          "nearest_possible_chamfer": 0.005773802753537893,
+          "asserted_target_rank": 69
+        },
+        {
+          "sign": "38.5",
+          "rmrl": 1336,
+          "imnobase": 154,
+          "sample_field": "sealimg",
+          "sample_image": "indus/38.5-Seal.png",
+          "own_indus_id_inferred_from_sample": 426,
+          "sample_to_own_indus_chamfer": 0.00883616041392088,
+          "graffiti_to_asserted_own_shape_chamfer": 0.04387998580932617,
+          "nearest_possible_chamfer": 0.009142652153968811,
+          "asserted_target_rank": 137
+        },
+        {
+          "sign": "39.11",
+          "rmrl": 1807,
+          "imnobase": 110,
+          "sample_field": "sealimg",
+          "sample_image": "indus/39.11-Seal.png",
+          "own_indus_id_inferred_from_sample": 50,
+          "sample_to_own_indus_chamfer": 0.008716616779565811,
+          "graffiti_to_asserted_own_shape_chamfer": 0.013995300978422165,
+          "nearest_possible_chamfer": 0.011638961732387543,
+          "asserted_target_rank": 3
+        },
+        {
+          "sign": "39.13",
+          "rmrl": 1809,
+          "imnobase": 115,
+          "sample_field": "potimg",
+          "sample_image": "indus/39.13-Pottery.png",
+          "own_indus_id_inferred_from_sample": 50,
+          "sample_to_own_indus_chamfer": 0.006521459668874741,
+          "graffiti_to_asserted_own_shape_chamfer": 0.008228226564824581,
+          "nearest_possible_chamfer": 0.008228226564824581,
+          "asserted_target_rank": 1
+        },
+        {
+          "sign": "39.2",
+          "rmrl": 88,
+          "imnobase": 87,
+          "sample_field": "sealimg",
+          "sample_image": "indus/39.2-Seal.png",
+          "own_indus_id_inferred_from_sample": 216,
+          "sample_to_own_indus_chamfer": 0.007469808682799339,
+          "graffiti_to_asserted_own_shape_chamfer": 0.018134769052267075,
+          "nearest_possible_chamfer": 0.005063916090875864,
+          "asserted_target_rank": 20
+        },
+        {
+          "sign": "39.4",
+          "rmrl": 394,
+          "imnobase": 89,
+          "sample_field": "sealimg",
+          "sample_image": "indus/39.4-Seal.png",
+          "own_indus_id_inferred_from_sample": 897,
+          "sample_to_own_indus_chamfer": 0.0061983587220311165,
+          "graffiti_to_asserted_own_shape_chamfer": 0.017082219943404198,
+          "nearest_possible_chamfer": 0.01065100822597742,
+          "asserted_target_rank": 16
+        },
+        {
+          "sign": "39.6",
+          "rmrl": 395,
+          "imnobase": 95,
+          "sample_field": "sealimg",
+          "sample_image": "indus/39.6-Seal.png",
+          "own_indus_id_inferred_from_sample": 50,
+          "sample_to_own_indus_chamfer": 0.01368686556816101,
+          "graffiti_to_asserted_own_shape_chamfer": 0.03869248181581497,
+          "nearest_possible_chamfer": 0.0046144165098667145,
+          "asserted_target_rank": 382
+        },
+        {
+          "sign": "39.8",
+          "rmrl": 1804,
+          "imnobase": 96,
+          "sample_field": "sealimg",
+          "sample_image": "indus/39.8-Seal.png",
+          "own_indus_id_inferred_from_sample": 34,
+          "sample_to_own_indus_chamfer": 0.012377998791635036,
+          "graffiti_to_asserted_own_shape_chamfer": 0.025765562430024147,
+          "nearest_possible_chamfer": 0.004474529530853033,
+          "asserted_target_rank": 123
+        },
+        {
+          "sign": "39.9",
+          "rmrl": 1805,
+          "imnobase": 108,
+          "sample_field": "sealimg",
+          "sample_image": "indus/39.9-Seal.png",
+          "own_indus_id_inferred_from_sample": 50,
+          "sample_to_own_indus_chamfer": 0.016639985144138336,
+          "graffiti_to_asserted_own_shape_chamfer": 0.024891480803489685,
+          "nearest_possible_chamfer": 0.010795318521559238,
+          "asserted_target_rank": 88
+        },
+        {
+          "sign": "1.116C",
+          "rmrl": 82,
+          "imnobase": 221,
+          "sample_field": "sealimg",
+          "sample_image": "indus/1.116C-Seal.png",
+          "own_indus_id_inferred_from_sample": 208,
+          "sample_to_own_indus_chamfer": 0.013319895602762699,
+          "graffiti_to_asserted_own_shape_chamfer": 0.029919611290097237,
+          "nearest_possible_chamfer": 0.013499027118086815,
+          "asserted_target_rank": 34
+        },
+        {
+          "sign": "15.28C",
+          "rmrl": 710,
+          "imnobase": 362,
+          "sample_field": "sealimg",
+          "sample_image": "indus/15.28C-Seal.png",
+          "own_indus_id_inferred_from_sample": 545,
+          "sample_to_own_indus_chamfer": 0.008475437760353088,
+          "graffiti_to_asserted_own_shape_chamfer": 0.036140862852334976,
+          "nearest_possible_chamfer": 0.018803905695676804,
+          "asserted_target_rank": 247
+        },
+        {
+          "sign": "15.2C",
+          "rmrl": 688,
+          "imnobase": 336,
+          "sample_field": "sealimg",
+          "sample_image": "indus/15.2C-Seal.png",
+          "own_indus_id_inferred_from_sample": 352,
+          "sample_to_own_indus_chamfer": 0.0077367923222482204,
+          "graffiti_to_asserted_own_shape_chamfer": 0.06115331873297691,
+          "nearest_possible_chamfer": 0.01615554839372635,
+          "asserted_target_rank": 397
+        },
+        {
+          "sign": "15.67C",
+          "rmrl": 347,
+          "imnobase": 347,
+          "sample_field": "sealimg",
+          "sample_image": "indus/15.67C-Seal.png",
+          "own_indus_id_inferred_from_sample": 34,
+          "sample_to_own_indus_chamfer": 0.008524097502231598,
+          "graffiti_to_asserted_own_shape_chamfer": 0.07057376950979233,
+          "nearest_possible_chamfer": 0.015151839703321457,
+          "asserted_target_rank": 338
+        },
+        {
+          "sign": "17.2C",
+          "rmrl": 819,
+          "imnobase": 302,
+          "sample_field": "sealimg",
+          "sample_image": "indus/17.2C-Seal.png",
+          "own_indus_id_inferred_from_sample": 34,
+          "sample_to_own_indus_chamfer": 0.007872398942708969,
+          "graffiti_to_asserted_own_shape_chamfer": 0.018246043473482132,
+          "nearest_possible_chamfer": 0.0124483248218894,
+          "asserted_target_rank": 9
+        },
+        {
+          "sign": "17.30C",
+          "rmrl": 846,
+          "imnobase": 294,
+          "sample_field": "sealimg",
+          "sample_image": "indus/17.30C-Seal.png",
+          "own_indus_id_inferred_from_sample": 204,
+          "sample_to_own_indus_chamfer": 0.010028991848230362,
+          "graffiti_to_asserted_own_shape_chamfer": 0.05701491981744766,
+          "nearest_possible_chamfer": 0.02515447698533535,
+          "asserted_target_rank": 437
+        },
+        {
+          "sign": "17.9C",
+          "rmrl": 825,
+          "imnobase": 307,
+          "sample_field": "sealimg",
+          "sample_image": "indus/17.9C-Seal.png",
+          "own_indus_id_inferred_from_sample": 34,
+          "sample_to_own_indus_chamfer": 0.012401842512190342,
+          "graffiti_to_asserted_own_shape_chamfer": 0.02665829099714756,
+          "nearest_possible_chamfer": 0.020446963608264923,
+          "asserted_target_rank": 13
+        },
+        {
+          "sign": "19.1C",
+          "rmrl": 202,
+          "imnobase": 410,
+          "sample_field": "sealimg",
+          "sample_image": "indus/19.1C-Seal.png",
+          "own_indus_id_inferred_from_sample": 337,
+          "sample_to_own_indus_chamfer": 0.013754511252045631,
+          "graffiti_to_asserted_own_shape_chamfer": 0.041536297649145126,
+          "nearest_possible_chamfer": 0.0028419881127774715,
+          "asserted_target_rank": 150
+        },
+        {
+          "sign": "19.2C",
+          "rmrl": 202,
+          "imnobase": 415,
+          "sample_field": "sealimg",
+          "sample_image": "indus/19.2C-Seal.png",
+          "own_indus_id_inferred_from_sample": 216,
+          "sample_to_own_indus_chamfer": 0.005312754772603512,
+          "graffiti_to_asserted_own_shape_chamfer": 0.0726105272769928,
+          "nearest_possible_chamfer": 0.014185752719640732,
+          "asserted_target_rank": 421
+        },
+        {
+          "sign": "2.51C",
+          "rmrl": 168,
+          "imnobase": 136,
+          "sample_field": "sealimg",
+          "sample_image": "indus/2.51C-Seal.png",
+          "own_indus_id_inferred_from_sample": 482,
+          "sample_to_own_indus_chamfer": 0.02182038314640522,
+          "graffiti_to_asserted_own_shape_chamfer": 0.010363347828388214,
+          "nearest_possible_chamfer": 0.010363347828388214,
+          "asserted_target_rank": 1
+        },
+        {
+          "sign": "2.54C",
+          "rmrl": 172,
+          "imnobase": 135,
+          "sample_field": "sealimg",
+          "sample_image": "indus/2.54C-Seal.png",
+          "own_indus_id_inferred_from_sample": 932,
+          "sample_to_own_indus_chamfer": 0.009238364174962044,
+          "graffiti_to_asserted_own_shape_chamfer": 0.02367573417723179,
+          "nearest_possible_chamfer": 0.012733501382172108,
+          "asserted_target_rank": 16
+        },
+        {
+          "sign": "2.59C",
+          "rmrl": 176,
+          "imnobase": 194,
+          "sample_field": "sealimg",
+          "sample_image": "indus/2.59C-Seal.png",
+          "own_indus_id_inferred_from_sample": 825,
+          "sample_to_own_indus_chamfer": 0.011778627522289753,
+          "graffiti_to_asserted_own_shape_chamfer": 0.02828163653612137,
+          "nearest_possible_chamfer": 0.010928383097052574,
+          "asserted_target_rank": 86
+        },
+        {
+          "sign": "2.74C",
+          "rmrl": 140,
+          "imnobase": 132,
+          "sample_field": "sealimg",
+          "sample_image": "indus/2.74C-Seal.png",
+          "own_indus_id_inferred_from_sample": 338,
+          "sample_to_own_indus_chamfer": 0.01012813113629818,
+          "graffiti_to_asserted_own_shape_chamfer": 0.04382525756955147,
+          "nearest_possible_chamfer": 0.013936294242739677,
+          "asserted_target_rank": 218
+        },
+        {
+          "sign": "21.20C",
+          "rmrl": 915,
+          "imnobase": 202,
+          "sample_field": "sealimg",
+          "sample_image": "indus/21.20C-Seal.png",
+          "own_indus_id_inferred_from_sample": 338,
+          "sample_to_own_indus_chamfer": 0.008465959690511227,
+          "graffiti_to_asserted_own_shape_chamfer": 0.04185999929904938,
+          "nearest_possible_chamfer": 0.019531909376382828,
+          "asserted_target_rank": 162
+        },
+        {
+          "sign": "21.2C",
+          "rmrl": 897,
+          "imnobase": 201,
+          "sample_field": "sealimg",
+          "sample_image": "indus/21.2C-Seal.png",
+          "own_indus_id_inferred_from_sample": 34,
+          "sample_to_own_indus_chamfer": 0.007585274055600166,
+          "graffiti_to_asserted_own_shape_chamfer": 0.05222485587000847,
+          "nearest_possible_chamfer": 0.020970672369003296,
+          "asserted_target_rank": 287
+        },
+        {
+          "sign": "22.1C",
+          "rmrl": 936,
+          "imnobase": 256,
+          "sample_field": "sealimg",
+          "sample_image": "indus/22.1C-Seal.png",
+          "own_indus_id_inferred_from_sample": 611,
+          "sample_to_own_indus_chamfer": 0.010520150884985924,
+          "graffiti_to_asserted_own_shape_chamfer": 0.07988442480564117,
+          "nearest_possible_chamfer": 0.01563403755426407,
+          "asserted_target_rank": 491
+        },
+        {
+          "sign": "22.6C",
+          "rmrl": 941,
+          "imnobase": 249,
+          "sample_field": "sealimg",
+          "sample_image": "indus/22.6C-Seal.png",
+          "own_indus_id_inferred_from_sample": 736,
+          "sample_to_own_indus_chamfer": 0.010724926367402077,
+          "graffiti_to_asserted_own_shape_chamfer": 0.06015368923544884,
+          "nearest_possible_chamfer": 0.025928957387804985,
+          "asserted_target_rank": 329
+        },
+        {
+          "sign": "22.7C",
+          "rmrl": 942,
+          "imnobase": 188,
+          "sample_field": "sealimg",
+          "sample_image": "indus/22.7C-Seal.png",
+          "own_indus_id_inferred_from_sample": 34,
+          "sample_to_own_indus_chamfer": 0.00851235818117857,
+          "graffiti_to_asserted_own_shape_chamfer": 0.0567241907119751,
+          "nearest_possible_chamfer": 0.01556884590536356,
+          "asserted_target_rank": 386
+        },
+        {
+          "sign": "23.29C",
+          "rmrl": 993,
+          "imnobase": 58,
+          "sample_field": "sealimg",
+          "sample_image": "indus/23.29C-Seal.png",
+          "own_indus_id_inferred_from_sample": 337,
+          "sample_to_own_indus_chamfer": 0.008311429992318153,
+          "graffiti_to_asserted_own_shape_chamfer": 0.03006093017756939,
+          "nearest_possible_chamfer": 0.017842382192611694,
+          "asserted_target_rank": 85
+        },
+        {
+          "sign": "25.1C",
+          "rmrl": 1027,
+          "imnobase": 171,
+          "sample_field": "sealimg",
+          "sample_image": "indus/25.1C-Seal.png",
+          "own_indus_id_inferred_from_sample": 338,
+          "sample_to_own_indus_chamfer": 0.009473146870732307,
+          "graffiti_to_asserted_own_shape_chamfer": 0.05218776687979698,
+          "nearest_possible_chamfer": 0.03252230957150459,
+          "asserted_target_rank": 156
+        },
+        {
+          "sign": "28.1C",
+          "rmrl": 1062,
+          "imnobase": 212,
+          "sample_field": "sealimg",
+          "sample_image": "indus/28.1C-Seal.png",
+          "own_indus_id_inferred_from_sample": 611,
+          "sample_to_own_indus_chamfer": 0.01478260662406683,
+          "graffiti_to_asserted_own_shape_chamfer": 0.02524310164153576,
+          "nearest_possible_chamfer": 0.017874255776405334,
+          "asserted_target_rank": 6
+        },
+        {
+          "sign": "30.70C",
+          "rmrl": 356,
+          "imnobase": 161,
+          "sample_field": "sealimg",
+          "sample_image": "indus/30.70C-Seal.png",
+          "own_indus_id_inferred_from_sample": 34,
+          "sample_to_own_indus_chamfer": 0.009697272442281246,
+          "graffiti_to_asserted_own_shape_chamfer": 0.04357049986720085,
+          "nearest_possible_chamfer": 0.01921011134982109,
+          "asserted_target_rank": 320
+        },
+        {
+          "sign": "34.1C",
+          "rmrl": 599,
+          "imnobase": 133,
+          "sample_field": "sealimg",
+          "sample_image": "indus/34.1C-Seal.png",
+          "own_indus_id_inferred_from_sample": 338,
+          "sample_to_own_indus_chamfer": 0.009135248139500618,
+          "graffiti_to_asserted_own_shape_chamfer": 0.04261339083313942,
+          "nearest_possible_chamfer": 0.013294636271893978,
+          "asserted_target_rank": 203
+        },
+        {
+          "sign": "6.22C",
+          "rmrl": 441,
+          "imnobase": 233,
+          "sample_field": "sealimg",
+          "sample_image": "indus/6.22C-Seal.png",
+          "own_indus_id_inferred_from_sample": 338,
+          "sample_to_own_indus_chamfer": 0.011799052357673645,
+          "graffiti_to_asserted_own_shape_chamfer": 0.02269195392727852,
+          "nearest_possible_chamfer": 0.019687388092279434,
+          "asserted_target_rank": 16
+        },
+        {
+          "sign": "6.32C",
+          "rmrl": 449,
+          "imnobase": 213,
+          "sample_field": "potimg",
+          "sample_image": "indus/6.32C-Pottery.png",
+          "own_indus_id_inferred_from_sample": 635,
+          "sample_to_own_indus_chamfer": 0.006156939547508955,
+          "graffiti_to_asserted_own_shape_chamfer": 0.08012469112873077,
+          "nearest_possible_chamfer": 0.011736713349819183,
+          "asserted_target_rank": 454
+        },
+        {
+          "sign": "7.10C",
+          "rmrl": 469,
+          "imnobase": 208,
+          "sample_field": "sealimg",
+          "sample_image": "indus/7.10C-Seal.png",
+          "own_indus_id_inferred_from_sample": 100,
+          "sample_to_own_indus_chamfer": 0.011294225230813026,
+          "graffiti_to_asserted_own_shape_chamfer": 0.02568472921848297,
+          "nearest_possible_chamfer": 0.015922268852591515,
+          "asserted_target_rank": 86
+        },
+        {
+          "sign": "7.1C",
+          "rmrl": 460,
+          "imnobase": 210,
+          "sample_field": "sealimg",
+          "sample_image": "indus/7.1C-Seal.png",
+          "own_indus_id_inferred_from_sample": 491,
+          "sample_to_own_indus_chamfer": 0.011392103508114815,
+          "graffiti_to_asserted_own_shape_chamfer": 0.022701673209667206,
+          "nearest_possible_chamfer": 0.01123850978910923,
+          "asserted_target_rank": 31
+        },
+        {
+          "sign": "9.39C",
+          "rmrl": 539,
+          "imnobase": 166,
+          "sample_field": "sealimg",
+          "sample_image": "indus/9.39C-Seal.png",
+          "own_indus_id_inferred_from_sample": 216,
+          "sample_to_own_indus_chamfer": 0.008161347359418869,
+          "graffiti_to_asserted_own_shape_chamfer": 0.020066075026988983,
+          "nearest_possible_chamfer": 0.01599143072962761,
+          "asserted_target_rank": 9
+        }
+      ]
+    },
+    "figure": "notes/graffiti-shape-control.png"
+  }
+}

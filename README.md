@@ -1,6 +1,6 @@
 # Indus script — a distributional investigation
 
-Thirty-nine core rounds of hypothesis-testing against the corpus of Indus inscriptions,
+Forty core rounds of hypothesis-testing against the corpus of Indus inscriptions,
 plus provenance follow-ups.
 **This is not a decipherment.** There are no phonetic values here and no language
 assignment. Everything is distributional: where signs sit, what they avoid, and
@@ -24,6 +24,7 @@ before it, and one of them retracts an earlier conclusion.
 | **Numeral side is sign-specific**, not universally fixed. Global overdispersion survives exact position/site/object control and transcription noise. | controlled z = +16.09; noise 95% +10.62 to +15.82 |
 | Dependency is mostly local but **MI remains above an exact-bigram surrogate at distances 2–4**. Distances 5–6 do not survive the controlled reading. | excess 0.052–0.078 bits, BH |
 | The merged inventory is **not saturated**: 515 identifiable observed types after removing database unknown markers, with Chao1 ≈715 and ACE ≈695. | centered bootstrap 95%: 683–756 / 668–727 |
+| The public megalithic-graffiti API is a **sign inventory, not a text corpus**. Its shapes are closer to Indus signs than an unrelated Moravian pottery-mark control, but sequence tests are impossible. | base/variant vs control AUC = .739 |
 | The four fixed headlines replicate in random halves and disjoint site halves and sit outside pairing-destroyed pipeline nulls. Exploratory seven-sign paradigms have a measurable false-positive cost. | empirical exploratory FPR 7.1% |
 | Duplicate texts are mainly **local production data**, but 35% of repeated types reach multiple sites. Copied units remain shorter and vocabulary-poorer after site/object/length controls. | 84.4% of surplus attestations local |
 
@@ -67,12 +68,14 @@ git clone https://github.com/Kee2u/Deciphering_the_Indus_Valley_Script     data/
 `data/parsed/` is committed, so most analysis scripts run without the clones.
 The corpus itself needs `data/yaj` for the font. Round 34 downloads pinned
 comparison files into gitignored `data/external/`; round 38 needs the independent
-`data/cisi` transcription to rebuild its confusion model.
+`data/cisi` transcription to rebuild its confusion model. Round 40 harvests its
+public API, glyphs, and CC-BY control into gitignored `data/graffiti/` with
+`python src/scrape_graffiti.py full`.
 
 ## Layout
 
 ```
-notes/     the investigation, 01-39 in order, plus provenance follow-ups
+notes/     the investigation, 01-40 in order, plus provenance follow-ups
 src/       one script per question, named after it
 data/parsed/   derived JSON: lines, controls, posteriors, merges, crosswalks
 *.html     generated report pages
