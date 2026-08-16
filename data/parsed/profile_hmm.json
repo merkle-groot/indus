@@ -1,0 +1,514 @@
+{
+ "seed": 31,
+ "records": 2086,
+ "train": 1669,
+ "test": 417,
+ "vocabulary": 527,
+ "real": {
+  "unigram": -4.808603043461587,
+  "bigram": -4.722970806171376,
+  "grid": [
+   {
+    "matches": 1,
+    "nats_token": -4.944269102816705,
+    "delta_unigram": -0.13566605935511838,
+    "delta_bigram": -0.22129829664532918,
+    "iterations": 37
+   },
+   {
+    "matches": 2,
+    "nats_token": -4.871280672424211,
+    "delta_unigram": -0.06267762896262442,
+    "delta_bigram": -0.14830986625283524,
+    "iterations": 31
+   },
+   {
+    "matches": 3,
+    "nats_token": -4.848307155711219,
+    "delta_unigram": -0.03970411224963256,
+    "delta_bigram": -0.12533634953984335,
+    "iterations": 34
+   },
+   {
+    "matches": 4,
+    "nats_token": -4.833009930040464,
+    "delta_unigram": -0.02440688657887713,
+    "delta_bigram": -0.11003912386908794,
+    "iterations": 46
+   },
+   {
+    "matches": 5,
+    "nats_token": -4.79258159786603,
+    "delta_unigram": 0.016021445595557,
+    "delta_bigram": -0.06961079169465381,
+    "iterations": 60
+   },
+   {
+    "matches": 6,
+    "nats_token": -4.759755704342283,
+    "delta_unigram": 0.04884733911930349,
+    "delta_bigram": -0.036784898170907326,
+    "iterations": 60
+   },
+   {
+    "matches": 7,
+    "nats_token": -4.746620331936978,
+    "delta_unigram": 0.06198271152460791,
+    "delta_bigram": -0.023649525765602898,
+    "iterations": 60
+   },
+   {
+    "matches": 8,
+    "nats_token": -4.723213008070875,
+    "delta_unigram": 0.085390035390712,
+    "delta_bigram": -0.0002422018994988197,
+    "iterations": 60
+   },
+   {
+    "matches": 9,
+    "nats_token": -4.723060184751535,
+    "delta_unigram": 0.0855428587100516,
+    "delta_bigram": -8.937858015921461e-05,
+    "iterations": 60
+   },
+   {
+    "matches": 10,
+    "nats_token": -4.717152585719897,
+    "delta_unigram": 0.09145045774169003,
+    "delta_bigram": 0.005818220451479221,
+    "iterations": 60
+   },
+   {
+    "matches": 11,
+    "nats_token": -4.692840594020145,
+    "delta_unigram": 0.11576244944144122,
+    "delta_bigram": 0.030130212151230414,
+    "iterations": 60
+   },
+   {
+    "matches": 12,
+    "nats_token": -4.674143491593337,
+    "delta_unigram": 0.13445955186825045,
+    "delta_bigram": 0.048827314578039634,
+    "iterations": 60
+   },
+   {
+    "matches": 13,
+    "nats_token": -4.674992406147789,
+    "delta_unigram": 0.13361063731379758,
+    "delta_bigram": 0.04797840002358676,
+    "iterations": 60
+   }
+  ],
+  "best": {
+   "matches": 12,
+   "nats_token": -4.674143491593337,
+   "delta_unigram": 0.13445955186825045,
+   "delta_bigram": 0.048827314578039634,
+   "iterations": 60
+  }
+ },
+ "surrogates": [
+  {
+   "kind": "position",
+   "run": 0,
+   "matches": 12,
+   "nats_token": -4.718293974234221,
+   "delta_unigram": 0.04707983552813591,
+   "delta_bigram": 0.6094797085654913,
+   "iterations": 60
+  },
+  {
+   "kind": "frequency",
+   "run": 0,
+   "matches": 1,
+   "nats_token": -5.315775706811008,
+   "delta_unigram": -0.4773957171496292,
+   "delta_bigram": 0.1899525342226025,
+   "iterations": 42
+  },
+  {
+   "kind": "position",
+   "run": 1,
+   "matches": 10,
+   "nats_token": -4.730711929910378,
+   "delta_unigram": 0.04525534255379502,
+   "delta_bigram": 0.5980950012784095,
+   "iterations": 60
+  },
+  {
+   "kind": "frequency",
+   "run": 1,
+   "matches": 1,
+   "nats_token": -5.066308354276095,
+   "delta_unigram": -0.3197801214757896,
+   "delta_bigram": 0.35684448310406475,
+   "iterations": 44
+  },
+  {
+   "kind": "position",
+   "run": 2,
+   "matches": 9,
+   "nats_token": -4.723212552792519,
+   "delta_unigram": 0.05374748790320801,
+   "delta_bigram": 0.6105199202530566,
+   "iterations": 60
+  },
+  {
+   "kind": "frequency",
+   "run": 2,
+   "matches": 1,
+   "nats_token": -5.24040576880328,
+   "delta_unigram": -0.4193118843625365,
+   "delta_bigram": 0.2116137797760466,
+   "iterations": 37
+  },
+  {
+   "kind": "position",
+   "run": 3,
+   "matches": 8,
+   "nats_token": -4.612339091985879,
+   "delta_unigram": 0.11925208386876822,
+   "delta_bigram": 0.6894021880712403,
+   "iterations": 60
+  },
+  {
+   "kind": "frequency",
+   "run": 3,
+   "matches": 1,
+   "nats_token": -5.186659775274855,
+   "delta_unigram": -0.4148625955990775,
+   "delta_bigram": 0.2662035141887993,
+   "iterations": 47
+  },
+  {
+   "kind": "position",
+   "run": 4,
+   "matches": 8,
+   "nats_token": -4.82891123633001,
+   "delta_unigram": -0.06589930545511292,
+   "delta_bigram": 0.46772449066834476,
+   "iterations": 60
+  },
+  {
+   "kind": "frequency",
+   "run": 4,
+   "matches": 1,
+   "nats_token": -5.22542858227811,
+   "delta_unigram": -0.4181266913420755,
+   "delta_bigram": 0.24451797081112867,
+   "iterations": 47
+  },
+  {
+   "kind": "position",
+   "run": 5,
+   "matches": 12,
+   "nats_token": -4.752783747683633,
+   "delta_unigram": -0.004315074635462891,
+   "delta_bigram": 0.5391760694306262,
+   "iterations": 60
+  },
+  {
+   "kind": "frequency",
+   "run": 5,
+   "matches": 1,
+   "nats_token": -5.163297461987426,
+   "delta_unigram": -0.3516135608898276,
+   "delta_bigram": 0.2988953558843783,
+   "iterations": 45
+  },
+  {
+   "kind": "position",
+   "run": 6,
+   "matches": 12,
+   "nats_token": -4.789995421913411,
+   "delta_unigram": -0.022919371838157995,
+   "delta_bigram": 0.5300694816183984,
+   "iterations": 60
+  },
+  {
+   "kind": "frequency",
+   "run": 6,
+   "matches": 1,
+   "nats_token": -5.347501375070248,
+   "delta_unigram": -0.5043098092826909,
+   "delta_bigram": 0.1267158626286552,
+   "iterations": 42
+  },
+  {
+   "kind": "position",
+   "run": 7,
+   "matches": 12,
+   "nats_token": -4.901174118513836,
+   "delta_unigram": -0.11937226878545545,
+   "delta_bigram": 0.43242729242038974,
+   "iterations": 60
+  },
+  {
+   "kind": "frequency",
+   "run": 7,
+   "matches": 1,
+   "nats_token": -5.142220769467889,
+   "delta_unigram": -0.3945417603200808,
+   "delta_bigram": 0.2689337424238573,
+   "iterations": 47
+  },
+  {
+   "kind": "position",
+   "run": 8,
+   "matches": 8,
+   "nats_token": -4.680694010922551,
+   "delta_unigram": 0.07847495147413044,
+   "delta_bigram": 0.6415857949042638,
+   "iterations": 60
+  },
+  {
+   "kind": "frequency",
+   "run": 8,
+   "matches": 1,
+   "nats_token": -5.400367995969802,
+   "delta_unigram": -0.5576068202188125,
+   "delta_bigram": 0.06262713411373551,
+   "iterations": 40
+  },
+  {
+   "kind": "position",
+   "run": 9,
+   "matches": 13,
+   "nats_token": -4.781616628565246,
+   "delta_unigram": -0.004059680361329715,
+   "delta_bigram": 0.5565495868367859,
+   "iterations": 60
+  },
+  {
+   "kind": "frequency",
+   "run": 9,
+   "matches": 1,
+   "nats_token": -5.129232662674994,
+   "delta_unigram": -0.42332886857209306,
+   "delta_bigram": 0.24003044303345272,
+   "iterations": 55
+  },
+  {
+   "kind": "position",
+   "run": 10,
+   "matches": 6,
+   "nats_token": -4.62347896017637,
+   "delta_unigram": 0.10626580049223722,
+   "delta_bigram": 0.6432059044831502,
+   "iterations": 47
+  },
+  {
+   "kind": "frequency",
+   "run": 10,
+   "matches": 2,
+   "nats_token": -5.240554419735565,
+   "delta_unigram": -0.4958304007005528,
+   "delta_bigram": 0.1655100237377294,
+   "iterations": 33
+  },
+  {
+   "kind": "position",
+   "run": 11,
+   "matches": 12,
+   "nats_token": -4.732548570528925,
+   "delta_unigram": 0.06362466835360667,
+   "delta_bigram": 0.6133693776696483,
+   "iterations": 60
+  },
+  {
+   "kind": "frequency",
+   "run": 11,
+   "matches": 1,
+   "nats_token": -5.1955063458816495,
+   "delta_unigram": -0.40920447443919983,
+   "delta_bigram": 0.25679031905717503,
+   "iterations": 43
+  },
+  {
+   "kind": "position",
+   "run": 12,
+   "matches": 10,
+   "nats_token": -4.68194448676398,
+   "delta_unigram": 0.06356703957423047,
+   "delta_bigram": 0.6032891698217556,
+   "iterations": 60
+  },
+  {
+   "kind": "frequency",
+   "run": 12,
+   "matches": 1,
+   "nats_token": -5.390382310943725,
+   "delta_unigram": -0.5157041288477396,
+   "delta_bigram": 0.11914005320055021,
+   "iterations": 39
+  },
+  {
+   "kind": "position",
+   "run": 13,
+   "matches": 13,
+   "nats_token": -4.766704787359308,
+   "delta_unigram": -0.022669854860367347,
+   "delta_bigram": 0.5256145483316508,
+   "iterations": 60
+  },
+  {
+   "kind": "frequency",
+   "run": 13,
+   "matches": 1,
+   "nats_token": -5.273971937094918,
+   "delta_unigram": -0.48830183437062324,
+   "delta_bigram": 0.16663534112035575,
+   "iterations": 42
+  },
+  {
+   "kind": "position",
+   "run": 14,
+   "matches": 8,
+   "nats_token": -4.75347106792987,
+   "delta_unigram": -0.0025081348980740834,
+   "delta_bigram": 0.5446725923122785,
+   "iterations": 60
+  },
+  {
+   "kind": "frequency",
+   "run": 14,
+   "matches": 1,
+   "nats_token": -5.336386662558535,
+   "delta_unigram": -0.5075338640057958,
+   "delta_bigram": 0.13930015213186733,
+   "iterations": 48
+  },
+  {
+   "kind": "position",
+   "run": 15,
+   "matches": 5,
+   "nats_token": -4.848991548122391,
+   "delta_unigram": -0.0321435696070502,
+   "delta_bigram": 0.49620023936732677,
+   "iterations": 44
+  },
+  {
+   "kind": "frequency",
+   "run": 15,
+   "matches": 1,
+   "nats_token": -5.309152103980924,
+   "delta_unigram": -0.5242578993455588,
+   "delta_bigram": 0.12162253068140846,
+   "iterations": 39
+  },
+  {
+   "kind": "position",
+   "run": 16,
+   "matches": 12,
+   "nats_token": -4.875808865071793,
+   "delta_unigram": -0.055179865606577415,
+   "delta_bigram": 0.47739696087090094,
+   "iterations": 60
+  },
+  {
+   "kind": "frequency",
+   "run": 16,
+   "matches": 1,
+   "nats_token": -5.384185647461568,
+   "delta_unigram": -0.534541075691861,
+   "delta_bigram": 0.09876763275177798,
+   "iterations": 38
+  },
+  {
+   "kind": "position",
+   "run": 17,
+   "matches": 9,
+   "nats_token": -4.815477432771904,
+   "delta_unigram": -0.016659947255202964,
+   "delta_bigram": 0.5253909389569081,
+   "iterations": 60
+  },
+  {
+   "kind": "frequency",
+   "run": 17,
+   "matches": 1,
+   "nats_token": -5.365145283968302,
+   "delta_unigram": -0.5276039416633324,
+   "delta_bigram": 0.10751242335653363,
+   "iterations": 41
+  },
+  {
+   "kind": "position",
+   "run": 18,
+   "matches": 13,
+   "nats_token": -4.873763564194756,
+   "delta_unigram": -0.10546691523297688,
+   "delta_bigram": 0.4633132653237622,
+   "iterations": 60
+  },
+  {
+   "kind": "frequency",
+   "run": 18,
+   "matches": 1,
+   "nats_token": -5.160909990387447,
+   "delta_unigram": -0.3959262871947792,
+   "delta_bigram": 0.282393474219763,
+   "iterations": 51
+  },
+  {
+   "kind": "position",
+   "run": 19,
+   "matches": 10,
+   "nats_token": -4.849398509419219,
+   "delta_unigram": -0.038635810064881794,
+   "delta_bigram": 0.5101366133607667,
+   "iterations": 60
+  },
+  {
+   "kind": "frequency",
+   "run": 19,
+   "matches": 1,
+   "nats_token": -5.171761453342012,
+   "delta_unigram": -0.39064461668734995,
+   "delta_bigram": 0.28445910344112063,
+   "iterations": 40
+  }
+ ],
+ "position_p": 1.0,
+ "frequency_p": 1.0,
+ "survives": false,
+ "occupancy": [
+  0.1097545332726879,
+  0.6157242427438603,
+  0.10684620660169232,
+  0.20998333824020654,
+  0.39396163702895115,
+  0.18198844545886603,
+  0.4968187090099895,
+  0.22386138626745594,
+  0.32307164447082676,
+  0.40104363354539135,
+  0.9380055043999852,
+  0.17404074607538358
+ ],
+ "delete": [
+  0.8899321694538003,
+  0.3841227018164417,
+  0.8928957172911114,
+  0.7898834017663474,
+  0.6059958703994012,
+  0.8175651023449413,
+  0.503929845128507,
+  0.775705173853794,
+  0.6746811699644444,
+  0.6004504217835174,
+  0.06226462248597579,
+  0.8257652856421045
+ ],
+ "terminal_state": 11,
+ "terminal_recovered_top20": [
+  151,
+  156,
+  390,
+  520,
+  527,
+  617,
+  740
+ ]
+}
