@@ -1,5 +1,11 @@
 # How do longer texts grow?
 
+> **Revised in part by [26-right-edge.md](26-right-edge.md).** The 77% same-last-sign
+> result below is not above its positional baseline: the exact-slot null predicts
+> 88%. The newly tested last-two-sign tail is retained 62% against 48% expected.
+> The evidence is for a two-sign tail as a unit, not exceptional stability of the
+> final sign by itself.
+
 Script: `src/growth.py`. A form grows by filling optional fields, so a short
 record should look like a long one with holes. Sentences do not work that way —
 lengthening a sentence rearranges it.
