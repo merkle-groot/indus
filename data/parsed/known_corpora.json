@@ -1,0 +1,419 @@
+{
+  "method": {
+    "seed": 34,
+    "runs": 500,
+    "match_n": 1000,
+    "match_inventory": 100
+  },
+  "sources": {
+    "ed3a": {
+      "url": "https://oracc.museum.upenn.edu/json/epsd2-admin-ed3a.zip",
+      "sha256": "8d4b7bfb6cba7190c2c150ca8b24860c25a430e6ffd0f18ce03ff49092a0a645",
+      "license": "This data is released under the CC0 license",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "timestamp": "2022-12-07T11:16:27",
+      "exclusions": {
+        "unreadable_line": 2857,
+        "duplicate": 10912,
+        "empty_line": 7
+      }
+    },
+    "cattle_brands": {
+      "url": "https://raw.githubusercontent.com/masonyoungblood/cattle_brand_data/01e05a546f0d30a4c6c2c35f57fae0e6633a6c5e/brand_data.csv",
+      "commit": "01e05a546f0d30a4c6c2c35f57fae0e6633a6c5e",
+      "sha256": "a263a35f5efcfe69f7a134171646626403fcdd53306a7196b68101d01539036e",
+      "license": "not stated in repository",
+      "exclusions": {
+        "duplicate_design_site": 56551,
+        "malformed_code": 178
+      }
+    }
+  },
+  "full": {
+    "indus": {
+      "records": 2086,
+      "tokens": 9159,
+      "inventory": 527,
+      "mean_length": 4.390699904122723,
+      "median_length": 4.0,
+      "hapax": 177,
+      "hapax_inventory_rate": 0.33586337760910817,
+      "repeat_records": 78,
+      "repeat_rate": 0.037392138063279005
+    },
+    "ed3a": {
+      "records": 9611,
+      "tokens": 34695,
+      "inventory": 1365,
+      "mean_length": 3.609926126313599,
+      "median_length": 4.0,
+      "hapax": 426,
+      "hapax_inventory_rate": 0.3120879120879121,
+      "repeat_records": 535,
+      "repeat_rate": 0.05566538341483716
+    },
+    "cattle_brands": {
+      "records": 35056,
+      "tokens": 91427,
+      "inventory": 459,
+      "mean_length": 2.6080271565495208,
+      "median_length": 3.0,
+      "hapax": 117,
+      "hapax_inventory_rate": 0.2549019607843137,
+      "repeat_records": 2947,
+      "repeat_rate": 0.08406549520766773
+    }
+  },
+  "matched": {
+    "indus": {
+      "eligible_top100_records": 1061,
+      "summary": {
+        "records": 1000,
+        "tokens": 4069,
+        "inventory": 100,
+        "mean_length": 4.069,
+        "median_length": 4.0,
+        "hapax": 0,
+        "hapax_inventory_rate": 0.0,
+        "repeat_records": 28,
+        "repeat_rate": 0.028
+      },
+      "no_repeat": {
+        "mean": 107.728,
+        "lo": 94.0,
+        "hi": 124.0,
+        "sd": 7.691054585769273,
+        "observed": 28,
+        "observed_rate": 0.028,
+        "z": -10.366328714857957,
+        "lower_p": 0.001996007984031936
+      },
+      "terminal_exclusion": {
+        "eligible_signs": 55,
+        "testable_pairs": 1485,
+        "bh_discoveries": 1,
+        "strongest": [
+          {
+            "a": 520,
+            "b": 740,
+            "observed": 2,
+            "null_mean": 13.01,
+            "null_lo": 8.0,
+            "null_hi": 19.0,
+            "z": -4.029743171042552,
+            "p": 0.001996007984031936,
+            "normal_p": 2.7918913265405336e-05
+          },
+          {
+            "a": 2,
+            "b": 400,
+            "observed": 3,
+            "null_mean": 13.258,
+            "null_lo": 8.0,
+            "null_hi": 18.0,
+            "z": -3.7371052711054102,
+            "p": 0.001996007984031936,
+            "normal_p": 9.307550032506741e-05
+          },
+          {
+            "a": 60,
+            "b": 861,
+            "observed": 0,
+            "null_mean": 8.866,
+            "null_lo": 4.0,
+            "null_hi": 14.0,
+            "z": -3.6280082389595885,
+            "p": 0.001996007984031936,
+            "normal_p": 0.00014280807435486758
+          },
+          {
+            "a": 2,
+            "b": 920,
+            "observed": 6,
+            "null_mean": 15.998,
+            "null_lo": 11.0,
+            "null_hi": 22.0,
+            "z": -3.5877953600991055,
+            "p": 0.001996007984031936,
+            "normal_p": 0.00016674293123349767
+          },
+          {
+            "a": 33,
+            "b": 740,
+            "observed": 32,
+            "null_mean": 46.798,
+            "null_lo": 39.0,
+            "null_hi": 55.52499999999998,
+            "z": -3.583218216260202,
+            "p": 0.001996007984031936,
+            "normal_p": 0.0001696934258374023
+          },
+          {
+            "a": 2,
+            "b": 741,
+            "observed": 5,
+            "null_mean": 13.29,
+            "null_lo": 8.475000000000001,
+            "null_hi": 19.0,
+            "z": -3.182941629499485,
+            "p": 0.001996007984031936,
+            "normal_p": 0.0007289350041808684
+          },
+          {
+            "a": 4,
+            "b": 740,
+            "observed": 3,
+            "null_mean": 10.298,
+            "null_lo": 6.0,
+            "null_hi": 15.0,
+            "z": -3.114092177651003,
+            "p": 0.001996007984031936,
+            "normal_p": 0.0009225591804308064
+          },
+          {
+            "a": 32,
+            "b": 520,
+            "observed": 5,
+            "null_mean": 13.304,
+            "null_lo": 8.0,
+            "null_hi": 19.0,
+            "z": -2.9545460370301067,
+            "p": 0.001996007984031936,
+            "normal_p": 0.0015656471557994862
+          },
+          {
+            "a": 400,
+            "b": 60,
+            "observed": 0,
+            "null_mean": 5.332,
+            "null_lo": 2.0,
+            "null_hi": 9.0,
+            "z": -2.7670424970770604,
+            "p": 0.001996007984031936,
+            "normal_p": 0.0028283690331468493
+          },
+          {
+            "a": 368,
+            "b": 740,
+            "observed": 5,
+            "null_mean": 10.394,
+            "null_lo": 6.0,
+            "null_hi": 14.0,
+            "z": -2.7618382238753716,
+            "p": 0.00998003992015968,
+            "normal_p": 0.0028738475039987287
+          }
+        ],
+        "indus_740_520": {
+          "a": 520,
+          "b": 740,
+          "observed": 2,
+          "null_mean": 13.01,
+          "null_lo": 8.0,
+          "null_hi": 19.0,
+          "z": -4.029743171042552,
+          "p": 0.001996007984031936,
+          "normal_p": 2.7918913265405336e-05
+        }
+      },
+      "numeral_side": {
+        "mean": 347.5413133062322,
+        "lo": 325.4913131242353,
+        "hi": 370.57044429940527,
+        "sd": 11.857107927639744,
+        "events": 1056,
+        "eligible_signs": 23,
+        "numeral_left_rate": 0.5212903225806451,
+        "observed_q": 462.76761890005815,
+        "upper_p": 0.001996007984031936,
+        "extreme_signs": 10
+      }
+    },
+    "ed3a": {
+      "eligible_top100_records": 1996,
+      "summary": {
+        "records": 1000,
+        "tokens": 3689,
+        "inventory": 100,
+        "mean_length": 3.689,
+        "median_length": 4.0,
+        "hapax": 1,
+        "hapax_inventory_rate": 0.01,
+        "repeat_records": 90,
+        "repeat_rate": 0.09
+      },
+      "no_repeat": {
+        "mean": 63.134,
+        "lo": 50.0,
+        "hi": 77.0,
+        "sd": 6.985530708439919,
+        "observed": 90,
+        "observed_rate": 0.09,
+        "z": 3.8459497382984082,
+        "lower_p": 1.0
+      },
+      "terminal_exclusion": {
+        "eligible_signs": 66,
+        "testable_pairs": 2145,
+        "bh_discoveries": 0,
+        "strongest": [
+          {
+            "a": "E0809",
+            "b": "E1182",
+            "observed": 0,
+            "null_mean": 8.846,
+            "null_lo": 4.0,
+            "null_hi": 14.0,
+            "z": -3.5235227406107077,
+            "p": 0.001996007984031936,
+            "normal_p": 0.00021292527585161636
+          },
+          {
+            "a": "E1068",
+            "b": "E1253",
+            "observed": 1,
+            "null_mean": 10.34,
+            "null_lo": 6.0,
+            "null_hi": 16.0,
+            "z": -3.293044850503048,
+            "p": 0.001996007984031936,
+            "normal_p": 0.0004955433173170665
+          },
+          {
+            "a": "E0716",
+            "b": "E0810",
+            "observed": 0,
+            "null_mean": 6.394,
+            "null_lo": 3.0,
+            "null_hi": 10.0,
+            "z": -3.2136409938219863,
+            "p": 0.001996007984031936,
+            "normal_p": 0.0006553171627596432
+          },
+          {
+            "a": "E1068",
+            "b": "E1308",
+            "observed": 0,
+            "null_mean": 7.666,
+            "null_lo": 3.0,
+            "null_hi": 12.0,
+            "z": -3.1825713775357447,
+            "p": 0.001996007984031936,
+            "normal_p": 0.0007298676551863137
+          },
+          {
+            "a": "E0716",
+            "b": "E0809",
+            "observed": 2,
+            "null_mean": 10.882,
+            "null_lo": 6.0,
+            "null_hi": 17.0,
+            "z": -2.9682645997994483,
+            "p": 0.001996007984031936,
+            "normal_p": 0.001497431997292837
+          },
+          {
+            "a": "E0810",
+            "b": "E1253",
+            "observed": 0,
+            "null_mean": 6.192,
+            "null_lo": 3.0,
+            "null_hi": 11.0,
+            "z": -2.9346169046479305,
+            "p": 0.003992015968063872,
+            "normal_p": 0.0016697986234145846
+          },
+          {
+            "a": "E1016",
+            "b": "E1253",
+            "observed": 0,
+            "null_mean": 6.826,
+            "null_lo": 2.0,
+            "null_hi": 11.0,
+            "z": -2.9109545467748275,
+            "p": 0.001996007984031936,
+            "normal_p": 0.0018016321562503452
+          },
+          {
+            "a": "E0716",
+            "b": "E1068",
+            "observed": 0,
+            "null_mean": 6.508,
+            "null_lo": 2.0,
+            "null_hi": 11.0,
+            "z": -2.8908539431845894,
+            "p": 0.003992015968063872,
+            "normal_p": 0.0019209831523230975
+          },
+          {
+            "a": "E0078",
+            "b": "E0167",
+            "observed": 0,
+            "null_mean": 5.46,
+            "null_lo": 2.0,
+            "null_hi": 9.0,
+            "z": -2.8432195869865438,
+            "p": 0.001996007984031936,
+            "normal_p": 0.0022330144589047672
+          },
+          {
+            "a": "E1253",
+            "b": "E1331",
+            "observed": 0,
+            "null_mean": 6.29,
+            "null_lo": 2.0,
+            "null_hi": 11.0,
+            "z": -2.8254865902680746,
+            "p": 0.001996007984031936,
+            "normal_p": 0.0023604431992908207
+          }
+        ],
+        "indus_740_520": null
+      },
+      "numeral_side": {
+        "mean": 44.3497759527903,
+        "lo": 22.16934302257306,
+        "hi": 77.83046487175469,
+        "sd": 13.669409157246221,
+        "events": 747,
+        "eligible_signs": 16,
+        "numeral_left_rate": 0.969758064516129,
+        "observed_q": 242.17577602516846,
+        "upper_p": 0.001996007984031936,
+        "extreme_signs": 15
+      }
+    },
+    "cattle_brands": {
+      "eligible_top100_records": 29224,
+      "summary": {
+        "records": 1000,
+        "tokens": 2679,
+        "inventory": 100,
+        "mean_length": 2.679,
+        "median_length": 3.0,
+        "hapax": 0,
+        "hapax_inventory_rate": 0.0,
+        "repeat_records": 94,
+        "repeat_rate": 0.094
+      },
+      "no_repeat": {
+        "mean": 83.286,
+        "lo": 68.0,
+        "hi": 100.0,
+        "sd": 8.01302821924926,
+        "observed": 94,
+        "observed_rate": 0.094,
+        "z": 1.337072540723411,
+        "lower_p": 0.908183632734531
+      },
+      "terminal_exclusion": {
+        "status": "infeasible",
+        "reason": "catalogue component fields do not encode physical order"
+      },
+      "numeral_side": {
+        "status": "infeasible",
+        "reason": "emblems have neither reading order nor numeral annotation"
+      }
+    }
+  }
+}
