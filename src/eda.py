@@ -52,8 +52,9 @@ for g, c in signs.most_common(15):
     print(f"  {g:>4}  {c:>5}  {c / tokens:5.1%}")
 
 print("\npositional bias (top 10 initial vs final)")
-init = Counter(l[0] for _, l in lines if l)
-fin = Counter(l[-1] for _, l in lines if l)
+# The raw arrays are uniformly opposite analytical reading order (round 27).
+init = Counter(l[-1] for _, l in lines if l)
+fin = Counter(l[0] for _, l in lines if l)
 print("  initial:", ", ".join(f"{g}({c})" for g, c in init.most_common(10)))
 print("  final  :", ", ".join(f"{g}({c})" for g, c in fin.most_common(10)))
 
@@ -62,10 +63,13 @@ bysite = Counter(t.get("site") for t in texts)
 for s, c in bysite.most_common(12):
     print(f"  {str(sites.get(s, s)):<28} {c:>5}")
 
-# Stored order is left-to-right on the artifact; the script reads right-to-left.
-# lines.json is written in READING order.
+# Round 27 tested the direction subsets rather than trusting DIRECTION.  Under
+# the old conditional transform, 740/520/400 are terminal in R/L rows and
+# initial in L/R rows.  Reversing L/R makes the two subsets agree.  The raw
+# GLYPHSEQUENCE arrays therefore have one consistent orientation; DIRECTION is
+# metadata, not an instruction for ordering this array.  Reverse every line.
 json.dump([{"artifact": t["cisi"], "site": t.get("site"),
-            "signs": l[::-1] if t.get("direction") != "L/R" else l}
+            "signs": l[::-1]}
            for t, l in lines],
           open(D / "lines.json", "w"), indent=1)
 print(f"\nwrote {D / 'lines.json'}")

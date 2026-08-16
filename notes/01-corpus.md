@@ -1,5 +1,10 @@
 # Corpus: sourcing and validation
 
+> **Corrected by [27-direction.md](27-direction.md).** The original parser
+> reversed R/L rows but preserved L/R rows. In that 4% subset, 740/520/400 all
+> landed at the start. `lines.json` now reverses every raw sequence; both
+> direction subsets then reproduce the same terminal pattern.
+
 ## What we're using
 
 `data/yaj/population-script.sql` from [yajnadevam/indus-website](https://github.com/yajnadevam/indus-website),

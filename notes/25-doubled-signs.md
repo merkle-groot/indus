@@ -15,7 +15,7 @@ The three accounts make different predictions.
 
 ## Setup and controls
 
-The analysis starts from `lines_merged.json`. Its 2613 lines reduce to **1962
+The analysis starts from `lines_merged.json`. Its 2613 lines reduce to **1929
 distinct sign sequences**. Site and object tests retain one copy of a sequence
 per site or object class, so a text attested in two strata can inform the
 control while mass-produced copies inside one stratum cannot.
@@ -39,13 +39,13 @@ the seven pairs is.
 
 | D / S | texts with D / S | together | expected, length | z length | z site | z object | expected, position shuffle | z position | lower-tail p |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **617 / 615** | 44 / 25 | **1** | 0.6 | +0.50 | +0.51 | +0.46 | 0.6 | +0.62 | .893 |
-| 34 / 32 | 12 / 210 | 1 | 1.0 | -0.03 | -0.17 | -0.04 | 0.8 | +0.29 | .832 |
-| 821 / 820 | 8 / 147 | 1 | 0.8 | +0.25 | +0.47 | +0.26 | 0.5 | +0.70 | .913 |
-| 792 / 809 | 7 / 1 | 0 | 0.0 | -0.08 | -0.06 | -0.05 | 0.0 | -0.08 | .993 |
-| 219 / 220 | 5 / 227 | 0 | 0.6 | -0.89 | -0.78 | -0.82 | 0.5 | -0.76 | .594 |
-| 401 / 400 | 5 / 201 | 0 | 0.7 | -0.92 | -0.54 | -0.50 | 0.2 | -0.48 | .797 |
-| 791 / 790 | 5 / 22 | 0 | 0.1 | -0.24 | -0.23 | -0.22 | 0.0 | -0.20 | .961 |
+| **617 / 615** | 43 / 25 | **1** | 0.6 | +0.50 | +0.50 | +0.45 | 0.5 | +0.65 | .900 |
+| 34 / 32 | 10 / 210 | 1 | 1.0 | +0.05 | -0.10 | +0.04 | 0.7 | +0.35 | .842 |
+| 821 / 820 | 8 / 146 | 1 | 0.8 | +0.25 | +0.46 | +0.25 | 0.5 | +0.69 | .911 |
+| 792 / 809 | 7 / 1 | 0 | 0.0 | -0.08 | -0.06 | -0.05 | 0.0 | -0.08 | .994 |
+| 219 / 220 | 5 / 224 | 0 | 0.6 | -0.88 | -0.78 | -0.82 | 0.5 | -0.75 | .604 |
+| 401 / 400 | 5 / 196 | 0 | 0.7 | -0.90 | -0.54 | -0.51 | 0.2 | -0.41 | .852 |
+| 791 / 790 | 5 / 22 | 0 | 0.1 | -0.25 | -0.23 | -0.22 | 0.0 | -0.22 | .953 |
 
 This is a negative result with a power warning. Expected overlaps are below one
 for every pair. The zeros for the small composites cannot distinguish
@@ -63,13 +63,13 @@ percentile within that control.
 
 | D / S | position cosine | matched control | neighbour cosine | matched control |
 |---|---:|---:|---:|---:|
-| **617 / 615** | **.425** | .925 / .995 / 13th | .083 | .107 / .431 / 43rd |
-| 34 / 32 | .645 | .721 / .989 / 44th | .112 | .078 / .303 / 62nd |
-| 821 / 820 | .903 | .776 / .987 / 66th | .063 | .058 / .295 / 52nd |
-| 792 / 809 | .647 | .772 / .926 / 37th | .000 | .000 / .175 / 80th |
-| 219 / 220 | .641 | .586 / .979 / 54th | .321 | .048 / .340 / 89th |
-| 401 / 400 | **.991** | .681 / .974 / 96th | .019 | .054 / .322 / 30th |
-| 791 / 790 | .947 | .683 / .966 / 85th | .084 | .042 / .302 / 60th |
+| **617 / 615** | **.420** | .925 / .993 / 13th | .083 | .107 / .462 / 44th |
+| 34 / 32 | .734 | .737 / .989 / 50th | .113 | .051 / .303 / 70th |
+| 821 / 820 | .903 | .797 / .992 / 63rd | .063 | .052 / .246 / 57th |
+| 792 / 809 | .647 | .772 / .926 / 41st | .000 | .000 / .181 / 80th |
+| 219 / 220 | .655 | .582 / .976 / 54th | .332 | .033 / .327 / 90th |
+| 401 / 400 | **.994** | .663 / .974 / 98th | .018 | .054 / .326 / 30th |
+| 791 / 790 | .970 | .692 / .966 / 92nd | .083 | .044 / .312 / 57th |
 
 There is no family-wide likeness. 401 and 400 occupy nearly identical broad
 positions, but do not share neighbours. 219 and 220 approach the control's
@@ -89,8 +89,8 @@ excludes 740. Its base 615 does not behave remotely the same way.
 
 | sign | texts | text-final | share | with 740 / expected by length / z | z site | z object | z exact-position shuffle |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| **617** | 44 | 26 | **59%** | 6 / 22.0 / **-5.12** | **-4.87** | **-4.95** | **-2.18** |
-| **615** | 25 | 1 | **4%** | 14 / 14.0 / 0.00 | +0.72 | +1.16 | +1.08 |
+| **617** | 43 | 26 | **60%** | 6 / 21.7 / **-5.09** | **-4.90** | **-4.98** | **-2.07** |
+| **615** | 25 | 1 | **4%** | 14 / 14.0 / +0.01 | +0.70 | +1.15 | +1.05 |
 
 The exact-position control weakens 617's exclusion, as it must: two terminal
 signs under-co-occur partly because they want the same place. It does not erase
@@ -109,9 +109,9 @@ is six made as two copies of three.
 
 | D / S | deduplicated tokens | position cosine | neighbour cosine | texts containing both |
 |---|---:|---:|---:|---:|
-| **34 / 32** | 13 / 217 | .645 | .112 | 1 |
-| 36 / 33 | 3 / 151 | .496 | .027 | 0 |
-| 56 / 55 | 3 / 36 | .999 | .129 | 0 |
+| **34 / 32** | 11 / 217 | .734 | .113 | 1 |
+| 36 / 33 | 3 / 149 | .734 | .053 | 0 |
+| 56 / 55 | 3 / 36 | 1.000 | .128 | 0 |
 
 Even the secure 34/32 case does not behave like one sign with two spellings.
 Doubling changes the expressed value, so the result remains in the numeral

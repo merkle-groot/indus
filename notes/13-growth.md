@@ -2,7 +2,7 @@
 
 > **Revised in part by [26-right-edge.md](26-right-edge.md).** The 77% same-last-sign
 > result below is not above its positional baseline: the exact-slot null predicts
-> 88%. The newly tested last-two-sign tail is retained 62% against 48% expected.
+> 89%. The newly tested last-two-sign tail is retained 63% against 45% expected.
 > The evidence is for a two-sign tail as a unit, not exceptional stability of the
 > final sign by itself.
 

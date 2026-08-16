@@ -248,5 +248,5 @@ for label, col in (("same last sign", 1), ("same last two", 2)):
     print(f"  {label:<16} {obs:>8.1%} {values.mean():>20.1%} "
           f"{lo:>7.1%}-{hi:<7.1%} {z:>6.2f} {p_lower:.4f}/{p_upper:.4f}")
 
-print("\n  The first number reproduces 13-growth's 77% after allograph merges.")
+print("\n  The first number is the 13-growth last-sign statistic after direction correction.")
 print("  Its positional control is new; the last-two comparison is the requested extension.")
