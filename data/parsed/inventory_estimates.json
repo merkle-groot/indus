@@ -1,0 +1,717 @@
+{
+  "method": {
+    "seed": 35,
+    "bootstrap_runs": 1000,
+    "accumulation_runs": 500,
+    "unknown_ids": [
+      12,
+      25,
+      106,
+      316,
+      376,
+      445,
+      515,
+      516,
+      546,
+      547,
+      606,
+      999
+    ]
+  },
+  "analyses": {
+    "unmerged": {
+      "recorded": {
+        "observed": 591,
+        "tokens": 9179,
+        "f1": 214,
+        "f2": 93,
+        "sample_coverage": 0.9766859134982024,
+        "good_turing_coverage_total": 605.1075292805353,
+        "chao1": 833.4574468085107,
+        "ace": 854.1923811251161,
+        "ace_gamma2": 0.6834059537155823,
+        "frequency_spectrum": {
+          "1": 214,
+          "2": 93,
+          "3": 44,
+          "4": 31,
+          "5": 24,
+          "6": 15,
+          "7": 14,
+          "8": 22,
+          "9": 10,
+          "10": 13,
+          ">10": 111
+        },
+        "intervals": {
+          "good_turing_coverage_total": {
+            "lo": 586.849873388148,
+            "hi": 622.0564192667283,
+            "raw_bootstrap_median": 507.37865665879156,
+            "method": "stratified centered percentile bootstrap"
+          },
+          "chao1": {
+            "lo": 792.9480559391586,
+            "hi": 881.2442995249792,
+            "raw_bootstrap_median": 583.983870967742,
+            "method": "stratified centered percentile bootstrap"
+          },
+          "ace": {
+            "lo": 817.2757909463324,
+            "hi": 893.7311362969211,
+            "raw_bootstrap_median": 594.541078337698,
+            "method": "stratified centered percentile bootstrap"
+          }
+        },
+        "zipf": {
+          "alpha": 1.4263241217343567,
+          "intercept": 8.97187384389554,
+          "r_squared": 0.9610845595678885
+        },
+        "accumulation": {
+          "curve": [
+            {
+              "tokens": 459,
+              "observed": 150.0,
+              "lo": 136.0,
+              "hi": 166.0
+            },
+            {
+              "tokens": 918,
+              "observed": 216.0,
+              "lo": 199.0,
+              "hi": 231.0
+            },
+            {
+              "tokens": 1836,
+              "observed": 302.0,
+              "lo": 283.0,
+              "hi": 319.0
+            },
+            {
+              "tokens": 3213,
+              "observed": 389.0,
+              "lo": 369.475,
+              "hi": 406.0
+            },
+            {
+              "tokens": 4590,
+              "observed": 453.0,
+              "lo": 433.475,
+              "hi": 470.525
+            },
+            {
+              "tokens": 6884,
+              "observed": 531.0,
+              "lo": 516.0,
+              "hi": 545.0
+            },
+            {
+              "tokens": 9179,
+              "observed": 591.0,
+              "lo": 591.0,
+              "hi": 591.0
+            }
+          ],
+          "heaps": {
+            "k": 9.42182970029945,
+            "beta": 0.45747281366046944,
+            "beta_interval": [
+              0.42679017389086543,
+              0.49072339865721837
+            ],
+            "at_2x_tokens": 840.8517589717402,
+            "at_2x_interval": [
+              806.2222666369046,
+              877.0523929837864
+            ],
+            "at_10x_tokens": 1755.8168462526298,
+            "at_10x_interval": [
+              1608.2551770910675,
+              1925.6141658731285
+            ]
+          }
+        },
+        "records": 2094,
+        "position_shuffle_check": "invariant: abundance and richness are unchanged"
+      },
+      "collapse_unknown": {
+        "observed": 580,
+        "tokens": 9179,
+        "f1": 205,
+        "f2": 90,
+        "sample_coverage": 0.9776664124632313,
+        "good_turing_coverage_total": 593.2493871183419,
+        "chao1": 809.7802197802198,
+        "ace": 825.3702760189948,
+        "ace_gamma2": 0.6665413533834585,
+        "frequency_spectrum": {
+          "1": 205,
+          "2": 90,
+          "3": 44,
+          "4": 31,
+          "5": 24,
+          "6": 15,
+          "7": 14,
+          "8": 22,
+          "9": 10,
+          "10": 13,
+          ">10": 112
+        },
+        "intervals": {
+          "good_turing_coverage_total": {
+            "lo": 576.7069551282542,
+            "hi": 608.5836075270091,
+            "raw_bootstrap_median": 500.1153847736963,
+            "method": "stratified centered percentile bootstrap"
+          },
+          "chao1": {
+            "lo": 775.369328139353,
+            "hi": 860.0759550743376,
+            "raw_bootstrap_median": 572.7764705882353,
+            "method": "stratified centered percentile bootstrap"
+          },
+          "ace": {
+            "lo": 794.2368383555332,
+            "hi": 860.5611567706079,
+            "raw_bootstrap_median": 582.4051131752975,
+            "method": "stratified centered percentile bootstrap"
+          }
+        },
+        "zipf": {
+          "alpha": 1.4307494352091537,
+          "intercept": 8.994474128830975,
+          "r_squared": 0.9599277008848383
+        },
+        "accumulation": {
+          "curve": [
+            {
+              "tokens": 459,
+              "observed": 149.0,
+              "lo": 135.0,
+              "hi": 164.0
+            },
+            {
+              "tokens": 918,
+              "observed": 215.0,
+              "lo": 199.0,
+              "hi": 230.52499999999998
+            },
+            {
+              "tokens": 1836,
+              "observed": 301.0,
+              "lo": 281.475,
+              "hi": 318.0
+            },
+            {
+              "tokens": 3213,
+              "observed": 386.0,
+              "lo": 365.475,
+              "hi": 403.0
+            },
+            {
+              "tokens": 4590,
+              "observed": 446.0,
+              "lo": 429.475,
+              "hi": 464.0
+            },
+            {
+              "tokens": 6884,
+              "observed": 523.0,
+              "lo": 510.0,
+              "hi": 534.0
+            },
+            {
+              "tokens": 9179,
+              "observed": 580.0,
+              "lo": 580.0,
+              "hi": 580.0
+            }
+          ],
+          "heaps": {
+            "k": 9.665688691056415,
+            "beta": 0.45290738173625167,
+            "beta_interval": [
+              0.42413647534639404,
+              0.4856489546233682
+            ],
+            "at_2x_tokens": 824.8040521495584,
+            "at_2x_interval": [
+              791.3001210552832,
+              859.1314073890715
+            ],
+            "at_10x_tokens": 1709.6982237194652,
+            "at_10x_interval": [
+              1562.7164453150951,
+              1873.157575442078
+            ]
+          }
+        },
+        "records": 2094,
+        "position_shuffle_check": "invariant: abundance and richness are unchanged"
+      },
+      "exclude_unknown": {
+        "observed": 579,
+        "tokens": 9161,
+        "f1": 205,
+        "f2": 90,
+        "sample_coverage": 0.9776225302914529,
+        "good_turing_coverage_total": 592.2531263957125,
+        "chao1": 808.7802197802198,
+        "ace": 824.3702760189948,
+        "ace_gamma2": 0.6665413533834585,
+        "frequency_spectrum": {
+          "1": 205,
+          "2": 90,
+          "3": 44,
+          "4": 31,
+          "5": 24,
+          "6": 15,
+          "7": 14,
+          "8": 22,
+          "9": 10,
+          "10": 13,
+          ">10": 111
+        },
+        "intervals": {
+          "good_turing_coverage_total": {
+            "lo": 576.6090180625441,
+            "hi": 608.5796342038371,
+            "raw_bootstrap_median": 498.18072037234185,
+            "method": "stratified centered percentile bootstrap"
+          },
+          "chao1": {
+            "lo": 775.4911550136393,
+            "hi": 853.5443185994278,
+            "raw_bootstrap_median": 570.9085684430512,
+            "method": "stratified centered percentile bootstrap"
+          },
+          "ace": {
+            "lo": 792.8253373017643,
+            "hi": 859.195901359502,
+            "raw_bootstrap_median": 580.0126633042199,
+            "method": "stratified centered percentile bootstrap"
+          }
+        },
+        "zipf": {
+          "alpha": 1.430916520780579,
+          "intercept": 8.990487696176276,
+          "r_squared": 0.9600977624372062
+        },
+        "accumulation": {
+          "curve": [
+            {
+              "tokens": 458,
+              "observed": 149.0,
+              "lo": 135.0,
+              "hi": 163.0
+            },
+            {
+              "tokens": 916,
+              "observed": 213.0,
+              "lo": 196.475,
+              "hi": 229.52499999999998
+            },
+            {
+              "tokens": 1832,
+              "observed": 298.0,
+              "lo": 280.0,
+              "hi": 317.0
+            },
+            {
+              "tokens": 3206,
+              "observed": 383.0,
+              "lo": 366.475,
+              "hi": 402.525
+            },
+            {
+              "tokens": 4580,
+              "observed": 445.0,
+              "lo": 427.475,
+              "hi": 459.525
+            },
+            {
+              "tokens": 6871,
+              "observed": 522.0,
+              "lo": 508.0,
+              "hi": 533.0
+            },
+            {
+              "tokens": 9161,
+              "observed": 579.0,
+              "lo": 579.0,
+              "hi": 579.0
+            }
+          ],
+          "heaps": {
+            "k": 9.571473664565012,
+            "beta": 0.45367579374300565,
+            "beta_interval": [
+              0.422458390395091,
+              0.48390431243953186
+            ],
+            "at_2x_tokens": 822.2169267528043,
+            "at_2x_interval": [
+              790.2347737258254,
+              858.0479440242644
+            ],
+            "at_10x_tokens": 1706.4445660267052,
+            "at_10x_interval": [
+              1567.4306390137444,
+              1864.5688113939286
+            ]
+          }
+        },
+        "records": 2093,
+        "position_shuffle_check": "invariant: abundance and richness are unchanged"
+      }
+    },
+    "merged": {
+      "recorded": {
+        "observed": 527,
+        "tokens": 9159,
+        "f1": 177,
+        "f2": 72,
+        "sample_coverage": 0.9806747461513265,
+        "good_turing_coverage_total": 537.3851035404142,
+        "chao1": 740.3698630136986,
+        "ace": 722.903780370159,
+        "ace_gamma2": 0.6137278680572398,
+        "frequency_spectrum": {
+          "1": 177,
+          "2": 72,
+          "3": 41,
+          "4": 29,
+          "5": 27,
+          "6": 15,
+          "7": 15,
+          "8": 21,
+          "9": 7,
+          "10": 12,
+          ">10": 111
+        },
+        "intervals": {
+          "good_turing_coverage_total": {
+            "lo": 523.8550012173127,
+            "hi": 552.7177375910185,
+            "raw_bootstrap_median": 457.7397445864645,
+            "method": "stratified centered percentile bootstrap"
+          },
+          "chao1": {
+            "lo": 708.1594649046192,
+            "hi": 787.0714209847131,
+            "raw_bootstrap_median": 520.3958333333333,
+            "method": "stratified centered percentile bootstrap"
+          },
+          "ace": {
+            "lo": 695.8674406461814,
+            "hi": 753.6894698707515,
+            "raw_bootstrap_median": 525.2906175232652,
+            "method": "stratified centered percentile bootstrap"
+          }
+        },
+        "zipf": {
+          "alpha": 1.463154785801347,
+          "intercept": 9.1160646195043,
+          "r_squared": 0.9535694201639031
+        },
+        "accumulation": {
+          "curve": [
+            {
+              "tokens": 458,
+              "observed": 144.0,
+              "lo": 131.475,
+              "hi": 159.52499999999998
+            },
+            {
+              "tokens": 916,
+              "observed": 204.0,
+              "lo": 191.0,
+              "hi": 220.0
+            },
+            {
+              "tokens": 1832,
+              "observed": 283.5,
+              "lo": 266.0,
+              "hi": 299.0
+            },
+            {
+              "tokens": 3206,
+              "observed": 360.0,
+              "lo": 341.0,
+              "hi": 375.0
+            },
+            {
+              "tokens": 4580,
+              "observed": 412.0,
+              "lo": 397.0,
+              "hi": 426.525
+            },
+            {
+              "tokens": 6869,
+              "observed": 477.0,
+              "lo": 465.0,
+              "hi": 488.0
+            },
+            {
+              "tokens": 9159,
+              "observed": 527.0,
+              "lo": 527.0,
+              "hi": 527.0
+            }
+          ],
+          "heaps": {
+            "k": 10.572347194547666,
+            "beta": 0.43280211684418873,
+            "beta_interval": [
+              0.396895543490876,
+              0.4612133074448358
+            ],
+            "at_2x_tokens": 739.8676911521375,
+            "at_2x_interval": [
+              708.6889676720176,
+              768.2780033632965
+            ],
+            "at_10x_tokens": 1484.8061587713835,
+            "at_10x_interval": [
+              1348.0324871367661,
+              1605.8422343812028
+            ]
+          }
+        },
+        "records": 2086,
+        "position_shuffle_check": "invariant: abundance and richness are unchanged"
+      },
+      "collapse_unknown": {
+        "observed": 516,
+        "tokens": 9159,
+        "f1": 168,
+        "f2": 69,
+        "sample_coverage": 0.9816573861775303,
+        "good_turing_coverage_total": 525.6416416416416,
+        "chao1": 716.4,
+        "ace": 695.6907261725663,
+        "ace_gamma2": 0.5934940781605647,
+        "frequency_spectrum": {
+          "1": 168,
+          "2": 69,
+          "3": 41,
+          "4": 29,
+          "5": 27,
+          "6": 15,
+          "7": 15,
+          "8": 21,
+          "9": 7,
+          "10": 12,
+          ">10": 112
+        },
+        "intervals": {
+          "good_turing_coverage_total": {
+            "lo": 511.7834848494705,
+            "hi": 539.9136389729284,
+            "raw_bootstrap_median": 450.061456345892,
+            "method": "stratified centered percentile bootstrap"
+          },
+          "chao1": {
+            "lo": 685.2316046316047,
+            "hi": 754.6366206744814,
+            "raw_bootstrap_median": 509.29071379071377,
+            "method": "stratified centered percentile bootstrap"
+          },
+          "ace": {
+            "lo": 669.6861431852064,
+            "hi": 725.3414225809381,
+            "raw_bootstrap_median": 512.3015517368742,
+            "method": "stratified centered percentile bootstrap"
+          }
+        },
+        "zipf": {
+          "alpha": 1.4660848644948155,
+          "intercept": 9.131827907280464,
+          "r_squared": 0.9517827968372197
+        },
+        "accumulation": {
+          "curve": [
+            {
+              "tokens": 458,
+              "observed": 144.0,
+              "lo": 131.0,
+              "hi": 157.0
+            },
+            {
+              "tokens": 916,
+              "observed": 204.0,
+              "lo": 190.0,
+              "hi": 220.52499999999998
+            },
+            {
+              "tokens": 1832,
+              "observed": 281.0,
+              "lo": 265.0,
+              "hi": 298.0
+            },
+            {
+              "tokens": 3206,
+              "observed": 355.0,
+              "lo": 338.0,
+              "hi": 371.0
+            },
+            {
+              "tokens": 4580,
+              "observed": 406.0,
+              "lo": 390.475,
+              "hi": 422.0
+            },
+            {
+              "tokens": 6869,
+              "observed": 469.0,
+              "lo": 457.0,
+              "hi": 481.0
+            },
+            {
+              "tokens": 9159,
+              "observed": 516.0,
+              "lo": 516.0,
+              "hi": 516.0
+            }
+          ],
+          "heaps": {
+            "k": 11.081499355870648,
+            "beta": 0.42543192733143825,
+            "beta_interval": [
+              0.39358168488651013,
+              0.45527039823931287
+            ],
+            "at_2x_tokens": 721.3780978457795,
+            "at_2x_interval": [
+              692.3248835091275,
+              753.3320803647713
+            ],
+            "at_10x_tokens": 1430.6292771241358,
+            "at_10x_interval": [
+              1314.781295197182,
+              1561.51562260903
+            ]
+          }
+        },
+        "records": 2086,
+        "position_shuffle_check": "invariant: abundance and richness are unchanged"
+      },
+      "exclude_unknown": {
+        "observed": 515,
+        "tokens": 9141,
+        "f1": 168,
+        "f2": 69,
+        "sample_coverage": 0.9816212668198228,
+        "good_turing_coverage_total": 524.6422601136744,
+        "chao1": 715.4,
+        "ace": 694.6907261725663,
+        "ace_gamma2": 0.5934940781605647,
+        "frequency_spectrum": {
+          "1": 168,
+          "2": 69,
+          "3": 41,
+          "4": 29,
+          "5": 27,
+          "6": 15,
+          "7": 15,
+          "8": 21,
+          "9": 7,
+          "10": 12,
+          ">10": 111
+        },
+        "intervals": {
+          "good_turing_coverage_total": {
+            "lo": 510.0708565747934,
+            "hi": 539.4742812946013,
+            "raw_bootstrap_median": 448.6332083267105,
+            "method": "stratified centered percentile bootstrap"
+          },
+          "chao1": {
+            "lo": 682.8026356437572,
+            "hi": 756.3759789176863,
+            "raw_bootstrap_median": 509.22969710272173,
+            "method": "stratified centered percentile bootstrap"
+          },
+          "ace": {
+            "lo": 667.9582892376601,
+            "hi": 726.9146894920274,
+            "raw_bootstrap_median": 511.40829332327155,
+            "method": "stratified centered percentile bootstrap"
+          }
+        },
+        "zipf": {
+          "alpha": 1.466580702802337,
+          "intercept": 9.129104663176449,
+          "r_squared": 0.9519917911374758
+        },
+        "accumulation": {
+          "curve": [
+            {
+              "tokens": 457,
+              "observed": 144.0,
+              "lo": 130.0,
+              "hi": 159.0
+            },
+            {
+              "tokens": 914,
+              "observed": 204.0,
+              "lo": 189.0,
+              "hi": 220.0
+            },
+            {
+              "tokens": 1828,
+              "observed": 281.0,
+              "lo": 265.0,
+              "hi": 297.0
+            },
+            {
+              "tokens": 3199,
+              "observed": 355.0,
+              "lo": 337.475,
+              "hi": 369.0
+            },
+            {
+              "tokens": 4570,
+              "observed": 405.0,
+              "lo": 391.0,
+              "hi": 418.525
+            },
+            {
+              "tokens": 6856,
+              "observed": 468.0,
+              "lo": 455.475,
+              "hi": 480.0
+            },
+            {
+              "tokens": 9141,
+              "observed": 515.0,
+              "lo": 515.0,
+              "hi": 515.0
+            }
+          ],
+          "heaps": {
+            "k": 11.15807600668282,
+            "beta": 0.4245494190893686,
+            "beta_interval": [
+              0.3939565161023361,
+              0.4557237360391458
+            ],
+            "at_2x_tokens": 719.497026341964,
+            "at_2x_interval": [
+              688.2159228348706,
+              752.126182210957
+            ],
+            "at_10x_tokens": 1424.8735104300877,
+            "at_10x_interval": [
+              1305.6286016339827,
+              1564.2274795539074
+            ]
+          }
+        },
+        "records": 2085,
+        "position_shuffle_check": "invariant: abundance and richness are unchanged"
+      }
+    }
+  }
+}
