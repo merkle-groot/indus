@@ -1,5 +1,12 @@
 # Is there a radix, and is it 10?
 
+> **SUPERSEDED IN PART — see [16-twelve.md](16-twelve.md).** The base-8 reading
+> below rests on excluding the bracketed and multi-row stroke signs. Reading
+> those as numbers reveals a well-attested value **12** (sign 55, 37 deduplicated
+> tokens, Poisson p = 1.4e-45 against the extrapolated decay), which base 8
+> cannot accommodate. The cliff-after-7 arithmetic here is still correct as far
+> as it goes; the conclusion drawn from it is withdrawn.
+
 Scripts: `src/radix.py`, `src/radix2.py`.
 
 ## Corrected values
