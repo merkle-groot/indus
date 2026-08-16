@@ -79,9 +79,13 @@ does not.
 
 Identified by eye and confirmed on the renders: closed frame, two outer legs,
 two inner teeth, indistinguishable. Three texts between them, 0/3 on the 920
-collocation. Added as a documented override in `src/apply_merges.py`, joining
-154+156. Neither the merge nor its absence changes any result — it is correct
-rather than consequential.
+collocation.
+
+**Correction:** I added this as an override in `src/apply_merges.py` and said
+the shape pipeline had missed it. It had not — 326 and 330 were already one of
+the 41 A sets and were already being merged. I had checked only the
+*derivational* families, not the allograph sets. The override is redundant
+(union-find absorbs it harmlessly) and the claim was wrong.
 
 ## What this says about sign 316
 
@@ -143,20 +147,31 @@ geometry genuinely disagrees. Merged the sign has 16 tokens and runs 4/6 on the
 
 Inventory now **591 → 527**.
 
-### The pipeline's error rate is now visible
+### What the shape pipeline actually is
 
-Three merges have been found by eye that the shape clustering did not apply:
+Only two eye-found merges were genuinely missed:
 
 | | what the pipeline did |
 |---|---|
 | 154 + 156 | paired, but classified B (chamfer *below* the A cut — a threshold error) |
 | 318 + 323 | paired, classified B (chamfer above the cut — arguably correct) |
-| 326 + 330 | **never paired at all**, despite being indistinguishable |
+| 326 + 330 | already an A set; already merged. My override was redundant. |
 
-The 326/330 miss is the telling one. Two glyphs that cannot be told apart at
-260px were not even placed in the same family. Whatever the clustering is
-measuring, it is not simply "do these look the same", and the 41 A sets should
-be read as a high-precision, low-recall list rather than a complete one.
+And then the finding that reframes all of it. Comparing the raw `unicode` field
+in `glyphs.json` — a plain string comparison, no rendering — gives **41 groups
+covering 103 attested ids**. The shape pipeline's A sets are **41 groups
+covering 103 ids**, and they are the same 41.
+
+The 256px rasterisation, the Dice and chamfer measures, the alignment search
+over scale and offset, the two-component Gaussian mixture used to pick the
+cut — for the A sets, all of it reproduces `glyphs.json` codepoint equality
+exactly. Those ids do not merely look alike; the font draws them with the
+*identical codepoint*, so they were never distinguishable in the first place.
+
+That is not a criticism of the pipeline's B families, which do real work. But
+the A half of it is a one-line string comparison wearing a lab coat, and the
+right way to describe those 41 groups is "the database gave two numbers to one
+glyph", not "clustering discovered these are the same".
 
 ### GLYPHSIMILARITY
 
