@@ -1,5 +1,10 @@
 # Structural comparison with Linear B
 
+> **Revised by [28-numeral-sides.md](28-numeral-sides.md).** The pooled near-1:1
+> order below hides strong sign-specific placement: 15 of 37 eligible signs are
+> at least 90% one-sided, versus 0.01 expected. “No corpus-wide order” remains
+> true; “no fixed order” does not.
+
 Script: `src/linearb_compare.py`. The point of comparing with Linear B is that
 we **know what Linear B says** and how its tablets are laid out. So this is a
 falsifiable structural comparison, not a phonetic guess. It tests one question:
