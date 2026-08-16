@@ -30,7 +30,11 @@ freq = Counter(g for l in lines for g in l["signs"] if g)
 # bar, object-class cosine 1.000). Merging them also sharpens the terminal slot
 # from z = -4.73 / -4.33 separately to -6.40 together (18-allographs.md).
 # Applying "A only" mechanically dropped a merge three sources agree on.
-OVERRIDE = [[156, 154]]
+# 326 + 330 are the same glyph -- closed frame, two outer legs, two inner teeth,
+# indistinguishable at 260px. The shape pipeline never paired them. 3 texts
+# between them, so the merge is correct rather than consequential
+# (21-frame-family.md).
+OVERRIDE = [[156, 154], [326, 330]]
 
 # Union-find, so overlapping sets and the override compose instead of the later
 # one silently winning. A single-pass dict leaves any sign whose target was
