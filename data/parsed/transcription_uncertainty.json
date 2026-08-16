@@ -1,0 +1,1400 @@
+{
+  "method": {
+    "seed": 38,
+    "draws": 300,
+    "null_runs_per_draw": 60,
+    "baseline_null_runs": 1000,
+    "error_rate_shrinkage_equivalent_positions": 20.0,
+    "alternative_backoff_equivalent_disagreements": 5.0,
+    "deduplication": "text x site x object after every perturbation"
+  },
+  "noise_model": {
+    "comparable_artifacts": 161,
+    "equal_length_artifacts": 146,
+    "unequal_length_artifacts": 15,
+    "aligned_positions": 778,
+    "agreements": 725,
+    "disagreements": 53,
+    "global_rate": 0.06812339331619537,
+    "mapped_alternative_disagreements": 40,
+    "unrepresented_alternative_disagreements": 13,
+    "sign_rates": [
+      {
+        "sign": 740,
+        "comparisons": 82,
+        "disagreements": 7,
+        "raw_rate": 0.08536585365853659,
+        "shrunken_rate": 0.08198497908160693
+      },
+      {
+        "sign": 2,
+        "comparisons": 65,
+        "disagreements": 5,
+        "raw_rate": 0.07692307692307693,
+        "shrunken_rate": 0.07485256313322244
+      },
+      {
+        "sign": 220,
+        "comparisons": 31,
+        "disagreements": 4,
+        "raw_rate": 0.12903225806451613,
+        "shrunken_rate": 0.10514642875144917
+      },
+      {
+        "sign": 390,
+        "comparisons": 26,
+        "disagreements": 1,
+        "raw_rate": 0.038461538461538464,
+        "shrunken_rate": 0.051357997093997985
+      },
+      {
+        "sign": 32,
+        "comparisons": 24,
+        "disagreements": 2,
+        "raw_rate": 0.08333333333333333,
+        "shrunken_rate": 0.07641972423463426
+      },
+      {
+        "sign": 60,
+        "comparisons": 20,
+        "disagreements": 3,
+        "raw_rate": 0.15,
+        "shrunken_rate": 0.10906169665809769
+      },
+      {
+        "sign": 240,
+        "comparisons": 17,
+        "disagreements": 1,
+        "raw_rate": 0.058823529411764705,
+        "shrunken_rate": 0.06385048287361912
+      },
+      {
+        "sign": 520,
+        "comparisons": 16,
+        "disagreements": 2,
+        "raw_rate": 0.125,
+        "shrunken_rate": 0.0934018851756641
+      },
+      {
+        "sign": 820,
+        "comparisons": 15,
+        "disagreements": 1,
+        "raw_rate": 0.06666666666666667,
+        "shrunken_rate": 0.06749908189496878
+      },
+      {
+        "sign": 233,
+        "comparisons": 14,
+        "disagreements": 1,
+        "raw_rate": 0.07142857142857142,
+        "shrunken_rate": 0.06948434900952669
+      },
+      {
+        "sign": 235,
+        "comparisons": 14,
+        "disagreements": 1,
+        "raw_rate": 0.07142857142857142,
+        "shrunken_rate": 0.06948434900952669
+      },
+      {
+        "sign": 741,
+        "comparisons": 14,
+        "disagreements": 4,
+        "raw_rate": 0.2857142857142857,
+        "shrunken_rate": 0.15771964312717374
+      },
+      {
+        "sign": 861,
+        "comparisons": 14,
+        "disagreements": 1,
+        "raw_rate": 0.07142857142857142,
+        "shrunken_rate": 0.06948434900952669
+      },
+      {
+        "sign": 817,
+        "comparisons": 13,
+        "disagreements": 1,
+        "raw_rate": 0.07692307692307693,
+        "shrunken_rate": 0.07158993534314871
+      },
+      {
+        "sign": 368,
+        "comparisons": 11,
+        "disagreements": 1,
+        "raw_rate": 0.09090909090909091,
+        "shrunken_rate": 0.07620864084915831
+      },
+      {
+        "sign": 3,
+        "comparisons": 10,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.045415595544130244
+      },
+      {
+        "sign": 33,
+        "comparisons": 10,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.045415595544130244
+      },
+      {
+        "sign": 705,
+        "comparisons": 10,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.045415595544130244
+      },
+      {
+        "sign": 803,
+        "comparisons": 10,
+        "disagreements": 1,
+        "raw_rate": 0.1,
+        "shrunken_rate": 0.07874892887746358
+      },
+      {
+        "sign": 1,
+        "comparisons": 9,
+        "disagreements": 3,
+        "raw_rate": 0.3333333333333333,
+        "shrunken_rate": 0.15042992642496233
+      },
+      {
+        "sign": 90,
+        "comparisons": 9,
+        "disagreements": 1,
+        "raw_rate": 0.1111111111111111,
+        "shrunken_rate": 0.08146440918358301
+      },
+      {
+        "sign": 550,
+        "comparisons": 9,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.04698165056289336
+      },
+      {
+        "sign": 692,
+        "comparisons": 9,
+        "disagreements": 1,
+        "raw_rate": 0.1111111111111111,
+        "shrunken_rate": 0.08146440918358301
+      },
+      {
+        "sign": 31,
+        "comparisons": 8,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.048659566654425265
+      },
+      {
+        "sign": 140,
+        "comparisons": 8,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.048659566654425265
+      },
+      {
+        "sign": 297,
+        "comparisons": 8,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.048659566654425265
+      },
+      {
+        "sign": 900,
+        "comparisons": 8,
+        "disagreements": 2,
+        "raw_rate": 0.25,
+        "shrunken_rate": 0.12008813808299669
+      },
+      {
+        "sign": 176,
+        "comparisons": 7,
+        "disagreements": 1,
+        "raw_rate": 0.14285714285714285,
+        "shrunken_rate": 0.08749880986384842
+      },
+      {
+        "sign": 255,
+        "comparisons": 7,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.050461772826811385
+      },
+      {
+        "sign": 760,
+        "comparisons": 7,
+        "disagreements": 1,
+        "raw_rate": 0.14285714285714285,
+        "shrunken_rate": 0.08749880986384842
+      },
+      {
+        "sign": 840,
+        "comparisons": 7,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.050461772826811385
+      },
+      {
+        "sign": 16,
+        "comparisons": 6,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.052402610243227205
+      },
+      {
+        "sign": 156,
+        "comparisons": 6,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.052402610243227205
+      },
+      {
+        "sign": 415,
+        "comparisons": 6,
+        "disagreements": 1,
+        "raw_rate": 0.16666666666666666,
+        "shrunken_rate": 0.09086414870476567
+      },
+      {
+        "sign": 527,
+        "comparisons": 6,
+        "disagreements": 1,
+        "raw_rate": 0.16666666666666666,
+        "shrunken_rate": 0.09086414870476567
+      },
+      {
+        "sign": 923,
+        "comparisons": 6,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.052402610243227205
+      },
+      {
+        "sign": 65,
+        "comparisons": 5,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.0544987146529563
+      },
+      {
+        "sign": 231,
+        "comparisons": 5,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.0544987146529563
+      },
+      {
+        "sign": 503,
+        "comparisons": 5,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.0544987146529563
+      },
+      {
+        "sign": 806,
+        "comparisons": 5,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.0544987146529563
+      },
+      {
+        "sign": 4,
+        "comparisons": 4,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.056769494430162805
+      },
+      {
+        "sign": 55,
+        "comparisons": 4,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.056769494430162805
+      },
+      {
+        "sign": 100,
+        "comparisons": 4,
+        "disagreements": 1,
+        "raw_rate": 0.25,
+        "shrunken_rate": 0.09843616109682947
+      },
+      {
+        "sign": 190,
+        "comparisons": 4,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.056769494430162805
+      },
+      {
+        "sign": 350,
+        "comparisons": 4,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.056769494430162805
+      },
+      {
+        "sign": 416,
+        "comparisons": 4,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.056769494430162805
+      },
+      {
+        "sign": 460,
+        "comparisons": 4,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.056769494430162805
+      },
+      {
+        "sign": 545,
+        "comparisons": 4,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.056769494430162805
+      },
+      {
+        "sign": 590,
+        "comparisons": 4,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.056769494430162805
+      },
+      {
+        "sign": 630,
+        "comparisons": 4,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.056769494430162805
+      },
+      {
+        "sign": 706,
+        "comparisons": 4,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.056769494430162805
+      },
+      {
+        "sign": 61,
+        "comparisons": 3,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.059237733318430755
+      },
+      {
+        "sign": 125,
+        "comparisons": 3,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.059237733318430755
+      },
+      {
+        "sign": 142,
+        "comparisons": 3,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.059237733318430755
+      },
+      {
+        "sign": 151,
+        "comparisons": 3,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.059237733318430755
+      },
+      {
+        "sign": 226,
+        "comparisons": 3,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.059237733318430755
+      },
+      {
+        "sign": 388,
+        "comparisons": 3,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.059237733318430755
+      },
+      {
+        "sign": 400,
+        "comparisons": 3,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.059237733318430755
+      },
+      {
+        "sign": 407,
+        "comparisons": 3,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.059237733318430755
+      },
+      {
+        "sign": 440,
+        "comparisons": 3,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.059237733318430755
+      },
+      {
+        "sign": 455,
+        "comparisons": 3,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.059237733318430755
+      },
+      {
+        "sign": 575,
+        "comparisons": 3,
+        "disagreements": 1,
+        "raw_rate": 0.3333333333333333,
+        "shrunken_rate": 0.10271599418799597
+      },
+      {
+        "sign": 790,
+        "comparisons": 3,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.059237733318430755
+      },
+      {
+        "sign": 906,
+        "comparisons": 3,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.059237733318430755
+      },
+      {
+        "sign": 5,
+        "comparisons": 2,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06193035756017761
+      },
+      {
+        "sign": 13,
+        "comparisons": 2,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06193035756017761
+      },
+      {
+        "sign": 17,
+        "comparisons": 2,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06193035756017761
+      },
+      {
+        "sign": 18,
+        "comparisons": 2,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06193035756017761
+      },
+      {
+        "sign": 111,
+        "comparisons": 2,
+        "disagreements": 1,
+        "raw_rate": 0.5,
+        "shrunken_rate": 0.10738490301472306
+      },
+      {
+        "sign": 130,
+        "comparisons": 2,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06193035756017761
+      },
+      {
+        "sign": 165,
+        "comparisons": 2,
+        "disagreements": 1,
+        "raw_rate": 0.5,
+        "shrunken_rate": 0.10738490301472306
+      },
+      {
+        "sign": 215,
+        "comparisons": 2,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06193035756017761
+      },
+      {
+        "sign": 269,
+        "comparisons": 2,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06193035756017761
+      },
+      {
+        "sign": 336,
+        "comparisons": 2,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06193035756017761
+      },
+      {
+        "sign": 345,
+        "comparisons": 2,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06193035756017761
+      },
+      {
+        "sign": 371,
+        "comparisons": 2,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06193035756017761
+      },
+      {
+        "sign": 374,
+        "comparisons": 2,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06193035756017761
+      },
+      {
+        "sign": 382,
+        "comparisons": 2,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06193035756017761
+      },
+      {
+        "sign": 435,
+        "comparisons": 2,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06193035756017761
+      },
+      {
+        "sign": 565,
+        "comparisons": 2,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06193035756017761
+      },
+      {
+        "sign": 621,
+        "comparisons": 2,
+        "disagreements": 1,
+        "raw_rate": 0.5,
+        "shrunken_rate": 0.10738490301472306
+      },
+      {
+        "sign": 717,
+        "comparisons": 2,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06193035756017761
+      },
+      {
+        "sign": 742,
+        "comparisons": 2,
+        "disagreements": 1,
+        "raw_rate": 0.5,
+        "shrunken_rate": 0.10738490301472306
+      },
+      {
+        "sign": 772,
+        "comparisons": 2,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06193035756017761
+      },
+      {
+        "sign": 794,
+        "comparisons": 2,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06193035756017761
+      },
+      {
+        "sign": 814,
+        "comparisons": 2,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06193035756017761
+      },
+      {
+        "sign": 853,
+        "comparisons": 2,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06193035756017761
+      },
+      {
+        "sign": 880,
+        "comparisons": 2,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06193035756017761
+      },
+      {
+        "sign": 35,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 48,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 70,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 72,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 81,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 93,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 94,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 95,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 96,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 101,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 104,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 112,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 119,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 136,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 144,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 168,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 171,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 175,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 202,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 205,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 207,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 222,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 243,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 244,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 250,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 252,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 260,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 272,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 279,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 287,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 311,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 317,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 320,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 329,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 337,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 360,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 361,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 362,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 372,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 373,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 391,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 406,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 413,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 475,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 484,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 500,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 502,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 504,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 511,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 521,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 531,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 544,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 555,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 556,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 560,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 572,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 579,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 585,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 595,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 611,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 617,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 681,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 684,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 693,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 700,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 734,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 745,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 752,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 765,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 773,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 776,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 786,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 796,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 812,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 831,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 850,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 864,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 872,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 877,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 879,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 890,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 904,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 908,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 932,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      },
+      {
+        "sign": 940,
+        "comparisons": 1,
+        "disagreements": 0,
+        "raw_rate": 0.0,
+        "shrunken_rate": 0.06487942220590034
+      }
+    ]
+  },
+  "draw_diagnostics": {
+    "changed_tokens": {
+      "median": 668.0,
+      "lo": 622.0,
+      "hi": 716.05
+    },
+    "record_count": {
+      "median": 2085.0,
+      "lo": 2082.475,
+      "hi": 2086.0
+    }
+  },
+  "baseline": {
+    "repeat_observed": 78,
+    "repeat_null_mean": 251.972,
+    "repeat_z": -14.847805473767691,
+    "pair_observed": [
+      6.0,
+      56.0,
+      6.0,
+      6.0,
+      8.0,
+      6.0,
+      0.0,
+      1.0,
+      1.0,
+      4.0
+    ],
+    "pair_null_mean": [
+      27.694,
+      54.556,
+      9.076,
+      12.01,
+      7.818,
+      9.96,
+      9.444,
+      2.954,
+      3.915,
+      5.908
+    ],
+    "pair_z": [
+      -5.447002393203615,
+      0.2978087274446001,
+      -1.4205294695462147,
+      -2.3231501379301074,
+      0.07470814420755519,
+      -1.559145643448267,
+      -3.4428680318099745,
+      -1.221621686639887,
+      -1.8576915754371766,
+      -0.8840352359173558
+    ],
+    "terminal": {
+      "observed": 1179,
+      "rate": 0.5651965484180249,
+      "expected": 400.4464119214105,
+      "z": 47.47444507330613
+    },
+    "numeral_side": {
+      "events": 2303,
+      "eligible_signs": 38,
+      "q": 860.521521577885,
+      "null_mean": 563.5613959254725,
+      "excess_q": 296.96012565241244,
+      "z": 16.09156410637044
+    },
+    "records": 2086
+  },
+  "uncertainty": {
+    "no_repeat_z": {
+      "median": -11.789989473627887,
+      "lo": -14.167014123247904,
+      "hi": -10.029597361806932,
+      "survival_rate": 1.0
+    },
+    "terminal_final_z": {
+      "median": 44.524846460810984,
+      "lo": 43.688521216998346,
+      "hi": 45.22326646255722,
+      "survival_rate": 1.0
+    },
+    "terminal_final_rate": {
+      "median": 0.5294964028776978,
+      "lo": 0.5218225419664269,
+      "hi": 0.5388609112709832
+    },
+    "numeral_side_z": {
+      "median": 12.847998062142032,
+      "lo": 10.619826223331648,
+      "hi": 15.819086265506215,
+      "survival_rate": 1.0
+    },
+    "numeral_side_excess_q": {
+      "median": 219.72406648164616,
+      "lo": 193.38551055053156,
+      "hi": 248.8693554408422
+    },
+    "numeral_side_eligible_signs": {
+      "median": 36.0,
+      "lo": 34.0,
+      "hi": 38.0
+    },
+    "pairs": {
+      "740/520": {
+        "median": -3.8069947821640016,
+        "lo": -5.30569776424303,
+        "hi": -2.501964693393708,
+        "survival_rate": 1.0
+      },
+      "740/390": {
+        "median": 0.32669646150445764,
+        "lo": -0.9093657208364138,
+        "hi": 1.4052584201848395,
+        "survival_rate": 0.0
+      },
+      "740/527": {
+        "median": -1.1967178999057229,
+        "lo": -2.2609303090301367,
+        "hi": -0.11624582723691229,
+        "survival_rate": 0.09
+      },
+      "740/617": {
+        "median": -1.9616019748404752,
+        "lo": -2.9423644350359366,
+        "hi": -0.8302611846325768,
+        "survival_rate": 0.5
+      },
+      "740/151": {
+        "median": 0.17299467357190862,
+        "lo": -0.8951499464694158,
+        "hi": 1.2525762182148366,
+        "survival_rate": 0.0
+      },
+      "740/156": {
+        "median": -1.3857540567462818,
+        "lo": -2.43259798328313,
+        "hi": -0.3537908131075839,
+        "survival_rate": 0.11333333333333333
+      },
+      "520/390": {
+        "median": -2.963615019172255,
+        "lo": -3.878379900813528,
+        "hi": -1.768057170376454,
+        "survival_rate": 0.95
+      },
+      "817/861": {
+        "median": -0.8478880244607386,
+        "lo": -2.1040561081054165,
+        "hi": 0.6601983586392479,
+        "survival_rate": 0.03666666666666667
+      },
+      "817/820": {
+        "median": -1.4544935608516538,
+        "lo": -2.4730168013526486,
+        "hi": -0.16593855672116212,
+        "survival_rate": 0.2
+      },
+      "861/820": {
+        "median": -0.8242177974880499,
+        "lo": -1.8859293139927842,
+        "hi": 0.4249965519831347,
+        "survival_rate": 0.016666666666666666
+      }
+    }
+  }
+}

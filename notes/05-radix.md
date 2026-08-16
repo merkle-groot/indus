@@ -1,5 +1,12 @@
 # Is there a radix, and is it 10?
 
+> **Pair-network uncertainty — see
+> [38-transcription-uncertainty.md](38-transcription-uncertainty.md).** The
+> 817/861, 817/820, and 861/820 exclusion edges used later as a validation triad
+> survive only 3.7%, 20%, and 1.7% of exact-position transcription-noise draws.
+> Adjacency and graphic evidence in this note are separate; the three-way
+> exclusion claim should be treated as fragile.
+
 > **SUPERSEDED IN PART — see [16-twelve.md](16-twelve.md).** The base-8 reading
 > below rests on excluding the bracketed and multi-row stroke signs. Reading
 > those as numbers reveals a well-attested value **12** (sign 55, 37 deduplicated

@@ -1,5 +1,12 @@
 # Could the signs be musical notation?
 
+> **Transcription-uncertainty update — see
+> [38-transcription-uncertainty.md](38-transcription-uncertainty.md).** The
+> no-repeat effect remains decisive under the required exact-position,
+> site/object, and sign-identity-noise controls: baseline z = −14.85; 300-draw
+> noise interval −14.17 to −10.03. This supersedes the frequency-draw z = −19.1
+> below without changing the conclusion.
+
 Script: `src/music.py`. Answer: no, and the test that kills it turns out to be
 useful for everything else.
 

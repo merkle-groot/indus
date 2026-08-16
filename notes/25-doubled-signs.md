@@ -1,5 +1,13 @@
 # Is a doubled sign one sign or two?
 
+> **Uncertainty update — see
+> [38-transcription-uncertainty.md](38-transcription-uncertainty.md).** The
+> 617/740 exact-position exclusion below is marginal: after propagating observed
+> sign-identity disagreement its z interval is −2.94 to −0.83 and only 50% of
+> draws remain below −1.96. The strong final-position difference between 617
+> and 615 remains descriptive; this pairwise exclusion should be labelled
+> fragile.
+
 Script: `src/doubled_signs.py`. [20-composites.md](20-composites.md) found that
 the font literally encodes 617 as `615 + 615`, 34 as `32 + 32`, and so on. It
 did not ask whether the corpus treats those entries as repetitions of the base,

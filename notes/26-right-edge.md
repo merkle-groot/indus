@@ -1,5 +1,14 @@
 # The right edge, indexed from the right
 
+> **Uncertainty update — see
+> [38-transcription-uncertainty.md](38-transcription-uncertainty.md).** The
+> positional concentration of the fixed terminal cohort remains overwhelming,
+> but most individual exclusion edges in the network below do not survive the
+> exact-position plus transcription-noise analysis. 740/520 is robust;
+> 520/390 is borderline; 740/617 survives half the draws; the tested 740/390,
+> 740/527, 740/151, and 740/156 edges are fragile. The negative result for −2
+> and −3 cohorts is unchanged.
+
 Script: `src/right_positions.py`. [12-slots.md](12-slots.md) recovered a
 terminal paradigm and then found 400 and 90 sitting behind it. That result was
 assembled from a disagreement between two tests. Here every text is indexed

@@ -1,5 +1,15 @@
 # Turning the no-repeat rule into slots
 
+> **Transcription-uncertainty correction — see
+> [38-transcription-uncertainty.md](38-transcription-uncertainty.md).** The
+> terminal cohort's final position and the 740/520 anchor are robust, but most
+> individual edges listed below are not under the exact-position plus noise
+> control. The 817/861/820 edges survive only 1.7–20% of noise draws; among the
+> core terminal edges, 740/520 survives 100%, 520/390 is borderline, 740/617
+> survives 50%, and the other listed 740 edges survive 0–11%. Read “terminal
+> slot” as a robust edge cohort with one robust exclusion anchor, not a fully
+> supported clique.
+
 > **Correction — see [29-multi-numeral-units.md](29-multi-numeral-units.md).**
 > The “3 of X and 2 of Y” explanation below was an untested illustration and is
 > withdrawn. Multi-numeral texts are significantly *less* alternating than the

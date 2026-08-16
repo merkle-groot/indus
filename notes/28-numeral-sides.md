@@ -1,5 +1,12 @@
 # Does each counted sign fix which side its numeral goes on?
 
+> **Transcription-uncertainty update — see
+> [38-transcription-uncertainty.md](38-transcription-uncertainty.md).** The
+> global controlled overdispersion survives every noise draw (z median 12.85,
+> 95% 10.62–15.82; excess Q 193–249). The individual BH table below was not
+> separately propagated and its marginal sign-level calls should not be treated
+> as transcription-robust.
+
 Script: `src/numeral_sides.py`. [24-linear-b.md](24-linear-b.md) pooled every
 adjacency and found an almost even order. On the direction-corrected merged
 corpus the same aggregate is **1218 numeral-then-sign against 1015
