@@ -121,3 +121,55 @@ It is the same failure mode as the 25 sign–motif associations that
 deduplication erased ([03-sign-motif.md](03-sign-motif.md)) — a pattern
 manufactured by the analysis rather than found in the data. The difference is
 that this one took a second pair of eyes to catch.
+
+## Two more merges, and the source's own similarity table
+
+**318 + 323.** Identified by eye. Same structure — frame, crossbar, five teeth
+— differing only in bar height and tooth length.
+
+The evidence is split, and unlike 154+156 the pixel test is *against* it:
+
+| for | against |
+|---|---|
+| both followed by 920 (2/2 and 2/4) | chamfer **0.0072**, above the 0.00433 A-set cut |
+| next-sign cosine **0.816** | 226 px residual after alignment |
+| never share a text | preceding-sign cosine 0.000 |
+| shape pipeline already paired them (as a B family) | site/object cosines 0.32 / 0.29 |
+
+Applied, but flagged in `src/apply_merges.py` as the weakest of the three
+overrides. On 2 and 4 tokens the behavioural agreement is thin, and the
+geometry genuinely disagrees. Merged the sign has 16 tokens and runs 4/6 on the
+920 collocation.
+
+Inventory now **591 → 527**.
+
+### The pipeline's error rate is now visible
+
+Three merges have been found by eye that the shape clustering did not apply:
+
+| | what the pipeline did |
+|---|---|
+| 154 + 156 | paired, but classified B (chamfer *below* the A cut — a threshold error) |
+| 318 + 323 | paired, classified B (chamfer above the cut — arguably correct) |
+| 326 + 330 | **never paired at all**, despite being indistinguishable |
+
+The 326/330 miss is the telling one. Two glyphs that cannot be told apart at
+260px were not even placed in the same family. Whatever the clustering is
+measuring, it is not simply "do these look the same", and the 41 A sets should
+be read as a high-precision, low-recall list rather than a complete one.
+
+### GLYPHSIMILARITY
+
+The source SQL turns out to contain a table I had never parsed:
+`GLYPHSIMILARITY(GLYPHID1, GLYPHID2)` — the database author's own record of
+which signs resemble which.
+
+It holds **69 pairs**, 51 of them between attested signs. It is silent on every
+case examined here: 318/323, 326/330, 154/156, 316/360, 31/600, 817/861 — none
+listed, and 316, 318 and 360 appear in it not at all.
+
+So it neither confirms nor contradicts anything. Written to
+`data/parsed/glyph_similarity.json` for completeness. Its main value is
+negative: it is the third independent source (after Parpola's crosswalk and the
+shape pipeline) to have no opinion on most of the inventory, which is a fair
+summary of how settled Indus sign identity actually is.

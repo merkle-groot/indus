@@ -34,7 +34,14 @@ freq = Counter(g for l in lines for g in l["signs"] if g)
 # indistinguishable at 260px. The shape pipeline never paired them. 3 texts
 # between them, so the merge is correct rather than consequential
 # (21-frame-family.md).
-OVERRIDE = [[156, 154], [326, 330]]
+#
+# 318 + 323 is the weakest of the three and is flagged as such. The pixel test
+# is AGAINST it: chamfer 0.0072, above the 0.00433 A-set cut, 226 px residual.
+# The pipeline paired them as base+modifier. Applied anyway because the
+# behaviour agrees -- both are followed by sign 920 (2/2 and 2/4), next-sign
+# cosine 0.816, and they never share a text -- but on 2 and 4 tokens that is
+# thin. Revisit if the corpus ever grows (21-frame-family.md).
+OVERRIDE = [[156, 154], [326, 330], [318, 323]]
 
 # Union-find, so overlapping sets and the override compose instead of the later
 # one silently winning. A single-pass dict leaves any sign whose target was
