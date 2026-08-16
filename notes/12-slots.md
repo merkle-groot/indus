@@ -1,5 +1,10 @@
 # Turning the no-repeat rule into slots
 
+> **Correction — see [29-multi-numeral-units.md](29-multi-numeral-units.md).**
+> The “3 of X and 2 of Y” explanation below was an untested illustration and is
+> withdrawn. Multi-numeral texts are significantly *less* alternating than the
+> positional null. Numeral co-occurrence is real; separate counted units are not.
+
 Script: `src/slots.py`. [09-music.md](09-music.md) found that texts avoid
 reusing a sign far below chance and proposed a form with slots, each filled
 once. That predicts a second pattern: signs *competing* for a slot can never
