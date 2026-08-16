@@ -170,3 +170,9 @@ always a question of *why*, not *how many*.
   31/32/33/35 but not exhaustively.
 - Bracketed and barred stroke signs (ids 41-51, 55) remain excluded. If any of
   those encode higher values, the cliff could move.
+
+> **Revised in part by [22-two-forms-of-two.md](22-two-forms-of-two.md).** The
+> three stroke series do encode the same values, but the choice between them is
+> *not* free inside frozen expressions: 817 and 861 take the short two 220 times
+> and the long two never, while sign 840 takes the long two 22 times against 2
+> short (p = 2.5e-29). A fourth frozen pair, 840 + 32, was missed here.
