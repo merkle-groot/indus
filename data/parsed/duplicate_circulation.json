@@ -1,0 +1,1263 @@
+{
+  "method": {
+    "seed": 39,
+    "runs": 5000,
+    "circulation_unit": "global exact sequence",
+    "structural_unit": "text x site x object",
+    "structural_null": "copy labels shuffled within site x object x length"
+  },
+  "global_sequences": {
+    "sequence_types": 1929,
+    "raw_attestations": 2613,
+    "same_sequence_same_artifact_excess_rows": 8,
+    "copy_count_distribution": {
+      "1": 1679,
+      "10": 3,
+      "11": 2,
+      "12": 1,
+      "17": 1,
+      "2": 131,
+      "29": 2,
+      "3": 50,
+      "30": 1,
+      "33": 1,
+      "4": 21,
+      "5": 12,
+      "6": 8,
+      "7": 9,
+      "8": 7,
+      "9": 1
+    },
+    "singleton_types": 1679,
+    "repeated_types": 250,
+    "excess_attestations": 684,
+    "local_excess_attestations": 577,
+    "cross_site_first_attestations": 107,
+    "repeated_type_site_spread": {
+      "1": 163,
+      "2": 69,
+      "3": 16,
+      "4": 2
+    },
+    "copy_count_length_spearman": {
+      "rho": -0.2552521380840949,
+      "p": 4.544826351129065e-30
+    },
+    "singleton_mean_length": 4.705181655747468,
+    "repeated_type_mean_length": 3.288,
+    "singleton_terminal_top": {
+      "151": 46,
+      "156": 42,
+      "226": 20,
+      "31": 16,
+      "368": 20,
+      "390": 64,
+      "400": 126,
+      "407": 41,
+      "520": 125,
+      "527": 35,
+      "617": 22,
+      "621": 12,
+      "700": 12,
+      "740": 602,
+      "90": 60
+    },
+    "repeated_terminal_top": {
+      "151": 6,
+      "156": 9,
+      "2": 2,
+      "220": 4,
+      "32": 2,
+      "390": 10,
+      "400": 49,
+      "407": 11,
+      "520": 15,
+      "527": 8,
+      "617": 4,
+      "700": 5,
+      "740": 82,
+      "892": 3,
+      "90": 5
+    },
+    "most_copied": [
+      {
+        "text": [
+          3,
+          156
+        ],
+        "count": 33,
+        "length": 2,
+        "terminal": 156,
+        "sites": {
+          "SI1": 6,
+          "SI2": 26,
+          "SI29": 1
+        },
+        "site_count": 3,
+        "objects": {
+          "seal": 7,
+          "sealing/tag": 2,
+          "tablet": 24
+        },
+        "object_count": 3,
+        "artifacts": 33
+      },
+      {
+        "text": [
+          176,
+          740,
+          400
+        ],
+        "count": 30,
+        "length": 3,
+        "terminal": 400,
+        "sites": {
+          "SI1": 1,
+          "SI2": 29
+        },
+        "site_count": 2,
+        "objects": {
+          "rod": 1,
+          "seal": 2,
+          "tablet": 26,
+          "unknown": 1
+        },
+        "object_count": 4,
+        "artifacts": 30
+      },
+      {
+        "text": [
+          501,
+          407,
+          2,
+          240,
+          520
+        ],
+        "count": 29,
+        "length": 5,
+        "terminal": 520,
+        "sites": {
+          "SI2": 29
+        },
+        "site_count": 1,
+        "objects": {
+          "tablet": 29
+        },
+        "object_count": 1,
+        "artifacts": 29
+      },
+      {
+        "text": [
+          503,
+          615,
+          752,
+          740
+        ],
+        "count": 29,
+        "length": 4,
+        "terminal": 740,
+        "sites": {
+          "SI1": 29
+        },
+        "site_count": 1,
+        "objects": {
+          "tablet": 25,
+          "unknown": 4
+        },
+        "object_count": 2,
+        "artifacts": 26
+      },
+      {
+        "text": [
+          33,
+          700
+        ],
+        "count": 17,
+        "length": 2,
+        "terminal": 700,
+        "sites": {
+          "SI2": 16,
+          "SI44": 1
+        },
+        "site_count": 2,
+        "objects": {
+          "pottery": 2,
+          "tablet": 14,
+          "unknown": 1
+        },
+        "object_count": 3,
+        "artifacts": 17
+      },
+      {
+        "text": [
+          235,
+          705,
+          33,
+          845,
+          407,
+          321,
+          407
+        ],
+        "count": 12,
+        "length": 7,
+        "terminal": 407,
+        "sites": {
+          "SI1": 12
+        },
+        "site_count": 1,
+        "objects": {
+          "tablet": 12
+        },
+        "object_count": 1,
+        "artifacts": 12
+      },
+      {
+        "text": [
+          803,
+          415,
+          220,
+          318,
+          920,
+          255,
+          436,
+          690,
+          590,
+          407,
+          740
+        ],
+        "count": 11,
+        "length": 11,
+        "terminal": 740,
+        "sites": {
+          "SI2": 11
+        },
+        "site_count": 1,
+        "objects": {
+          "tablet": 10,
+          "unknown": 1
+        },
+        "object_count": 2,
+        "artifacts": 11
+      },
+      {
+        "text": [
+          817,
+          2,
+          48,
+          740
+        ],
+        "count": 11,
+        "length": 4,
+        "terminal": 740,
+        "sites": {
+          "SI1": 1,
+          "SI29": 10
+        },
+        "site_count": 2,
+        "objects": {
+          "seal": 1,
+          "sealing/tag": 10
+        },
+        "object_count": 2,
+        "artifacts": 11
+      },
+      {
+        "text": [
+          415,
+          220,
+          520
+        ],
+        "count": 10,
+        "length": 3,
+        "terminal": 520,
+        "sites": {
+          "SI1": 1,
+          "SI2": 9
+        },
+        "site_count": 2,
+        "objects": {
+          "seal": 1,
+          "tablet": 9
+        },
+        "object_count": 2,
+        "artifacts": 10
+      },
+      {
+        "text": [
+          630,
+          740
+        ],
+        "count": 10,
+        "length": 2,
+        "terminal": 740,
+        "sites": {
+          "SI1": 9,
+          "SI2": 1
+        },
+        "site_count": 2,
+        "objects": {
+          "tablet": 10
+        },
+        "object_count": 1,
+        "artifacts": 10
+      },
+      {
+        "text": [
+          806,
+          845,
+          61,
+          407,
+          850,
+          900,
+          740
+        ],
+        "count": 10,
+        "length": 7,
+        "terminal": 740,
+        "sites": {
+          "SI1": 10
+        },
+        "site_count": 1,
+        "objects": {
+          "tablet": 10
+        },
+        "object_count": 1,
+        "artifacts": 10
+      },
+      {
+        "text": [
+          840,
+          32,
+          740
+        ],
+        "count": 9,
+        "length": 3,
+        "terminal": 740,
+        "sites": {
+          "SI1": 1,
+          "SI2": 7,
+          "SI29": 1
+        },
+        "site_count": 3,
+        "objects": {
+          "seal": 1,
+          "tablet": 7,
+          "unknown": 1
+        },
+        "object_count": 3,
+        "artifacts": 9
+      },
+      {
+        "text": [
+          91,
+          56,
+          2,
+          417,
+          890,
+          892
+        ],
+        "count": 8,
+        "length": 6,
+        "terminal": 892,
+        "sites": {
+          "SI25": 8
+        },
+        "site_count": 1,
+        "objects": {
+          "sealing/tag": 8
+        },
+        "object_count": 1,
+        "artifacts": 8
+      },
+      {
+        "text": [
+          137,
+          400
+        ],
+        "count": 8,
+        "length": 2,
+        "terminal": 400,
+        "sites": {
+          "SI2": 8
+        },
+        "site_count": 1,
+        "objects": {
+          "seal": 1,
+          "tablet": 6,
+          "unknown": 1
+        },
+        "object_count": 3,
+        "artifacts": 8
+      },
+      {
+        "text": [
+          176,
+          740
+        ],
+        "count": 8,
+        "length": 2,
+        "terminal": 740,
+        "sites": {
+          "SI1": 3,
+          "SI2": 5
+        },
+        "site_count": 2,
+        "objects": {
+          "pottery": 1,
+          "seal": 3,
+          "tablet": 3,
+          "unknown": 1
+        },
+        "object_count": 4,
+        "artifacts": 8
+      },
+      {
+        "text": [
+          347,
+          741,
+          176,
+          740,
+          90
+        ],
+        "count": 8,
+        "length": 5,
+        "terminal": 90,
+        "sites": {
+          "SI2": 8
+        },
+        "site_count": 1,
+        "objects": {
+          "tablet": 8
+        },
+        "object_count": 1,
+        "artifacts": 8
+      },
+      {
+        "text": [
+          413,
+          575,
+          335,
+          711,
+          33,
+          700
+        ],
+        "count": 8,
+        "length": 6,
+        "terminal": 700,
+        "sites": {
+          "SI2": 8
+        },
+        "site_count": 1,
+        "objects": {
+          "tablet": 7,
+          "unknown": 1
+        },
+        "object_count": 2,
+        "artifacts": 8
+      },
+      {
+        "text": [
+          806,
+          235,
+          590,
+          407,
+          740,
+          400
+        ],
+        "count": 8,
+        "length": 6,
+        "terminal": 400,
+        "sites": {
+          "SI1": 1,
+          "SI2": 7
+        },
+        "site_count": 2,
+        "objects": {
+          "tablet": 8
+        },
+        "object_count": 1,
+        "artifacts": 8
+      },
+      {
+        "text": [
+          817,
+          2
+        ],
+        "count": 8,
+        "length": 2,
+        "terminal": 2,
+        "sites": {
+          "SI13": 3,
+          "SI16": 1,
+          "SI2": 3,
+          "SI25": 1
+        },
+        "site_count": 4,
+        "objects": {
+          "seal": 5,
+          "tablet": 3
+        },
+        "object_count": 2,
+        "artifacts": 8
+      },
+      {
+        "text": [
+          13,
+          840,
+          740
+        ],
+        "count": 7,
+        "length": 3,
+        "terminal": 740,
+        "sites": {
+          "SI1": 2,
+          "SI2": 4,
+          "SI29": 1
+        },
+        "site_count": 3,
+        "objects": {
+          "seal": 4,
+          "tablet": 3
+        },
+        "object_count": 2,
+        "artifacts": 7
+      }
+    ],
+    "widest_circulation": [
+      {
+        "text": [
+          817,
+          2
+        ],
+        "count": 8,
+        "length": 2,
+        "terminal": 2,
+        "sites": {
+          "SI13": 3,
+          "SI16": 1,
+          "SI2": 3,
+          "SI25": 1
+        },
+        "site_count": 4,
+        "objects": {
+          "seal": 5,
+          "tablet": 3
+        },
+        "object_count": 2,
+        "artifacts": 8
+      },
+      {
+        "text": [
+          61,
+          740
+        ],
+        "count": 6,
+        "length": 2,
+        "terminal": 740,
+        "sites": {
+          "SI1": 1,
+          "SI13": 1,
+          "SI2": 3,
+          "SI47": 1
+        },
+        "site_count": 4,
+        "objects": {
+          "seal": 5,
+          "unknown": 1
+        },
+        "object_count": 2,
+        "artifacts": 6
+      },
+      {
+        "text": [
+          3,
+          156
+        ],
+        "count": 33,
+        "length": 2,
+        "terminal": 156,
+        "sites": {
+          "SI1": 6,
+          "SI2": 26,
+          "SI29": 1
+        },
+        "site_count": 3,
+        "objects": {
+          "seal": 7,
+          "sealing/tag": 2,
+          "tablet": 24
+        },
+        "object_count": 3,
+        "artifacts": 33
+      },
+      {
+        "text": [
+          840,
+          32,
+          740
+        ],
+        "count": 9,
+        "length": 3,
+        "terminal": 740,
+        "sites": {
+          "SI1": 1,
+          "SI2": 7,
+          "SI29": 1
+        },
+        "site_count": 3,
+        "objects": {
+          "seal": 1,
+          "tablet": 7,
+          "unknown": 1
+        },
+        "object_count": 3,
+        "artifacts": 9
+      },
+      {
+        "text": [
+          13,
+          840,
+          740
+        ],
+        "count": 7,
+        "length": 3,
+        "terminal": 740,
+        "sites": {
+          "SI1": 2,
+          "SI2": 4,
+          "SI29": 1
+        },
+        "site_count": 3,
+        "objects": {
+          "seal": 4,
+          "tablet": 3
+        },
+        "object_count": 2,
+        "artifacts": 7
+      },
+      {
+        "text": [
+          32,
+          700
+        ],
+        "count": 7,
+        "length": 2,
+        "terminal": 700,
+        "sites": {
+          "SI2": 5,
+          "SI22": 1,
+          "SI25": 1
+        },
+        "site_count": 3,
+        "objects": {
+          "tablet": 7
+        },
+        "object_count": 1,
+        "artifacts": 7
+      },
+      {
+        "text": [
+          142,
+          617
+        ],
+        "count": 6,
+        "length": 2,
+        "terminal": 617,
+        "sites": {
+          "SI1": 3,
+          "SI2": 2,
+          "SI3": 1
+        },
+        "site_count": 3,
+        "objects": {
+          "seal": 2,
+          "tablet": 3,
+          "unknown": 1
+        },
+        "object_count": 3,
+        "artifacts": 6
+      },
+      {
+        "text": [
+          5,
+          407
+        ],
+        "count": 5,
+        "length": 2,
+        "terminal": 407,
+        "sites": {
+          "SI1": 3,
+          "SI2": 1,
+          "SI25": 1
+        },
+        "site_count": 3,
+        "objects": {
+          "seal": 4,
+          "tablet": 1
+        },
+        "object_count": 2,
+        "artifacts": 5
+      },
+      {
+        "text": [
+          705,
+          33,
+          520
+        ],
+        "count": 4,
+        "length": 3,
+        "terminal": 520,
+        "sites": {
+          "SI1": 2,
+          "SI2": 1,
+          "SI29": 1
+        },
+        "site_count": 3,
+        "objects": {
+          "seal": 3,
+          "sealing/tag": 1
+        },
+        "object_count": 2,
+        "artifacts": 4
+      },
+      {
+        "text": [
+          817,
+          2,
+          4,
+          390
+        ],
+        "count": 4,
+        "length": 4,
+        "terminal": 390,
+        "sites": {
+          "SI1": 2,
+          "SI2": 1,
+          "SI3": 1
+        },
+        "site_count": 3,
+        "objects": {
+          "seal": 2,
+          "tablet": 1,
+          "unknown": 1
+        },
+        "object_count": 3,
+        "artifacts": 4
+      },
+      {
+        "text": [
+          820,
+          2,
+          3,
+          390
+        ],
+        "count": 4,
+        "length": 4,
+        "terminal": 390,
+        "sites": {
+          "SI1": 2,
+          "SI2": 1,
+          "SI32": 1
+        },
+        "site_count": 3,
+        "objects": {
+          "seal": 4
+        },
+        "object_count": 1,
+        "artifacts": 4
+      },
+      {
+        "text": [
+          3,
+          407
+        ],
+        "count": 3,
+        "length": 2,
+        "terminal": 407,
+        "sites": {
+          "SI1": 1,
+          "SI2": 1,
+          "SI25": 1
+        },
+        "site_count": 3,
+        "objects": {
+          "pottery": 1,
+          "seal": 2
+        },
+        "object_count": 2,
+        "artifacts": 3
+      },
+      {
+        "text": [
+          4,
+          390
+        ],
+        "count": 3,
+        "length": 2,
+        "terminal": 390,
+        "sites": {
+          "SI1": 1,
+          "SI13": 1,
+          "SI25": 1
+        },
+        "site_count": 3,
+        "objects": {
+          "seal": 3
+        },
+        "object_count": 1,
+        "artifacts": 3
+      },
+      {
+        "text": [
+          32
+        ],
+        "count": 3,
+        "length": 1,
+        "terminal": 32,
+        "sites": {
+          "SI16": 1,
+          "SI25": 1,
+          "SI29": 1
+        },
+        "site_count": 3,
+        "objects": {
+          "pottery": 1,
+          "seal": 1,
+          "sealing/tag": 1
+        },
+        "object_count": 3,
+        "artifacts": 3
+      },
+      {
+        "text": [
+          100,
+          740
+        ],
+        "count": 3,
+        "length": 2,
+        "terminal": 740,
+        "sites": {
+          "SI1": 1,
+          "SI16": 1,
+          "SI2": 1
+        },
+        "site_count": 3,
+        "objects": {
+          "seal": 2,
+          "tablet": 1
+        },
+        "object_count": 2,
+        "artifacts": 3
+      },
+      {
+        "text": [
+          235,
+          482,
+          740
+        ],
+        "count": 3,
+        "length": 3,
+        "terminal": 740,
+        "sites": {
+          "SI1": 1,
+          "SI16": 1,
+          "SI29": 1
+        },
+        "site_count": 3,
+        "objects": {
+          "seal": 3
+        },
+        "object_count": 1,
+        "artifacts": 3
+      },
+      {
+        "text": [
+          240,
+          636,
+          740
+        ],
+        "count": 3,
+        "length": 3,
+        "terminal": 740,
+        "sites": {
+          "SI1": 1,
+          "SI16": 1,
+          "SI2": 1
+        },
+        "site_count": 3,
+        "objects": {
+          "seal": 2,
+          "tablet": 1
+        },
+        "object_count": 2,
+        "artifacts": 3
+      },
+      {
+        "text": [
+          817,
+          2,
+          3,
+          390
+        ],
+        "count": 3,
+        "length": 4,
+        "terminal": 390,
+        "sites": {
+          "SI1": 1,
+          "SI16": 1,
+          "SI2": 1
+        },
+        "site_count": 3,
+        "objects": {
+          "seal": 3
+        },
+        "object_count": 1,
+        "artifacts": 3
+      },
+      {
+        "text": [
+          176,
+          740,
+          400
+        ],
+        "count": 30,
+        "length": 3,
+        "terminal": 400,
+        "sites": {
+          "SI1": 1,
+          "SI2": 29
+        },
+        "site_count": 2,
+        "objects": {
+          "rod": 1,
+          "seal": 2,
+          "tablet": 26,
+          "unknown": 1
+        },
+        "object_count": 4,
+        "artifacts": 30
+      },
+      {
+        "text": [
+          33,
+          700
+        ],
+        "count": 17,
+        "length": 2,
+        "terminal": 700,
+        "sites": {
+          "SI2": 16,
+          "SI44": 1
+        },
+        "site_count": 2,
+        "objects": {
+          "pottery": 2,
+          "tablet": 14,
+          "unknown": 1
+        },
+        "object_count": 3,
+        "artifacts": 17
+      }
+    ]
+  },
+  "local_copy_structure": {
+    "units": 2086,
+    "locally_copied_units": 208,
+    "singleton_units": 1878,
+    "raw_attestations_represented": 2613,
+    "discarded_copies": 527,
+    "exchangeable_units_length_control": 1917,
+    "exchangeable_units_full_control": 1290,
+    "descriptive": {
+      "copied_mean_length": 3.3990384615384617,
+      "singleton_mean_length": 4.500532481363153,
+      "copied_vocabulary": 157,
+      "singleton_vocabulary": 514,
+      "copied_terminal_rate": 0.5192307692307693,
+      "singleton_terminal_rate": 0.5702875399361023
+    },
+    "controlled": {
+      "length_difference": {
+        "observed": -1.101494019824691,
+        "null": {
+          "mean": -0.47143896944376174,
+          "lo": -0.684960473498812,
+          "hi": -0.24706623248955495,
+          "sd": 0.1119038925638167
+        },
+        "p": 0.0003999200159968006
+      },
+      "copied_vocabulary": {
+        "observed": 157.0,
+        "null": {
+          "mean": 183.4092,
+          "lo": 171.0,
+          "hi": 196.0,
+          "sd": 6.256035722131973
+        },
+        "p": 0.0003999200159968006
+      },
+      "terminal_rate_difference": {
+        "observed": -0.05105677070533299,
+        "null": {
+          "mean": -0.13155241255017613,
+          "lo": -0.19524145981813718,
+          "hi": -0.07241746538871141,
+          "sd": 0.030576371978215715
+        },
+        "p": 0.011597680463907219
+      },
+      "terminal_total_variation": {
+        "observed": 0.29342795117555504,
+        "null": {
+          "mean": 0.3500453069959859,
+          "lo": 0.2982475475137217,
+          "hi": 0.403411336733022,
+          "sd": 0.026587150139914778
+        },
+        "p": 0.9824035192961408
+      }
+    },
+    "terminal_sign_tests": {
+      "tested": 13,
+      "bh_discoveries": [],
+      "all": [
+        {
+          "sign": 90,
+          "all_units": 66,
+          "copied_units": 4,
+          "null_mean": 5.2594,
+          "null_interval": [
+            2.0,
+            9.0
+          ],
+          "p": 0.6558688262347531
+        },
+        {
+          "sign": 151,
+          "all_units": 54,
+          "copied_units": 5,
+          "null_mean": 4.5928,
+          "null_interval": [
+            1.0,
+            8.0
+          ],
+          "p": 1.0
+        },
+        {
+          "sign": 156,
+          "all_units": 63,
+          "copied_units": 10,
+          "null_mean": 5.1542,
+          "null_interval": [
+            2.0,
+            9.0
+          ],
+          "p": 0.04359128174365127
+        },
+        {
+          "sign": 226,
+          "all_units": 20,
+          "copied_units": 0,
+          "null_mean": 0.7486,
+          "null_interval": [
+            0.0,
+            2.0
+          ],
+          "p": 0.8430313937212558
+        },
+        {
+          "sign": 368,
+          "all_units": 22,
+          "copied_units": 2,
+          "null_mean": 1.6302,
+          "null_interval": [
+            0.0,
+            4.0
+          ],
+          "p": 1.0
+        },
+        {
+          "sign": 390,
+          "all_units": 88,
+          "copied_units": 8,
+          "null_mean": 6.8302,
+          "null_interval": [
+            3.0,
+            11.0
+          ],
+          "p": 0.74625074985003
+        },
+        {
+          "sign": 400,
+          "all_units": 190,
+          "copied_units": 45,
+          "null_mean": 42.8156,
+          "null_interval": [
+            34.0,
+            51.0
+          ],
+          "p": 0.6990601879624075
+        },
+        {
+          "sign": 407,
+          "all_units": 61,
+          "copied_units": 8,
+          "null_mean": 6.806,
+          "null_interval": [
+            3.0,
+            11.0
+          ],
+          "p": 0.6994601079784043
+        },
+        {
+          "sign": 520,
+          "all_units": 154,
+          "copied_units": 11,
+          "null_mean": 8.0336,
+          "null_interval": [
+            3.0,
+            13.0
+          ],
+          "p": 0.31073785242951407
+        },
+        {
+          "sign": 527,
+          "all_units": 47,
+          "copied_units": 5,
+          "null_mean": 3.3236,
+          "null_interval": [
+            1.0,
+            7.0
+          ],
+          "p": 0.4371125774845031
+        },
+        {
+          "sign": 617,
+          "all_units": 32,
+          "copied_units": 3,
+          "null_mean": 5.803,
+          "null_interval": [
+            3.0,
+            9.0
+          ],
+          "p": 0.17716456708658268
+        },
+        {
+          "sign": 700,
+          "all_units": 23,
+          "copied_units": 7,
+          "null_mean": 4.4044,
+          "null_interval": [
+            1.0,
+            8.0
+          ],
+          "p": 0.23235352929414116
+        },
+        {
+          "sign": 740,
+          "all_units": 741,
+          "copied_units": 66,
+          "null_mean": 59.1976,
+          "null_interval": [
+            49.0,
+            70.0
+          ],
+          "p": 0.22515496900619877
+        }
+      ]
+    },
+    "by_object": [
+      {
+        "object": "bangle",
+        "units": 4,
+        "copied_units": 0,
+        "copied_rate": 0.0,
+        "copied_mean_length": null,
+        "singleton_mean_length": 3.25,
+        "copied_terminal_rate": null,
+        "singleton_terminal_rate": 0.0
+      },
+      {
+        "object": "implement",
+        "units": 4,
+        "copied_units": 0,
+        "copied_rate": 0.0,
+        "copied_mean_length": null,
+        "singleton_mean_length": 3.0,
+        "copied_terminal_rate": null,
+        "singleton_terminal_rate": 0.0
+      },
+      {
+        "object": "misc",
+        "units": 10,
+        "copied_units": 0,
+        "copied_rate": 0.0,
+        "copied_mean_length": null,
+        "singleton_mean_length": 3.1,
+        "copied_terminal_rate": null,
+        "singleton_terminal_rate": 0.6
+      },
+      {
+        "object": "pottery",
+        "units": 59,
+        "copied_units": 5,
+        "copied_rate": 0.0847457627118644,
+        "copied_mean_length": 2.4,
+        "singleton_mean_length": 2.5925925925925926,
+        "copied_terminal_rate": 0.4,
+        "singleton_terminal_rate": 0.4074074074074074
+      },
+      {
+        "object": "rod",
+        "units": 14,
+        "copied_units": 3,
+        "copied_rate": 0.21428571428571427,
+        "copied_mean_length": 4.333333333333333,
+        "singleton_mean_length": 3.3636363636363638,
+        "copied_terminal_rate": 0.3333333333333333,
+        "singleton_terminal_rate": 0.18181818181818182
+      },
+      {
+        "object": "seal",
+        "units": 1353,
+        "copied_units": 46,
+        "copied_rate": 0.03399852180339985,
+        "copied_mean_length": 2.652173913043478,
+        "singleton_mean_length": 4.849273144605968,
+        "copied_terminal_rate": 0.8260869565217391,
+        "singleton_terminal_rate": 0.6289211935730681
+      },
+      {
+        "object": "sealing/tag",
+        "units": 29,
+        "copied_units": 5,
+        "copied_rate": 0.1724137931034483,
+        "copied_mean_length": 4.6,
+        "singleton_mean_length": 4.291666666666667,
+        "copied_terminal_rate": 0.4,
+        "singleton_terminal_rate": 0.5833333333333334
+      },
+      {
+        "object": "tablet",
+        "units": 451,
+        "copied_units": 144,
+        "copied_rate": 0.31929046563192903,
+        "copied_mean_length": 3.6319444444444446,
+        "singleton_mean_length": 3.7231270358306188,
+        "copied_terminal_rate": 0.4236111111111111,
+        "singleton_terminal_rate": 0.3941368078175896
+      },
+      {
+        "object": "unknown",
+        "units": 162,
+        "copied_units": 5,
+        "copied_rate": 0.030864197530864196,
+        "copied_mean_length": 2.8,
+        "singleton_mean_length": 4.044585987261146,
+        "copied_terminal_rate": 0.8,
+        "singleton_terminal_rate": 0.535031847133758
+      }
+    ]
+  }
+}
