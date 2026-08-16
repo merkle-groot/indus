@@ -13,14 +13,15 @@ CP = {g["glyph_id"]: int(re.sub(r"[^0-9A-Fa-f]", "", g["unicode"]), 16)
       for g in json.load(open("data/parsed/glyphs.json"))
       if str(g["unicode"]).startswith("&#x")}
 
+lines = json.loads(open("data/parsed/lines.json").read())
+freq = Counter(g for l in lines for g in l["signs"] if g)
+
 sf = json.load(open("data/parsed/shape_families.json"))
 am = json.load(open("data/parsed/allograph_map.json"))
 A_SETS = am["sets"]
 B_FAMS = am["kept_apart"]
 EXCL = {e["id"]: e for e in sf["excluded"]}
 
-lines = json.loads(open("data/parsed/lines.json").read())
-freq = Counter(g for l in lines for g in l["signs"] if g)
 attested = set(freq)
 inA = {i for s in A_SETS for i in s}
 inB = {i for s in B_FAMS for i in s}
@@ -33,10 +34,30 @@ n_alone = len(alone)
 TOT = len(attested)
 
 
+RAW = {g["glyph_id"]: str(g["unicode"])
+       for g in json.load(open("data/parsed/glyphs.json"))}
+SINGLE = {}
+for _i, _u in RAW.items():
+    _c = re.findall(r"&#x([0-9A-Fa-f]+);", _u)
+    if len(_c) == 1:
+        SINGLE.setdefault(_c[0].upper(), _i)
+
+
+def cps(i):
+    """Every codepoint of a sign -- many are sequences, not single glyphs."""
+    return [c.upper() for c in re.findall(r"&#x([0-9A-Fa-f]+);", RAW.get(i, ""))]
+
+
 def gl(i, cls="g"):
-    if i not in CP:
-        return f'<span class="nog" title="no glyph in the font">{i}</span>'
-    return f'<span class="{cls}">&#x{CP[i]:X};</span>'
+    c = cps(i)
+    if not c or c == ["2047"]:
+        return f'<span class="nog" title="no glyph in the source">{i}</span>'
+    return f'<span class="{cls}">' + "".join(f"&#x{x};" for x in c) + "</span>"
+
+
+COMPOSITE = {i: [SINGLE.get(x) for x in cps(i)]
+             for i in RAW if len(cps(i)) > 1 and freq.get(i)
+             and "2047" not in RAW[i]}
 
 
 def cell(i, star=False):
@@ -132,6 +153,9 @@ h2 em {{ font-style:normal; font:600 12px var(--mono); color:var(--muted);
 
 #merged .set {{ border-left:2px solid var(--merged); }}
 #apart .set {{ border-left:2px solid var(--apart); }}
+#comp .set {{ border-left:2px solid var(--accent); }}
+.eq {{ align-self:center; font:400 15px var(--mono); color:var(--muted);
+  padding:0 2px 14px; }}
 
 .call {{ background:var(--sunk); border:1px solid var(--line);
   border-radius:3px; padding:22px 24px; margin:0 0 26px;
@@ -185,7 +209,7 @@ footer p {{ max-width:72ch; margin:0 0 9px; }}
   <p class="sub">Same drawing, drawn twice. Within each set the glyphs are
   pixel-identical or near enough that no scribe was distinguishing them. The
   whole set now carries the number of its commonest member. Applying these took
-  the inventory from <b>591 to 529</b> and the hapax count from 199 to 165
+  the inventory from <b>591 to 528</b> and the hapax count from 199 to 165
   &mdash; and moved not one headline result: the terminal slot stayed at
   z&nbsp;=&nbsp;&minus;14.2, the no-repeat rule at z&nbsp;=&nbsp;&minus;17.5,
   seals-versus-tablets at p&nbsp;&asymp;&nbsp;1e&minus;18.</p>
@@ -233,16 +257,57 @@ footer p {{ max-width:72ch; margin:0 0 9px; }}
     <div class="cells">{"".join(cell(i) for i in big_alone)}</div>
   </div></div>
 
-  <p class="sub" style="margin-top:24px">A further <b>{len(EXCL)}</b> signs
-  could not be compared at all &mdash; their codepoint has no glyph in this
-  font, so there is nothing to render. Sign 56, with ten tokens and sitting in
-  the numeral range, is the one that matters.</p>
+  <p class="sub" style="margin-top:24px">Only <b>{len(EXCL)}</b> signs cannot be
+  drawn at all, and none is a mystery worth chasing. Eleven carry
+  <b>&amp;#x2047;</b> &mdash; the double question mark, the digitizer&rsquo;s own
+  marker for <em>could not identify this</em> &mdash; and one is blank. Sixteen
+  tokens between them. There is no image to recover; the source never had
+  one.</p>
   <div class="grid"><div class="set" style="grid-column:1/-1">
     <div class="cells">{"".join(
         f'<div class="cell"><span class="nog">{i}</span>'
         f'<span class="n">{e["tokens"]}</span></div>'
         for i, e in sorted(EXCL.items(), key=lambda kv: -kv[1]["tokens"]))}</div>
   </div></div>
+</section>
+
+<section id="comp">
+  <h2>Written twice<em>{len(COMPOSITE)} signs &middot;
+    {sum(freq[i] for i in COMPOSITE)} tokens</em></h2>
+  <p class="sub">A late correction, and the reason this page exists. These
+  entries are not single glyphs at all &mdash; the database encodes each as a
+  <em>sequence</em> of codepoints, and every one of them is another sign written
+  two or three times over. They were invisible to the shape comparison, which
+  reads one glyph at a time.</p>
+
+  <div class="call">
+    <div class="cells">{cell(56)}{cell(55)}{cell(34)}{cell(32)}</div>
+    <p><b>Sign 56 is twenty-four.</b> It is sign 55 &mdash; three rows of four,
+    a twelve &mdash; written twice. The doubling reading is checkable: sign 34
+    is 32 + 32, and 32 is two long strokes, giving four; the long-stroke series
+    independently says four. Sign 36 is 33 + 33, giving six; the series says
+    six. Both agree, so 56 = 12 + 12.</p>
+  </div>
+
+  <p class="sub">This closes an open question and creates a new one. Twelve
+  remains the only well-attested quantity above nine &mdash; deduplicated, sign
+  56 has <b>three</b> tokens, not ten &mdash; but the script can evidently go
+  higher, and its device for doing so is repetition. A vague &ldquo;many&rdquo;
+  would not need a doubled form.</p>
+
+  <div class="grid">{"".join(
+      f'<div class="set"><div class="cells">{cell(i)}'
+      + '<span class="eq">=</span>'
+      + "".join(cell(p) for p in parts if p)
+      + '</div></div>'
+      for i, parts in sorted(COMPOSITE.items(), key=lambda kv: -freq[kv[0]])
+      if all(parts))}</div>
+
+  <p class="sub" style="margin-top:26px">Sign <b>617</b> leads with 59 tokens
+  and is simply 615 doubled &mdash; and it appeared as a distinct competitor for
+  the terminal slot in the earlier analysis. Whether a doubled sign is one sign,
+  two signs, or a third thing is a real question, and nothing here has asked
+  it.</p>
 </section>
 
 <footer>

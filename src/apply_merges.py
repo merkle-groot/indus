@@ -22,11 +22,44 @@ B_FAMS = [[f["base"]] + [m["id"] for m in f["members"]]
 lines = json.loads(open("data/parsed/lines.json").read())
 freq = Counter(g for l in lines for g in l["signs"] if g)
 
+# One documented override. 154 + 156 fell to B because their Dice overlap is
+# 0.776 rather than ~1.0 -- the bodies are identical and the top decoration
+# differs. Everything else says one sign: their chamfer distance is 0.0041,
+# *below* the 0.00433 cut for an A set; Parpola numbers both P004; and they pass
+# the behavioural test (position p = .55, next-sign cosine 0.803 against a 0.604
+# bar, object-class cosine 1.000). Merging them also sharpens the terminal slot
+# from z = -4.73 / -4.33 separately to -6.40 together (18-allographs.md).
+# Applying "A only" mechanically dropped a merge three sources agree on.
+OVERRIDE = [[156, 154]]
+
+# Union-find, so overlapping sets and the override compose instead of the later
+# one silently winning. A single-pass dict leaves any sign whose target was
+# itself remapped stranded one hop short.
+parent = {}
+
+
+def find(x):
+    parent.setdefault(x, x)
+    while parent[x] != x:
+        parent[x] = parent[parent[x]]
+        x = parent[x]
+    return x
+
+
+for s in A_SETS + OVERRIDE:
+    r = find(s[0])
+    for i in s[1:]:
+        parent[find(i)] = r
+
+groups = {}
+for i in parent:
+    groups.setdefault(find(i), set()).add(i)
+
 # canonical id = the most frequent member, so the common sign keeps its number
 MAP = {}
-for s in A_SETS:
-    keep = max(s, key=lambda i: freq[i])
-    for i in s:
+for members in groups.values():
+    keep = max(members, key=lambda i: freq[i])
+    for i in members:
         if i != keep:
             MAP[i] = keep
 
@@ -39,11 +72,13 @@ inB = {i for s in B_FAMS for i in s}
 attested = set(freq)
 
 json.dump({
-    "applied": "allograph_sets (A) only",
+    "applied": "allograph_sets (A) plus one documented override",
+    "override": OVERRIDE,
     "not_applied": "derivational_families (B)",
     "map": {str(k): v for k, v in sorted(MAP.items())},
-    "sets": [sorted(s, key=lambda i: -freq[i]) for s in A_SETS],
-    "kept_apart": [sorted(s, key=lambda i: -freq[i]) for s in B_FAMS],
+    "sets": [sorted(m, key=lambda i: -freq[i]) for m in groups.values()],
+    "kept_apart": [sorted(s, key=lambda i: -freq[i]) for s in B_FAMS
+                    if set(s) not in [set(o) for o in OVERRIDE]],
 }, open("data/parsed/allograph_map.json", "w"), indent=1)
 
 print(f"attested signs      {len(attested)}")
