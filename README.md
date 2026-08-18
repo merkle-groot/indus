@@ -78,8 +78,13 @@ public API, glyphs, and CC-BY control into gitignored `data/graffiti/` with
 notes/     the investigation, 01-40 in order, plus provenance follow-ups
 src/       one script per question, named after it
 data/parsed/   derived JSON: lines, controls, posteriors, merges, crosswalks
+site/      the public write-up: all 41 rounds, one static page
 *.html     generated report pages
 ```
+
+The site in `site/` is self-contained (no build step, no dependencies) and
+deploys to Vercel as-is; `vercel.json` points at it. Preview it with
+`cd site && python3 -m http.server 8712`.
 
 ## The wall
 
