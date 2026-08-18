@@ -7,9 +7,13 @@
 <meta name="description" content="A distributional analysis of the Indus script: 41 rounds of hypothesis testing, what came through the controls, and what did not.">
 <link rel="canonical" href="https://indus.primemodulus.com/">
 
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
 <meta property="og:site_name" content="indus.primemodulus.com">
 <meta property="og:title" content="Indus Valley script analysis">
-<meta property="og:description" content="Forty-one hypotheses about the Indus script, tested against the corpus itself. The controls killed most of them; what’s left is small, and it holds. Not a decipherment.">
+<meta property="og:description" content="Forty-one hypotheses about the Indus script, put to the corpus itself. Once position, site and object class were held fixed most of them fell apart. Not a decipherment.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://indus.primemodulus.com/">
 <meta property="og:locale" content="en_US">
@@ -22,7 +26,7 @@
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Indus Valley script analysis">
-<meta name="twitter:description" content="Forty-one hypotheses about the Indus script, tested against the corpus itself. Most died in the controls. Not a decipherment.">
+<meta name="twitter:description" content="Forty-one hypotheses about the Indus script, put to the corpus itself. Once position, site and object class were held fixed most of them fell apart. Not a decipherment.">
 <meta name="twitter:image" content="https://indus.primemodulus.com/og.jpg">
 <meta name="twitter:image:alt" content="Broadsheet masthead reading Indus Valley script analysis, with the corpus totals beneath it.">
 
@@ -40,7 +44,7 @@
   --ff-display:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,serif;
   --ff-body:"Times New Roman",Times,Georgia,serif;
   --ff-util:"Arial Narrow","Helvetica Neue Condensed","Liberation Sans Narrow",Arial,sans-serif;
-  --measure:66rem;
+  --measure:66rem; --toc-w:210px; --toc-gap:64px;
 }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
@@ -75,9 +79,16 @@ a:focus-visible,summary:focus-visible,button:focus-visible{outline:2px solid var
 .stats > div:first-child{padding-left:0; border-left:none}
 .stats b{color:var(--ink); font-weight:400}
 @media (max-width:720px){
+  .mh-top{flex-direction:column; gap:3px; font-size:10px; letter-spacing:.16em; padding-bottom:9px}
   .stats{grid-template-columns:repeat(2,1fr)}
-  .stats > div{padding:14px 0 14px 16px}
+  .stats > div{padding:11px 0 11px 14px}
   .stats > div:nth-child(3){padding-left:0; border-left:none}
+  .stats > div:nth-child(n+3){border-top:1px solid var(--rule-soft)}
+}
+@media (max-width:400px){
+  .stats{grid-template-columns:1fr}
+  .stats > div{padding:9px 0; border-left:none}
+  .stats > div + div{border-top:1px solid var(--rule-soft)}
 }
 
 /* opener */
@@ -92,9 +103,10 @@ a:focus-visible,summary:focus-visible,button:focus-visible{outline:2px solid var
   letter-spacing:.18em; font-size:10.5px; color:var(--madder);
   border-top:2px solid var(--madder); border-bottom:1px solid var(--madder); padding:6px 0 4px;
 }
+.opener .specimen{margin:30px 0 0}
 .opener .glyphline{
-  font-family:"Indus"; font-size:clamp(26px,5vw,40px); line-height:1.3; letter-spacing:.12em;
-  margin:26px 0 0; overflow-x:auto; white-space:nowrap;
+  font-family:"Indus"; font-size:clamp(27px,4.6vw,38px); line-height:1.55; letter-spacing:.14em;
+  margin:0; word-spacing:.18em;
 }
 
 /* section rail */
@@ -112,6 +124,38 @@ a:focus-visible,summary:focus-visible,button:focus-visible{outline:2px solid var
 }
 .secnav a:first-child{padding-left:0}
 .secnav a:hover{color:var(--ink); border-bottom-color:var(--spot)}
+.secnav a[aria-current="true"]{color:var(--ink); border-bottom-color:var(--ink)}
+.rail-head{display:none}
+
+/* wide screens: the rail becomes a column beside the text */
+@media (min-width:1140px){
+  :root{--measure:80rem}
+  .with-rail{display:flex; align-items:flex-start; gap:var(--toc-gap)}
+  .body-col{flex:1 1 auto; min-width:0}
+  .secnav{
+    flex:0 0 var(--toc-w); order:-1;
+    position:sticky; top:28px; z-index:6;
+    display:block; white-space:normal; overflow:visible;
+    margin:54px 0 0; padding:0 0 0 1px;
+    background:transparent; border-bottom:none; border-left:1px solid var(--rule);
+  }
+  .secnav a{
+    display:block; padding:7px 0 7px 14px; margin-left:-1px;
+    border-bottom:none; border-left:2px solid transparent; line-height:1.3;
+  }
+  .secnav a:first-child{padding-left:14px}
+  .secnav a:hover{border-left-color:var(--spot); border-bottom-color:transparent; color:var(--ink)}
+  .secnav a[aria-current="true"]{border-left-color:var(--ink); border-bottom-color:transparent; color:var(--ink)}
+  .rail-head{
+    display:block; font-family:var(--ff-util); text-transform:uppercase; letter-spacing:.2em;
+    font-size:9.5px; color:var(--spot); margin:0; padding:0 0 6px 14px;
+  }
+  .story{scroll-margin-top:28px}
+  /* every section boundary belongs to the text column, so no rule crosses the
+     empty rail; the rail is separated by its own vertical hairline instead */
+  .opener{border-bottom:none; padding-bottom:38px}
+  .body-col .story:first-of-type{border-top:1px solid var(--rule)}
+}
 
 /* stories */
 .story{padding:52px 0 30px; border-top:1px solid var(--rule); scroll-margin-top:52px}
@@ -127,20 +171,31 @@ a:focus-visible,summary:focus-visible,button:focus-visible{outline:2px solid var
 .story .intro{color:var(--ink-2); max-width:46em; font-size:16px}
 
 /* findings, set as newspaper columns */
-.findings{columns:2; column-gap:38px; margin-top:26px}
-@media (max-width:840px){.findings{columns:1}}
-.finding{break-inside:avoid; border-top:2px solid var(--ink); padding:11px 0 20px}
+.findings{display:grid; grid-template-columns:1fr 1fr; gap:0 38px; margin-top:26px;
+  grid-template-rows:repeat(6, auto 1fr auto)}
+@media (max-width:840px){.findings{grid-template-columns:1fr}}
+.finding{
+  display:grid; grid-template-rows:subgrid; grid-row:span 3; row-gap:0;
+  border-top:2px solid var(--ink); padding:11px 0 22px; position:relative;
+}
 .finding.is-limit{border-top-color:var(--rule)}
 .finding h3{
   font-family:var(--ff-display); font-weight:700; font-size:20px; line-height:1.08;
-  margin:0 0 7px; letter-spacing:-.012em;
+  margin:0 0 7px; letter-spacing:-.012em; align-self:start;
 }
-.finding p{font-size:15.5px; margin:0 0 9px; color:var(--ink-2)}
+.finding p{font-size:15.5px; margin:0 0 9px; color:var(--ink-2); align-self:start}
 .finding .fig{
   font-family:var(--ff-util); font-size:11px; letter-spacing:.09em; text-transform:uppercase;
   color:var(--ink); border-top:1px solid var(--rule); padding-top:6px; display:block;
+  align-self:end;
 }
-.finding .sig{font-family:"Indus"; font-size:24px; float:right; margin:2px 0 6px 10px; color:var(--spot)}
+@supports not (grid-template-rows:subgrid){
+  .findings{display:block; columns:2; column-gap:38px}
+  @media (max-width:840px){.findings{columns:1}}
+  .finding{display:block; break-inside:avoid}
+}
+.finding .sig{font-family:"Indus"; font-size:24px; color:var(--spot); position:absolute; top:12px; right:0; line-height:1}
+.finding h3:has(.sig){padding-right:64px}
 
 /* rules */
 .rules{display:grid; grid-template-columns:1fr 1fr; gap:0 38px; margin-top:24px}
@@ -268,6 +323,28 @@ td{padding:7px 8px; border-bottom:1px solid var(--rule-soft); text-align:right; 
 td:first-child{text-align:left; white-space:normal}
 tbody tr:last-child td{border-bottom:1px solid var(--ink)}
 
+
+/* floating links */
+.social{
+  position:fixed; right:16px; top:50%; transform:translateY(-50%); z-index:20;
+  display:flex; flex-direction:column; gap:8px;
+}
+.social a{
+  display:flex; align-items:center; gap:8px; text-decoration:none;
+  padding:9px 11px; color:var(--ink-2); background:var(--paper); border:1px solid var(--rule);
+  font-family:var(--ff-util); text-transform:uppercase; letter-spacing:.14em; font-size:10px;
+  max-width:38px; overflow:hidden; white-space:nowrap;
+  transition:max-width .22s ease, color .22s ease, border-color .22s ease;
+}
+.social a svg{width:16px; height:16px; flex:0 0 16px}
+.social a span{opacity:0; transition:opacity .18s ease}
+.social a:hover,.social a:focus-visible{max-width:180px; color:var(--ink); border-color:var(--ink)}
+.social a:hover span,.social a:focus-visible span{opacity:1}
+@media (prefers-reduced-motion:reduce){.social a,.social a span{transition:none}}
+@media (max-width:900px){
+  .social{top:auto; bottom:14px; right:14px; transform:none; flex-direction:row}
+}
+
 /* colophon */
 .colophon{margin:52px 0 0; border-top:3px double var(--ink); padding:16px 0 60px;
   font-family:var(--ff-util); font-size:11.5px; line-height:1.65; color:var(--ink-2)}
@@ -279,6 +356,17 @@ tbody tr:last-child td{border-bottom:1px solid var(--ink)}
 </style>
 </head>
 <body>
+
+<aside class="social" aria-label="Links">
+  <a href="https://github.com/merkle-groot/indus" target="_blank" rel="noopener noreferrer" title="Source on GitHub">
+    <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+    <span>Code</span>
+  </a>
+  <a href="https://x.com/0x1379" target="_blank" rel="noopener noreferrer" title="@0x1379 on X">
+    <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M9.52 6.78 15.48 0h-1.41L8.89 5.89 4.76 0H0l6.25 8.9L0 16h1.41l5.47-6.22L11.24 16H16L9.52 6.78Zm-1.94 2.2-.63-.89L1.92 1.04h2.17l4.07 5.7.63.89 5.29 7.41h-2.17L7.58 8.98Z"/></svg>
+    <span>@0x1379</span>
+  </a>
+</aside>
 
 <div class="sheet">
 
@@ -297,91 +385,93 @@ tbody tr:last-child td{border-bottom:1px solid var(--ink)}
 
 <section class="opener">
   <h1>Indus Valley script analysis</h1>
-  <p class="lede">Forty-one hypotheses about the Indus script, tested against the corpus itself. The controls killed most of them; what&#8217;s left is small, and it holds.</p>
+  <p class="lede">I put forty-one hypotheses about the Indus script to the corpus itself, and once position, site and object class were held fixed most of them fell apart. What survived is a short list that has since held up against every control, replication split and draw of transcription noise I could think to apply.</p>
   <p><span class="notdec">This is not a decipherment</span></p>
-  <p class="glyphline" aria-hidden="true">&#xE708;&#xE2D7;&#xE10A;&#xE61B;&#xE06C; &nbsp; &#xE396;&#xE24A; &nbsp; &#xE315;&#xE1E4;</p>
+  <figure class="specimen">
+    <p class="glyphline" aria-hidden="true">&#xE61B; &#xE2D7; &#xE10A; &#xE31C; &#xE24A; &#xE12F; &#xE1E4; &#xE396; &#xE2CB; &#xE709; &#xE321; &#xE6E8; &#xE122; &#xE627; &#xE2C9; &#xE31A; &#xE708; &#xE118; &#xE555; &#xE2DE; &#xE5DC; &#xE346; &#xE1F0; &#xE6B2;</p>
+    <figcaption>The twenty-four most frequent signs in the corpus, commonest first. Sign 740, which closes more texts than any other, leads them, and past the end of this line the tail runs to hundreds of signs carrying fewer than twenty tokens each.</figcaption>
+  </figure>
 </section>
 
+<div class="with-rail">
 <nav class="secnav" aria-label="Jump to a section">
+  <p class="rail-head">Sections</p>
   <a href="#survived">What survived</a>
   <a href="#method">House rules</a>
   <a href="#rounds">The 41 rounds</a>
   <a href="#wall">The wall</a>
   <a href="#colophon">Provenance</a>
 </nav>
-
+<div class="body-col">
 <section class="story" id="survived">
   <p class="eyebrow">What survived</p>
   <h2>Eleven results that cleared every control</h2>
-  <p class="intro">Every one of these is a distribution, never a meaning. Position, site and object class stay fixed inside each null, duplicated texts get collapsed before anything is counted, and each headline was re-run 300 times through a noise model built from the disagreement between two independent digitizers.</p>
+  <p class="intro">Every one of these is a distribution rather than a meaning, arrived at by holding position, site and object class fixed inside each null, collapsing duplicated texts before anything gets counted, and then re-running each headline 300 times through a noise model built from the disagreement between two independent digitizers.</p>
 
   <div class="findings">
     <article class="finding">
-      <span class="sig" aria-hidden="true">&#xE61B;&#xE396;</span>
-      <h3>Texts end in a fixed cohort</h3>
-      <p>Seven signs close 1,179 of 2,086 texts where a within-text position shuffle predicts 400. Signs 740 and 520 turn up together six times against 27.7 expected, and that pair is the one exclusion still standing after every control we have.</p>
+            <h3><span class="sig" aria-hidden="true">&#xE61B;&#xE396;</span>Texts end in a fixed cohort</h3>
+      <p>Seven signs close 1,179 of the 2,086 texts where a shuffle that keeps every sign in a position it actually occupies predicts only 400, and within that cohort signs 740 and 520 turn up together just six times against 27.7 expected, which makes that pair the one exclusion still standing after every control I have.</p>
       <b class="fig">finality z = +47.5 · pair z = &#8722;5.45</b>
     </article>
 
     <article class="finding">
       <h3>The ending floats, but only one step</h3>
-      <p>The construction sits at &#8722;2 whenever 400 or 90 follows it, so the paradigm floats rather than being nailed to the last position. Behind it there is nothing: 33 candidate exclusions at &#8722;2 and not one survives.</p>
+      <p>Whenever 400 or 90 follows it the whole construction slides one place to the left, so the paradigm floats rather than being nailed to the final position, and behind it there is nothing further to find: of 33 candidate exclusions at &#8722;2, not one survives correction.</p>
       <b class="fig">&#8722;2 cohort: 0 of 33 exclusions after BH</b>
     </article>
 
     <article class="finding">
-      <span class="sig" aria-hidden="true">&#xE2D7;&#xE2DE;</span>
-      <h3>A text never reuses a sign</h3>
-      <p>Repetition sits far below what the exact-position, site- and object-matched control predicts. It is the most reliable fact in the corpus, and it explains why positional statistics keep working here while sequence statistics dissolve.</p>
+            <h3><span class="sig" aria-hidden="true">&#xE2D7;&#xE2DE;</span>A text never reuses a sign</h3>
+      <p>Repetition sits far below what the exact-position, site- and object-matched control predicts, and because it is the most reliable fact in the corpus it also explains why positional statistics keep working here while sequence statistics dissolve into noise.</p>
       <b class="fig">z = &#8722;14.85 · noise 95% &#8722;14.17 to &#8722;10.03</b>
     </article>
 
     <article class="finding">
       <h3>Seals and tablets fill the last field differently</h3>
-      <p>Both media draw on one inventory and one layout, then part company at the end. Tablets append 400 where seals mostly don&#8217;t, and seals carry numerals nearly twice as often.</p>
+      <p>The two media draw on one inventory and one slot layout and then part company at the end, where tablets append 400 in a way seals mostly do not, and where seals carry numerals nearly twice as often as tablets do.</p>
       <b class="fig">p = 1e&#8722;14</b>
     </article>
 
     <article class="finding">
       <h3>One form across the civilisation</h3>
-      <p>Seal endings at Mohenjo-daro and Harappa can&#8217;t be told apart, and the smaller towns follow the same template. Harappa&#8217;s tablets are the only local practice in the corpus.</p>
+      <p>Seal endings at Mohenjo-daro and Harappa cannot be told apart statistically, and since the smaller towns follow the same template as well, the only genuinely local practice anywhere in the corpus turns out to be Harappa&#8217;s tablets.</p>
       <b class="fig">p = 0.98</b>
     </article>
 
     <article class="finding">
-      <span class="sig" aria-hidden="true">&#xE315;</span>
-      <h3>Stroke signs are numerals, and twelve is a spike</h3>
-      <p>Counted off the rendered glyphs rather than inferred from database ids, the values run 1 to 9 with an ordinary decay and then jump at twelve. Sign 55 carries 37 deduplicated tokens; no decay curve reaches that.</p>
+            <h3><span class="sig" aria-hidden="true">&#xE315;</span>Stroke signs are numerals, and twelve is a spike</h3>
+      <p>Counted off the rendered glyphs rather than inferred from the database ids, the values run from one to nine with an ordinary decay and then jump at twelve, where sign 55 carries 37 deduplicated tokens against the 0.9 that the decay through four to nine predicts.</p>
       <b class="fig">Poisson p = 1.4e&#8722;45</b>
     </article>
 
     <article class="finding">
       <h3>Numeral side is sign-specific</h3>
-      <p>Pooled across the corpus the order comes out nearly 1:1, which hid the structure completely. Fifteen of 37 eligible signs are at least 90% one-sided against 0.01 expected, and the overdispersion holds through every control and every noise draw.</p>
+      <p>Pooled across the corpus the order comes out at nearly one to one, which hid the structure completely, and yet fifteen of the 37 eligible signs turn out to be at least 90% one-sided against 0.01 expected, with that overdispersion holding through every control and every noise draw.</p>
       <b class="fig">controlled z = +16.09</b>
     </article>
 
     <article class="finding">
       <h3>Dependence reaches distance four</h3>
-      <p>Against a surrogate that preserves every observed bigram exactly, mutual information stays above null at separations of two, three and four signs. Five is borderline and six is nothing. Most of what the corpus has is local.</p>
+      <p>Measured against a surrogate that preserves every observed bigram exactly, mutual information stays above the null at separations of two, three and four signs before fading at five and vanishing at six, which leaves the corpus with real middle-distance dependency that is nonetheless dominated by local order.</p>
       <b class="fig">excess 0.052 to 0.078 bits, BH corrected</b>
     </article>
 
     <article class="finding">
       <h3>The four headlines replicate</h3>
-      <p>Repeat avoidance, the 740/520 exclusion, terminal concentration and numeral-side overdispersion all hold in random halves and in disjoint site halves, where no site appears on both sides. They also sit outside nulls built by destroying the pairing the pipeline looks for.</p>
+      <p>Repeat avoidance, the 740/520 exclusion, terminal concentration and numeral-side overdispersion all hold in random halves and in disjoint site halves where no site appears on both sides, and all four sit well outside nulls built by destroying the very pairing the pipeline goes looking for.</p>
       <b class="fig">exploratory paradigm scan FPR = 7.1%</b>
     </article>
 
     <article class="finding is-limit">
       <h3>The inventory is not saturated</h3>
-      <p>515 identifiable types once the twelve database markers for unidentified signs come out. Estimators that key on singletons put the real total near 700, and the accumulation curve hasn&#8217;t turned over yet.</p>
+      <p>Removing the twelve database markers for unidentified signs leaves 515 identifiable types, but the estimators that key on singletons put the real total closer to 700, and since the accumulation curve has not turned over yet, more data will go on adding types as well as tokens.</p>
       <b class="fig">Chao1 &#8776; 715 · ACE &#8776; 695</b>
     </article>
 
     <article class="finding is-limit">
       <h3>Copies are mostly local production</h3>
-      <p>250 sequence types recur, producing 684 attestations beyond the first, and 84.4% of those are another copy where the text already sat. Circulation isn&#8217;t nothing though: 35% of repeated types reach two to four sites.</p>
+      <p>Of the 250 sequence types that recur, producing 684 attestations beyond the first, 84.4% are simply another copy made where the text already sat, though circulation is not negligible either, since 35% of the repeated types reach somewhere between two and four sites.</p>
       <b class="fig">577 local · 107 new-site attestations</b>
     </article>
   </div>
@@ -390,22 +480,22 @@ tbody tr:last-child td{border-bottom:1px solid var(--ink)}
 <section class="story" id="method">
   <p class="eyebrow">House rules</p>
   <h2>Six rules, five of them adopted after something went wrong</h2>
-  <p class="intro">Most of these came out of a mistake, and each one has a body count. They sit in the order the mistakes happened.</p>
+  <p class="intro">Almost every rule below was adopted after something went wrong and most of them carry a body count, so they are listed in the order the mistakes happened rather than in any tidier arrangement.</p>
 
   <div class="rules">
-    <div class="rule"><span class="n">01</span><div><h3>Epigraphy only</h3><p>The source database ships a Sanskrit decipherment that its own field rejects. We took the epigraphic layer and nothing else: which signs, in what order, on which object.</p></div></div>
-    <div class="rule"><span class="n">02</span><div><h3>Deduplicate first</h3><p>Mass-produced tablets repeat one text dozens of times, and left in they manufacture significance. This rule cost 25 sign&#8211;motif findings on the day it went in.</p></div></div>
-    <div class="rule"><span class="n">03</span><div><h3>Control for position</h3><p>If one sign prefers the start and another prefers the end, ordering comes free. Every null here shuffles inside exact positions.</p></div></div>
-    <div class="rule"><span class="n">04</span><div><h3>Control for site and object class</h3><p>Two signs from different cities never meet, for reasons that have nothing to do with grammar. In this corpus medium and city are very nearly the same variable.</p></div></div>
-    <div class="rule"><span class="n">05</span><div><h3>Define groups before you look at the outcome</h3><p>Sorting signs by the behaviour you&#8217;re about to test guarantees a result and teaches you nothing. Round 21 withdrew a shape split for exactly this.</p></div></div>
-    <div class="rule"><span class="n">06</span><div><h3>Report the failures</h3><p>Everything below is the record, including the rounds that knocked over earlier headline results of our own.</p></div></div>
+    <div class="rule"><span class="n">01</span><div><h3>Epigraphy only</h3><p>The source database ships a Sanskrit decipherment that its own field rejects, so I took the epigraphic layer and nothing else: which signs appear, in what order, on which object.</p></div></div>
+    <div class="rule"><span class="n">02</span><div><h3>Deduplicate first</h3><p>Mass-produced tablets repeat a single text dozens of times, and left in they manufacture significance out of nothing, which is why this rule cost 25 sign&#8211;motif findings on the day it went in.</p></div></div>
+    <div class="rule"><span class="n">03</span><div><h3>Control for position</h3><p>If one sign prefers the start of a text and another prefers the end, then ordering between them comes for free without meaning anything, so every null here shuffles inside exact positions.</p></div></div>
+    <div class="rule"><span class="n">04</span><div><h3>Control for site and object class</h3><p>Two signs from different cities never meet for reasons that have nothing to do with grammar, and since medium and city are very nearly the same variable in this corpus, both have to be held fixed at once.</p></div></div>
+    <div class="rule"><span class="n">05</span><div><h3>Define groups before you look at the outcome</h3><p>Sorting signs by the behaviour you are about to test guarantees a result and teaches you nothing, which is how round 21 ended up withdrawing a shape split it had already written down.</p></div></div>
+    <div class="rule"><span class="n">06</span><div><h3>Report the failures</h3><p>Everything below is the record as it happened, including the rounds that knocked over earlier headline results of my own.</p></div></div>
   </div>
 </section>
 
 <section class="story" id="rounds">
   <p class="eyebrow">The ledger</p>
-  <h2>Everything we tried, in the order it happened</h2>
-  <p class="intro">Each round came out of the one before it. When a round overturns something we had already concluded it gets tagged <em>Corrected</em> and the original stays on the record, instead of being quietly edited away. Open a round for the evidence and its plate.</p>
+  <h2>Everything I tried, in the order it happened</h2>
+  <p class="intro">Each round came out of the one before it, and when a round overturns something I had already concluded it gets tagged <em>Corrected</em> while the original stays on the record rather than being quietly edited away. Open any round to see the evidence behind it and the plate that goes with it.</p>
 
   <figure>
     <div class="map-grid" id="mapGrid"></div>
@@ -413,7 +503,7 @@ tbody tr:last-child td{border-bottom:1px solid var(--ink)}
       <li><i style="background:var(--sap)"></i>Held under every control</li>
       <li><i style="background:var(--nila)"></i>Narrowed to something smaller</li>
       <li><i style="background:var(--madder)"></i>Hypothesis refuted</li>
-      <li><i style="background:var(--haldi)"></i>Corrected an earlier claim of ours</li>
+      <li><i style="background:var(--haldi)"></i>Corrected an earlier claim of mine</li>
       <li><i style="background:var(--slate)"></i>Blocked by data or method</li>
       <li><i style="background:var(--ground-c)"></i>Groundwork</li>
     </ul>
@@ -442,7 +532,7 @@ tbody tr:last-child td{border-bottom:1px solid var(--ink)}
       <p>The corrected merged corpus records 527 sign IDs, twelve of which are database markers for unidentified signs, leaving 515 identifiable types. Roughly <strong>416 non-numeral signs still have fewer than 20 tokens</strong>. Partial pooling puts all of them on one uncertainty scale but it can&#8217;t invent observations: three rare signs came out with finality intervals above the base rate, two of those look like post-terminal additions, and the model fails its global posterior-predictive check.</p>
       <p>515 isn&#8217;t a ceiling either. Estimators sensitive to singletons put the merged total near 695&#8211;715 and the accumulation curve hasn&#8217;t plateaued, so more data will add types as well as tokens. That makes the wall bigger rather than smaller.</p>
       <p>Two independent digitizers agree on 93.2% of aligned signs. Propagate that disagreement and the no-repeat effect, the terminal cohort, the 740/520 anchor and the global numeral-side result all come through intact, while most marginal pairwise edges get erased. The wall is explicit uncertainty now rather than a blanket objection: <strong>strong effects clear it, and z around &#8722;2 to &#8722;3 generally doesn&#8217;t</strong>.</p>
-      <p><a href="https://www.epigraphica.de/" rel="noopener">ICIT</a> (4,660 artefacts, 17,957 signs) is the only corpus big enough to move any of this, and it&#8217;s request-gated. Round 41 showed our numbering is already ICIT&#8217;s, so integrating it would need no crosswalk. The gain would be stratification rather than raw power; doubling N buys about &#8730;2 on a z-score and leaves the median sign just as rare.</p>
+      <p><a href="https://www.epigraphica.de/" rel="noopener">ICIT</a> (4,660 artefacts, 17,957 signs) is the only corpus big enough to move any of this, and it&#8217;s request-gated. Round 41 showed the numbering is already ICIT&#8217;s, so integrating it would need no crosswalk. The gain would be stratification rather than raw power; doubling N buys about &#8730;2 on a z-score and leaves the median sign just as rare.</p>
     </div>
     <table>
       <caption>The corpus, measured</caption>
@@ -466,11 +556,11 @@ tbody tr:last-child td{border-bottom:1px solid var(--ink)}
   <div class="cols">
     <div>
       <h4>Provenance</h4>
-      <p>Primary epigraphic data comes from <a href="https://github.com/yajnadevam/indus-website" rel="noopener">yajnadevam/indus-website</a> (GPL-3.0), and the parsed layer is a transformation of it that inherits the licence. We took the epigraphy and left that project&#8217;s decipherment claims where we found them.</p>
+      <p>Primary epigraphic data comes from <a href="https://github.com/yajnadevam/indus-website" rel="noopener">yajnadevam/indus-website</a> (GPL-3.0), and the parsed layer is a transformation of it that inherits the licence. I took the epigraphy and left that project&#8217;s decipherment claims where I found them.</p>
     </div>
     <div>
       <h4>The glyphs</h4>
-      <p>Shapes render from the Indus Script Font, a Private Use Area font the National Fund for Mohenjo-daro built from Parpola&#8217;s corpus in February 2017; ours carries 2,003 glyphs. Our sign numbering turns out to be ICIT&#8217;s, which means the glyph evidence and the Parpola crosswalk are not independent of each other.</p>
+      <p>Shapes render from the Indus Script Font, a Private Use Area font the National Fund for Mohenjo-daro built from Parpola&#8217;s corpus in February 2017; mine carries 2,003 glyphs. The sign numbering turns out to be ICIT&#8217;s, which means the glyph evidence and the Parpola crosswalk are not independent of each other.</p>
     </div>
     <div>
       <h4>Comparanda</h4>
@@ -479,6 +569,8 @@ tbody tr:last-child td{border-bottom:1px solid var(--ink)}
   </div>
   <div class="endmark"><span class="g" aria-hidden="true">&#xE61B;</span><span>Forty-one rounds · epigraphy only · no phonetic values claimed</span></div>
 </footer>
+</div>
+</div>
 
 </div>
 
@@ -493,8 +585,8 @@ const ROUNDS = [
  {n:7,t:"Fish as operand, mark as operator",tag:"held",q:"If the fish is the value and the mark is a function applied to it, what has to follow?",a:"One prediction holds, and holds hard. Marked fish are never preceded by a numeral above 3, while plain fish get counted freely up to 7. Excluding the frozen [817|820|861]+[2]+[fish] template doesn't touch it, deduplication doesn't touch it, and the 17 high-value cases spread across 16 distinct texts.",file:"07-fish-as-operand.md",stat:"Fisher exact p = 1.3e−07, OR infinite"},
  {n:8,t:"Are the never-counted signs people in a hierarchy?",tag:"refuted",q:"Are the 15 never-counted signs roles in a household, with their arrangement encoding rank?",a:"The group is real and clusters at 1.22 times chance, but its ordering mostly dissolves into positional slots and 400 sits at the wrong end for a head of household. These signs look like the frame of a formula, with the counted signs as its content. Households contain exactly the sort of thing you would count.",file:"08-hierarchy.md"},
  {n:9,t:"Could the signs be musical notation?",tag:"refuted",q:"Are these pitches or rhythmic values?",a:"No, and the test that kills it became the most useful tool in the project. Notation repeats constantly, whereas these texts avoid reusing a sign, far below every control. The salvage attempt died too: reading numerals as run-length repeat counts fails because non-adjacent repetition is equally depleted.",file:"09-music.md",stat:"no-repeat z = −14.85 (controlled)"},
- {n:10,t:"Can we get more data?",tag:"blocked",q:"Can the corpus be grown from public sources rather than with cleverer statistics?",a:"No. Every free corpus traces back to one of two digitizations, and ICIT needs a human to ask. The round still paid for itself: a validated Parpola crosswalk covering 83% of tokens, an error bar of roughly 93% sign-level agreement between independent readings, and the news that allograph collapsing buys no testable signs.",file:"10-more-data.md"},
- {n:11,t:"Is the 1 rare because you don't write it?",tag:"narrowed",q:"Is the singular unmarked, which would make the true count for 1 invisible?",a:"Probably, though not proven. The 1 behaves positionally like a numeral, counts the same nouns the other numerals count, and drops in a way 2 and 3 don't (p = .008); whether it gets written depends on scribe and medium rather than on content. Settling it needs matched near-identical seals, one writing the 1 and one not. We found 18 pairs, which isn't enough.",file:"11-unmarked-one.md"},
+ {n:10,t:"Can I get more data?",tag:"blocked",q:"Can the corpus be grown from public sources rather than with cleverer statistics?",a:"No. Every free corpus traces back to one of two digitizations, and ICIT needs a human to ask. The round still paid for itself: a validated Parpola crosswalk covering 83% of tokens, an error bar of roughly 93% sign-level agreement between independent readings, and the news that allograph collapsing buys no testable signs.",file:"10-more-data.md"},
+ {n:11,t:"Is the 1 rare because you don't write it?",tag:"narrowed",q:"Is the singular unmarked, which would make the true count for 1 invisible?",a:"Probably, though not proven. The 1 behaves positionally like a numeral, counts the same nouns the other numerals count, and drops in a way 2 and 3 don't (p = .008); whether it gets written depends on scribe and medium rather than on content. Settling it needs matched near-identical seals, one writing the 1 and one not. I found 18 pairs, which isn't enough.",file:"11-unmarked-one.md"},
  {n:12,t:"Turning the no-repeat rule into slots",tag:"held",q:"If a text never reuses a sign, do mutually exclusive signs mark a shared field?",a:"Not globally, since only 35 of 77 signs show any exclusion at all and no small set of fields organises the script. The terminal slot is another matter, and it's the strongest structural fact here. Round 38 later showed most individual edges in that network are fragile, while the cohort and the 740/520 anchor aren't.",file:"12-slots.md",stat:"terminal finality z = +47.5",signs:"&#xE61B;&#xE396;"},
  {n:13,t:"How do longer texts grow?",tag:"narrowed",q:"Is a short text just a longer text with fields left blank?",a:"Partly. Short texts are subsequences of longer ones at about twice chance, growth happens at the front, and the ending stays put. But most of the raw containment signal is contiguous and could be broken artefacts, the breakage-proof part is a modest 5.8% against 4.1%, and the nesting is shallow. Round 26 revised the same-final-sign figure downward.",file:"13-growth.md"},
  {n:14,t:"Do seals and tablets use different templates?",tag:"held",q:"Two media, two purposes. Do they fill out different forms?",a:"Yes, structurally rather than lexically. They share an inventory and a slot layout, then differ over what fills the last field: tablets append 400 where seals mostly don't, seals carry the frozen X+2 opening three times as often and numerals nearly twice as often, and tablets run a sign shorter.",file:"14-object-forms.md",stat:"p = 1e−14",signs:"&#xE24A;"},
@@ -506,15 +598,15 @@ const ROUNDS = [
  {n:20,t:"Signs that are other signs written twice",tag:"corrected",q:"Why do twelve signs have no glyph in the font?",a:"Mostly they do. My pattern was matching a single codepoint while the unicode field holds sequences. Forty-four of the corpus's 591 signs are another sign written two or three times, encoded that way explicitly, and sign 617 (59 tokens) is two copies of 615 that had been competing as a distinct sign in the terminal analysis.",file:"20-composites.md",signs:"&#xE518;&#xE518;"},
  {n:21,t:"The frame/rake family, and a correction made twice",tag:"corrected",q:"Is unreadable sign 316 a modification of sign 360, and does the shape family behave as one?",a:"The 920 collocation holds. The shape split doesn't, because the groups had been defined by sorting signs on the very behaviour being tested, which guarantees a result; withdrawn as circular. The round added a standing rule about defining groups first, and merged 326+330 and 318+323 off the source's own similarity table.",file:"21-frame-family.md"},
  {n:22,t:"Two ways to write ‘two’, and they are not interchangeable",tag:"narrowed",q:"Round 5 called the choice between stroke series graphic. Is it free?",a:"Not inside frozen expressions. Signs 817 and 861 take the short two 220 times and the long two never, while 840 does the reverse. That is how spelling behaves rather than handwriting: each fixed phrase picks one form and never varies it. Round 5 also missed a fourth frozen pair, 840+32.",file:"22-two-forms-of-two.md",stat:"p = 2.5e−29",signs:"&#xE684;&#xE31C;"},
- {n:23,t:"harappa.com, and independent corroboration",tag:"blocked",q:"Is there usable data on the field's main public site, and is Mahadevan's semicircle-tens claim testable?",a:"As a data source, nothing: Cloudflare blocks the site and the ~6,300 archived pages hold no corpus. As corroboration, one good hit, because the field's leading epigrapher had noticed the terminal exclusivity we measured without being able to quantify it. His semicircle-tens claim we could test, and it fails; sign 900 patterns with the counted things rather than with the numbers.",file:"23-harappa-com.md",signs:"&#xE33A;"},
+ {n:23,t:"harappa.com, and independent corroboration",tag:"blocked",q:"Is there usable data on the field's main public site, and is Mahadevan's semicircle-tens claim testable?",a:"As a data source, nothing: Cloudflare blocks the site and the ~6,300 archived pages hold no corpus. As corroboration, one good hit, because the field's leading epigrapher had noticed the terminal exclusivity I measured without being able to quantify it. His semicircle-tens claim I could test, and it fails; sign 900 patterns with the counted things rather than with the numbers.",file:"23-harappa-com.md",signs:"&#xE33A;"},
  {n:24,t:"Structural comparison with Linear B",tag:"narrowed",q:"Does the corpus behave like a Mycenaean palace-accounting script?",a:"It shares the format, short slotted labels with numbers, and not the function. The match breaks on a closed commodity list this corpus doesn't have, on a fixed commodity-number order it doesn't have, and on a numeral system topping out around twelve. That ceiling rules out inventory tallies of goods in quantity. Round 28 later narrowed the ordering half of this.",file:"24-linear-b.md"},
  {n:25,t:"Is a doubled sign one sign or two?",tag:"refuted",q:"Does a doubled catalogue sign mean the base sign written twice?",a:"No. If it did, doubled and base forms would exclude each other under the no-repeat rule, and no pair shows that exclusion; their profiles aren't unusually alike after frequency matching either. 617 is the strongest case and it argues for derivation instead, since the doubled form fills a terminal paradigm its base never does.",file:"25-doubled-signs.md",signs:"&#xE518;"},
  {n:26,t:"The right edge, indexed from the right",tag:"narrowed",q:"Is there a second and third paradigm slot behind the terminal one?",a:"Position −1 carries a large controlled exclusion network. Position −2 has strong individual positional preferences and no exclusions whatsoever; −3 has no cohort paradigm at all. What's recoverable is one floating terminal paradigm plus optional 400/90 material after it, which is a good deal less than a template. Growing texts do keep their last two signs, 63% against 45% expected.",file:"26-right-edge.md",stat:"−2 cohort: 0 / 33 exclusions"},
  {n:27,t:"Direction, and whether the corpus was normalised",tag:"corrected",q:"Were the inscriptions all put into the same reading order?",a:"Not quite. The parser reversed the 2,440 right-to-left rows and left the 103 left-to-right rows as stored, and in that 4% subset the terminal signs all landed at the start. Reverse every raw sequence uniformly and both subsets reproduce the same terminal pattern. Everything downstream was rebuilt on the corrected corpus.",file:"27-direction.md"},
  {n:28,t:"Does each counted sign fix which side its numeral goes on?",tag:"held",q:"Round 24 pooled every adjacency and found no order. Was the average hiding something?",a:"It was. Fifteen of 37 eligible signs are at least 90% one-sided against 0.01 expected, fifteen individual preferences survive the full positional, site and object control, and the global overdispersion stays put after the known frozen phrases come out. Indus lacks Linear B's universal order; it doesn't lack order.",file:"28-numeral-sides.md",stat:"controlled z = +16.09"},
  {n:29,t:"Multi-numeral texts: is [num][sign] a repeating unit?",tag:"refuted",q:"Round 12 glossed multiple numerals as ‘3 of X and 2 of Y’. Does the sequence bear that?",a:"It doesn't. Of 323 multi-numeral texts only 151 have more than one numeral run, and inside those the gaps of one are depleted, alternating spans are depleted in both directions, and the independently trained post-numeral vocabulary is depleted too. The gloss is withdrawn with no replacement offered, because what those numerals are doing is unresolved.",file:"29-multi-numeral-units.md"},
- {n:30,t:"Unsupervised segmentation fails its frozen ground truth",tag:"blocked",q:"Can standard boundary statistics recover the units we already know are there?",a:"No. PMI finds the three frozen pairs but misses a third of the known terminal cuts, and branching entropy misses more than a third while breaking the independently established 840+32 phrase. The ground-truth gate failed, so the script prints no novel segment proposals; tuning thresholds until the known cases pass would turn evaluation into training.",file:"30-segmentation.md"},
- {n:31,t:"A profile HMM recovers the right edge, not a template",tag:"blocked",q:"How many ordered fields does an inscription actually have?",a:"This model can't say. A 12-match profile beats the real-corpus bigram on held-out likelihood by less than it beats every controlled surrogate, and the advantage reverses on tablets, so twelve fields isn't a defensible answer and neither is any other count. The model does find the terminal paradigm followed by a sparse 400/90 state, which we already knew.",file:"31-profile-hmm.md"},
+ {n:30,t:"Unsupervised segmentation fails its frozen ground truth",tag:"blocked",q:"Can standard boundary statistics recover the units I already know are there?",a:"No. PMI finds the three frozen pairs but misses a third of the known terminal cuts, and branching entropy misses more than a third while breaking the independently established 840+32 phrase. The ground-truth gate failed, so the script prints no novel segment proposals; tuning thresholds until the known cases pass would turn evaluation into training.",file:"30-segmentation.md"},
+ {n:31,t:"A profile HMM recovers the right edge, not a template",tag:"blocked",q:"How many ordered fields does an inscription actually have?",a:"This model can't say. A 12-match profile beats the real-corpus bigram on held-out likelihood by less than it beats every controlled surrogate, and the advantage reverses on tablets, so twelve fields isn't a defensible answer and neither is any other count. The model does find the terminal paradigm followed by a sparse 400/90 state, which I already knew.",file:"31-profile-hmm.md"},
  {n:32,t:"Distributional class induction fails its known-group test",tag:"blocked",q:"Do sign classes emerge from context vectors without being named in advance?",a:"Not at this corpus size. The controlled SVD/k-means pipeline misses the terminal paradigm completely, recovers under half the numerals, and turns up an appealing five-fish cluster that bootstrapping won't hold still. The evaluation gate was fixed before the fit and it stayed shut, so no cluster memberships get reported.",file:"32-distributional-classes.md"},
  {n:33,t:"Partial pooling for the rare signs",tag:"narrowed",q:"Can a hierarchical model say anything about the 416 signs below the token threshold?",a:"A little. Every sign lands on one uncertainty scale, all seven known terminal members validate the model, and 3 of 416 previously untestable non-numerals come out with finality intervals above the base rate, stable across priors. But 413 stay indeterminate, two of the three look like post-terminal additions, and the posterior predictive distribution is too diffuse to lean on.",file:"33-partial-pooling.md",stat:"base rate 22.775%"},
  {n:34,t:"A known-corpus control",tag:"narrowed",q:"On matched data, does Indus pattern with a deciphered administrative script or with a non-linguistic emblem system?",a:"Neither cleanly. On an exactly matched slice of 1,000 records and 100 types, the Indus no-repeat effect runs much stronger than both comparisons, while its sign-specific numeral-side structure is shared with the administrative corpus, which is almost uniformly one-sided. 740/520 is the only pairwise exclusion to survive the same scan in either corpus.",file:"34-known-corpora.md",stat:"1,000 records · 100 types matched"},
@@ -524,7 +616,7 @@ const ROUNDS = [
  {n:38,t:"What survives transcription noise?",tag:"held",q:"Two digitizers disagree on 7% of signs. Which findings actually hold up under that?",a:"The four headlines do. A sign-specific noise model perturbs a median 668 of 9,159 tokens per draw, then rededuplicates and rebuilds every control, 300 times over, and all four stay significant in 100% of draws. Marginal pair results are a different story: the 817/861/820 exclusion triad survives 1.7 to 20% of draws, and correction pointers went into every note carrying those claims.",file:"38-transcription-uncertainty.md",stat:"300 draws · 4/4 headlines at 100%"},
  {n:39,t:"Are duplicate texts production or circulation?",tag:"held",q:"When the same text appears many times, was it copied on the spot or carried somewhere?",a:"Mostly on the spot. Of 684 attestations beyond the first, 84.4% are another copy at a site that already held the text, though 35% of the 250 repeated types still reach two to four sites. Controlling site and object class, copied texts stay shorter and poorer in vocabulary, while their terminal distribution doesn't differ once tablet concentration and length are held fixed.",file:"39-duplicates.md",stat:"577 local vs 107 new-site"},
  {n:40,t:"The megalithic graffiti comparison",tag:"blocked",q:"Can the Tamil Nadu graffiti corpus test any of this, and do the shapes really overlap?",a:"It can't touch the sequence findings, because the API returns 9,345 occurrences of 2,110 catalogue signs with no sherd identifier and nothing in order, which makes it an inventory rather than a corpus. The shape test that is fair does pass: graffiti bases and variants sit closer to the Indus glyphs than 625 unrelated ninth-century Moravian pottery marks do, and that holds under skeletonization and rotation.",file:"40-megalithic-graffiti.md",stat:"AUC = .739 vs control"},
- {n:41,t:"ICIT, our numbering, and two external checks",tag:"held",q:"Whose sign numbers are we using, and what do outside sources say about the findings?",a:"The numbers are ICIT's, which means our glyph evidence isn't independent of ICIT or, one step further back, of Parpola, and integrating ICIT would need no crosswalk. Two external checks land: ICIT's own documentation records a terminal position independently, and Nair's 2026 scorecard puts the corpus between a heraldic and an administrative generator, matching neither.",file:"41-icit-and-public-data.md",stat:"ICIT: 4,660 artefacts · 17,957 signs"}
+ {n:41,t:"ICIT, the numbering, and two external checks",tag:"held",q:"Whose sign numbers am I using, and what do outside sources say about the findings?",a:"The numbers are ICIT's, which means the glyph evidence isn't independent of ICIT or, one step further back, of Parpola, and integrating ICIT would need no crosswalk. Two external checks land: ICIT's own documentation records a terminal position independently, and Nair's 2026 scorecard puts the corpus between a heraldic and an administrative generator, matching neither.",file:"41-icit-and-public-data.md",stat:"ICIT: 4,660 artefacts · 17,957 signs"}
 ];
 
 const LABEL = {held:"Held",narrowed:"Narrowed",refuted:"Refuted",corrected:"Corrected",blocked:"Blocked",ground:"Groundwork"};
@@ -682,6 +774,28 @@ toggleAll.addEventListener("click", () => {
 chips.forEach(chip => {
   const f = chip.dataset.filter, ct = chip.querySelector(".ct");
   if (ct) ct.textContent = f === "all" ? ROUNDS.length : ROUNDS.filter(r => r.tag === f).length;
+});
+
+// the rail marks whichever section is currently under the reader
+const railLinks = [...document.querySelectorAll(".secnav a")];
+const byId = Object.fromEntries(railLinks.map(a => [a.getAttribute("href").slice(1), a]));
+const seen = new Map();
+
+const spy = new IntersectionObserver(entries => {
+  entries.forEach(e => seen.set(e.target.id, e));
+  let current = null;
+  for (const [id, e] of seen) {
+    if (e.isIntersecting && (!current || e.boundingClientRect.top < current.top)) {
+      current = {id, top: e.boundingClientRect.top};
+    }
+  }
+  railLinks.forEach(a => a.removeAttribute("aria-current"));
+  if (current && byId[current.id]) byId[current.id].setAttribute("aria-current", "true");
+}, {rootMargin: "-15% 0px -70% 0px"});
+
+Object.keys(byId).forEach(id => {
+  const el = document.getElementById(id);
+  if (el) spy.observe(el);
 });
 
 </script>
